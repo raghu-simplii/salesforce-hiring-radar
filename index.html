@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Salesforce hiring radar · Persistent &amp; Acuity · 7 &amp; 15 days · Aug 17, 2026</title>
-<meta name="description" content="Public Salesforce hiring scan for Persistent Systems and Acuity Analytics. Windows: last 7 days (Aug 10–17) and last 15 days (Aug 2–17), 2026. Shared by Raghu Seetharam." />
+<title>Salesforce hiring radar</title>
+<meta name="description" content="Configurable Salesforce hiring radar. Companies, keyword, and date windows are set in salesforce-hiring-config.json." />
 <style>
   :root {
     --bg: #0f1419;
@@ -15,14 +15,9 @@
     --text: #e8eef4;
     --muted: #8b9aab;
     --faint: #5d6b7a;
-    --persistent: #7aa2f7;
-    --persistent-bg: rgba(122,162,247,.14);
-    --acuity: #d4b06a;
-    --acuity-bg: rgba(212,176,106,.14);
     --ok: #3dd68c;
     --ok-bg: rgba(61,214,140,.12);
     --warn: #f5a524;
-    --warn-bg: rgba(245,165,36,.14);
     --zero: #ff8b72;
     --zero-bg: rgba(255,107,107,.10);
     --emp: #9ad0c2;
@@ -32,14 +27,16 @@
     --shadow: 0 12px 40px rgba(0,0,0,.35);
     --chip-on: #243140;
     --chip-on-border: #4d6b8a;
+    --link: #7aa2f7;
   }
   * { box-sizing: border-box; }
   html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); font-family: "Segoe UI", ui-sans-serif, system-ui, sans-serif; }
   body { min-height: 100vh; }
-  a { color: var(--persistent); text-decoration: none; }
+  a { color: var(--link); text-decoration: none; }
   a:hover { text-decoration: underline; }
   .wrap { max-width: 980px; margin: 0 auto; padding: 36px 22px 72px; }
-  header.top { display: flex; justify-content: space-between; align-items: flex-end; gap: 16px; margin-bottom: 22px; flex-wrap: wrap; }
+
+  header.top { display: flex; justify-content: space-between; align-items: flex-end; gap: 16px; margin-bottom: 18px; flex-wrap: wrap; }
   .kicker { font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--faint); font-weight: 650; margin: 0 0 8px; }
   h1 { font-size: 28px; font-weight: 650; letter-spacing: -0.03em; margin: 0 0 6px; }
   .sub { color: var(--muted); font-size: 14px; line-height: 1.45; }
@@ -47,8 +44,9 @@
   .scan-pill .lbl { font-size: 12px; color: var(--muted); margin-bottom: 4px; }
   .scan-pill .val { font-size: 14px; font-weight: 600; }
 
-  .windows { display: flex; gap: 8px; flex-wrap: wrap; margin: 4px 0 18px; }
-  .win {
+  .windows, .filters { display: flex; gap: 8px; flex-wrap: wrap; margin: 0 0 14px; }
+  .filters { margin-bottom: 18px; }
+  .win, .chip {
     border: 1px solid var(--line);
     background: var(--panel);
     color: var(--text);
@@ -59,16 +57,40 @@
     font-family: inherit;
     font-weight: 600;
   }
-  .win:hover { border-color: #3d4d5e; }
-  .win.active { border-color: var(--chip-on-border); background: var(--chip-on); }
+  .chip { padding: 7px 13px; font-size: 13px; display: inline-flex; align-items: center; gap: 7px; }
+  .chip .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--muted); flex: 0 0 auto; }
+  .win:hover, .chip:hover { border-color: #3d4d5e; }
+  .win.active, .chip.active { border-color: var(--chip-on-border); background: var(--chip-on); }
   .win .range { color: var(--muted); font-weight: 500; margin-left: 6px; font-size: 12.5px; }
+  .filter-label { width: 100%; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--faint); font-weight: 650; margin: 2px 0 0; }
 
-  .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin: 0 0 6px; }
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; margin: 0 0 6px; }
   .stat { background: linear-gradient(180deg, var(--panel), var(--panel-2)); border: 1px solid var(--line); border-radius: 16px; padding: 16px 18px; box-shadow: var(--shadow); }
   .stat .n { font-size: 34px; font-weight: 700; letter-spacing: -0.04em; line-height: 1; margin: 0 0 8px; }
   .stat .n.zero { color: var(--zero); }
   .stat .l { font-size: 13px; color: var(--muted); }
   .stat .hint { font-size: 12px; color: var(--faint); margin-top: 6px; }
+  .stat.co { border-top: 3px solid var(--line); }
+
+  .settings {
+    margin: 22px 0 4px;
+    background: linear-gradient(180deg, var(--panel), var(--panel-2));
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    padding: 16px 18px 14px;
+    box-shadow: var(--shadow);
+  }
+  .settings h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); font-weight: 600; margin: 0 0 12px; }
+  .set-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px 16px; margin-bottom: 14px; }
+  .set-item .k { font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: var(--faint); font-weight: 650; margin-bottom: 4px; }
+  .set-item .v { font-size: 14px; font-weight: 600; line-height: 1.4; }
+  .set-item .v span { color: var(--muted); font-weight: 500; }
+  .co-list { display: flex; flex-direction: column; gap: 10px; }
+  .co-row { display: flex; gap: 12px; align-items: flex-start; padding: 10px 12px; background: rgba(0,0,0,.18); border: 1px solid var(--line); border-radius: 12px; }
+  .co-row .swatch { width: 10px; height: 10px; border-radius: 50%; margin-top: 5px; flex: 0 0 auto; }
+  .co-row .name { font-size: 14px; font-weight: 650; }
+  .co-row .meta { font-size: 12.5px; color: var(--muted); line-height: 1.45; margin-top: 2px; }
+  .settings .hint { font-size: 12.5px; color: var(--faint); margin: 12px 0 0; line-height: 1.5; }
 
   .section { margin-top: 28px; }
   .section-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; margin: 0 0 10px; }
@@ -80,13 +102,9 @@
   .empty .d { font-size: 13px; color: var(--muted); line-height: 1.5; margin: 0; }
 
   .list { display: flex; flex-direction: column; gap: 10px; }
-  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 15px 16px 14px; }
-  .card.persistent { border-left: 3px solid var(--persistent); }
-  .card.acuity { border-left: 3px solid var(--acuity); }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 15px 16px 14px; border-left: 3px solid var(--line); }
   .badges { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 8px; }
   .tag { font-size: 11px; font-weight: 650; letter-spacing: .02em; padding: 4px 8px; border-radius: 999px; white-space: nowrap; }
-  .co-persistent { background: var(--persistent-bg); color: #a9c4ff; }
-  .co-acuity { background: var(--acuity-bg); color: #e8d09a; }
   .src-emp { background: var(--emp-bg); color: var(--emp); }
   .src-list { background: var(--list-bg); color: var(--list); }
   .title { font-size: 16px; font-weight: 650; margin: 0 0 4px; letter-spacing: -0.015em; line-height: 1.3; }
@@ -100,20 +118,22 @@
   .notes { font-size: 12px; color: var(--faint); line-height: 1.45; margin: 0 0 10px; }
   .card-foot { display: flex; justify-content: space-between; align-items: center; gap: 10px; flex-wrap: wrap; }
   .src-link { font-size: 13px; font-weight: 600; }
+
   footer.page { margin-top: 36px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12.5px; line-height: 1.6; }
   footer.page p { margin: 0 0 6px; }
 
   @media (max-width: 800px) {
-    .stats { grid-template-columns: 1fr 1fr; }
+    .set-grid { grid-template-columns: 1fr 1fr; }
   }
   @media (max-width: 720px) {
     .wrap { padding: 24px 16px 56px; }
     h1 { font-size: 24px; }
-    .stats { grid-template-columns: 1fr; }
     .stat .n { font-size: 30px; }
     header.top { align-items: flex-start; }
     .scan-pill { width: 100%; }
     .win .range { display: block; margin: 3px 0 0; }
+    .set-grid { grid-template-columns: 1fr; }
+    .co-row { flex-direction: row; }
   }
 </style>
 </head>
@@ -127,20 +147,39 @@
       </div>
       <div class="scan-pill">
         <div class="lbl">Keyword · companies</div>
-        <div class="val">Salesforce · Persistent · Acuity</div>
+        <div class="val" id="scanPill"></div>
       </div>
     </header>
 
     <div class="windows" id="windows" role="tablist" aria-label="Scan window"></div>
+    <div class="filter-label">Companies</div>
+    <div class="filters" id="filters" role="group" aria-label="Company filter"></div>
     <div class="stats" id="stats"></div>
+    <div class="settings" id="settings"></div>
     <div id="board"></div>
     <footer class="page" id="footer"></footer>
   </div>
 
 <script>
-const DATA = {"title":"Salesforce hiring radar","subtitle":"Persistent Systems · Acuity Analytics · 7-day and 15-day windows ending Aug 17, 2026","prepared_for":"Raghu Seetharam","scanned_at":"2026-08-17T21:25:00-04:00","scanned_at_display":"Aug 17, 2026, 9:25 PM ET","keyword":"Salesforce","companies":["Persistent Systems","Acuity Analytics"],"acuity_aka":["Acuity Knowledge Partners"],"acuity_linkedin":"linkedin.com/company/acuityanalytics","default_window":"7d","windows":{"7d":{"id":"7d","label":"7 days","start":"2026-08-10","end":"2026-08-17","range_label":"Aug 10–17, 2026","employee_posts":[{"author_name":"Vaibhav Chaubey","author_title":"Salesforce Developer, 6X Certified, Agentforce Specialist","author_company":"Persistent Systems","post_date":"2026-08-17","post_url":"https://www.linkedin.com/feed/update/urn:li:activity:7494997280228261888/","post_text_excerpt":"Persistent Systems is Hiring – Multiple Salesforce Roles. Development, Service Cloud, Life Sciences Cloud, and Salesforce Administration. Experience 2+ years. Notice period: immediate to 30 days. Location: Multiple locations. DM CV.","roles":["Salesforce Developer","Salesforce Administrator","Service Cloud","Life Sciences Cloud"],"location":"Multiple locations (India)","experience":"2+ years","apply_info":"DM Vaibhav Chaubey on LinkedIn with updated CV","source_type":"employee_post","date_confidence":"high","company_key":"persistent","company_badge":"Persistent"}],"company_posts":[],"official_listings":[{"author_name":"Persistent Systems","author_company":"Persistent Systems","roles":["Salesforce Architect"],"location":"Brentwood, TN","post_date":"2026-08-12","post_url":"https://www.linkedin.com/jobs/view/4452716173/","post_text_excerpt":"Salesforce Architect at Persistent Systems, Brentwood, TN. Shown as posted 5 days ago on LinkedIn on Aug 17, 2026.","source_type":"job_listing","date_confidence":"high","notes":"From Persistent company jobs tab, \"5 days ago\" on Aug 17.","company_key":"persistent","company_badge":"Persistent"}],"stats":{"employee_posts":1,"company_posts":0,"official_listings":1,"persistent":2,"acuity":0,"total":2},"empty_employee":{"title":"No Acuity employee Salesforce hiring posts in the last 7 days.","detail":"Acuity Analytics (Acuity Knowledge Partners) has 0 verified employee posts between Aug 10 and Aug 17, 2026. Persistent hits are shown above when present."},"empty_official":{"title":"No Acuity official listings dated Aug 10–17.","detail":"Acuity Analytics has 0 official Salesforce listings clearly dated inside this 7-day window."}},"15d":{"id":"15d","label":"15 days","start":"2026-08-02","end":"2026-08-17","range_label":"Aug 2–17, 2026","employee_posts":[{"author_name":"Vaibhav Chaubey","author_title":"Salesforce Developer, 6X Certified, Agentforce Specialist","author_company":"Persistent Systems","post_date":"2026-08-17","post_url":"https://www.linkedin.com/feed/update/urn:li:activity:7494997280228261888/","post_text_excerpt":"Persistent Systems is Hiring – Multiple Salesforce Roles. Development, Service Cloud, Life Sciences Cloud, and Salesforce Administration. Experience 2+ years. Notice period: immediate to 30 days. Location: Multiple locations. DM CV.","roles":["Salesforce Developer","Salesforce Administrator","Service Cloud","Life Sciences Cloud"],"location":"Multiple locations (India)","experience":"2+ years","apply_info":"DM Vaibhav Chaubey on LinkedIn with updated CV","source_type":"employee_post","date_confidence":"high","company_key":"persistent","company_badge":"Persistent"}],"company_posts":[],"official_listings":[{"author_name":"Persistent Systems","author_company":"Persistent Systems","roles":["Salesforce Architect"],"location":"Brentwood, TN","post_date":"2026-08-12","post_url":"https://www.linkedin.com/jobs/view/4452716173/","post_text_excerpt":"Salesforce Architect at Persistent Systems, Brentwood, TN. Shown as posted 5 days ago on LinkedIn on Aug 17, 2026.","source_type":"job_listing","date_confidence":"high","notes":"From Persistent company jobs tab, \"5 days ago\" on Aug 17.","company_key":"persistent","company_badge":"Persistent"}],"stats":{"employee_posts":1,"company_posts":0,"official_listings":1,"persistent":2,"acuity":0,"total":2},"empty_employee":{"title":"No Acuity employee Salesforce hiring posts in the last 15 days.","detail":"Acuity Analytics (Acuity Knowledge Partners) has 0 verified employee posts between Aug 2 and Aug 17, 2026. Persistent hits are shown above when present."},"empty_official":{"title":"No Acuity official listings dated Aug 2–17.","detail":"Acuity Analytics has 0 official Salesforce listings clearly dated inside this 15-day window."}}},"scope_notes":["Board is limited to two windows ending Aug 17, 2026: last 7 days (Aug 10–17) and last 15 days (Aug 2–17).","Both windows include live signed-in LinkedIn hits for Persistent Systems; Acuity remains at zero in both windows.","Older employee posts (May/June/December history) are not re-added.","Empty states apply to Acuity when filtered; the board is not empty overall."],"footer_notes":["Scanned Aug 17, 2026, 9:25 PM ET.","Live LinkedIn search while signed in.","Acuity 7-day and 15-day employee posts: 0.","This board will be refreshed on a schedule."]};
+const CONFIG = {"keyword": "Salesforce", "end_date": "today", "windows_days": [7, 15], "default_window_days": 7, "companies": [{"name": "Persistent Systems", "short": "Persistent", "aliases": [], "linkedin": "https://www.linkedin.com/company/persistent-systems"}, {"name": "Acuity Analytics", "short": "Acuity", "aliases": ["Acuity Knowledge Partners"], "linkedin": "https://www.linkedin.com/company/acuityanalytics"}]};
+const DATA = {"title": "Salesforce hiring radar", "prepared_for": "Raghu Seetharam", "scanned_at": "2026-08-17T21:25:00-04:00", "scanned_at_display": "Aug 17, 2026, 9:25 PM ET", "end_date": "2026-08-17", "end_date_display": "Aug 17, 2026", "keyword": "Salesforce", "hits": [{"author_name": "Vaibhav Chaubey", "author_title": "Salesforce Developer, 6X Certified, Agentforce Specialist", "author_company": "Persistent Systems", "post_date": "2026-08-17", "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7494997280228261888/", "post_text_excerpt": "Persistent Systems is Hiring – Multiple Salesforce Roles. Development, Service Cloud, Life Sciences Cloud, and Salesforce Administration. Experience 2+ years. Notice period: immediate to 30 days. Location: Multiple locations. DM CV.", "roles": ["Salesforce Developer", "Salesforce Administrator", "Service Cloud", "Life Sciences Cloud"], "location": "Multiple locations (India)", "experience": "2+ years", "apply_info": "DM Vaibhav Chaubey on LinkedIn with updated CV", "source_type": "employee_post", "date_confidence": "high", "company_key": "persistent-systems", "company_badge": "Persistent"}, {"author_name": "Persistent Systems", "author_company": "Persistent Systems", "roles": ["Salesforce Architect"], "location": "Brentwood, TN", "post_date": "2026-08-12", "post_url": "https://www.linkedin.com/jobs/view/4452716173/", "post_text_excerpt": "Salesforce Architect at Persistent Systems, Brentwood, TN. Shown as posted 5 days ago on LinkedIn on Aug 17, 2026.", "source_type": "job_listing", "date_confidence": "high", "notes": "From Persistent company jobs tab, \"5 days ago\" on Aug 17.", "company_key": "persistent-systems", "company_badge": "Persistent"}], "windows": {"7": {"id": "7d", "days": 7, "label": "7 days", "start": "2026-08-10", "end": "2026-08-17", "range_label": "Aug 10–17, 2026", "employee_posts": [{"author_name": "Vaibhav Chaubey", "author_title": "Salesforce Developer, 6X Certified, Agentforce Specialist", "author_company": "Persistent Systems", "post_date": "2026-08-17", "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7494997280228261888/", "post_text_excerpt": "Persistent Systems is Hiring – Multiple Salesforce Roles. Development, Service Cloud, Life Sciences Cloud, and Salesforce Administration. Experience 2+ years. Notice period: immediate to 30 days. Location: Multiple locations. DM CV.", "roles": ["Salesforce Developer", "Salesforce Administrator", "Service Cloud", "Life Sciences Cloud"], "location": "Multiple locations (India)", "experience": "2+ years", "apply_info": "DM Vaibhav Chaubey on LinkedIn with updated CV", "source_type": "employee_post", "date_confidence": "high", "company_key": "persistent-systems", "company_badge": "Persistent"}], "company_posts": [], "official_listings": [{"author_name": "Persistent Systems", "author_company": "Persistent Systems", "roles": ["Salesforce Architect"], "location": "Brentwood, TN", "post_date": "2026-08-12", "post_url": "https://www.linkedin.com/jobs/view/4452716173/", "post_text_excerpt": "Salesforce Architect at Persistent Systems, Brentwood, TN. Shown as posted 5 days ago on LinkedIn on Aug 17, 2026.", "source_type": "job_listing", "date_confidence": "high", "notes": "From Persistent company jobs tab, \"5 days ago\" on Aug 17.", "company_key": "persistent-systems", "company_badge": "Persistent"}], "stats": {"employee_posts": 1, "company_posts": 0, "official_listings": 1, "by_company": {"persistent-systems": 2, "acuity-analytics": 0}, "total": 2}}, "15": {"id": "15d", "days": 15, "label": "15 days", "start": "2026-08-02", "end": "2026-08-17", "range_label": "Aug 2–17, 2026", "employee_posts": [{"author_name": "Vaibhav Chaubey", "author_title": "Salesforce Developer, 6X Certified, Agentforce Specialist", "author_company": "Persistent Systems", "post_date": "2026-08-17", "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7494997280228261888/", "post_text_excerpt": "Persistent Systems is Hiring – Multiple Salesforce Roles. Development, Service Cloud, Life Sciences Cloud, and Salesforce Administration. Experience 2+ years. Notice period: immediate to 30 days. Location: Multiple locations. DM CV.", "roles": ["Salesforce Developer", "Salesforce Administrator", "Service Cloud", "Life Sciences Cloud"], "location": "Multiple locations (India)", "experience": "2+ years", "apply_info": "DM Vaibhav Chaubey on LinkedIn with updated CV", "source_type": "employee_post", "date_confidence": "high", "company_key": "persistent-systems", "company_badge": "Persistent"}], "company_posts": [], "official_listings": [{"author_name": "Persistent Systems", "author_company": "Persistent Systems", "roles": ["Salesforce Architect"], "location": "Brentwood, TN", "post_date": "2026-08-12", "post_url": "https://www.linkedin.com/jobs/view/4452716173/", "post_text_excerpt": "Salesforce Architect at Persistent Systems, Brentwood, TN. Shown as posted 5 days ago on LinkedIn on Aug 17, 2026.", "source_type": "job_listing", "date_confidence": "high", "notes": "From Persistent company jobs tab, \"5 days ago\" on Aug 17.", "company_key": "persistent-systems", "company_badge": "Persistent"}], "stats": {"employee_posts": 1, "company_posts": 0, "official_listings": 1, "by_company": {"persistent-systems": 2, "acuity-analytics": 0}, "total": 2}}}};
+
+const PALETTE = [
+  { accent: "#7aa2f7", bg: "rgba(122,162,247,.14)", text: "#a9c4ff" },
+  { accent: "#d4b06a", bg: "rgba(212,176,106,.14)", text: "#e8d09a" },
+  { accent: "#9ad0c2", bg: "rgba(154,208,194,.14)", text: "#b8e6d8" },
+  { accent: "#e08bb8", bg: "rgba(224,139,184,.14)", text: "#f0b0d0" },
+  { accent: "#b4b7ff", bg: "rgba(180,183,255,.14)", text: "#c8caff" },
+  { accent: "#f5a524", bg: "rgba(245,165,36,.14)", text: "#ffc96b" },
+  { accent: "#7dd3a8", bg: "rgba(125,211,168,.14)", text: "#a8e6c4" },
+  { accent: "#ff8b72", bg: "rgba(255,139,114,.14)", text: "#ffb4a4" }
+];
+
 const MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
-let windowId = DATA.default_window || "7d";
+
+function slugify(name) {
+  return String(name || "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+}
 
 function esc(s) {
   return String(s)
@@ -153,8 +192,113 @@ function esc(s) {
 function formatDate(raw) {
   if (!raw) return null;
   const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(raw);
-  if (m) return MONTHS[+m[2]-1] + " " + (+m[3]) + ", " + m[1];
+  if (m) return MONTHS[+m[2] - 1] + " " + (+m[3]) + ", " + m[1];
   return raw;
+}
+
+function formatShort(raw) {
+  if (!raw) return "";
+  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(raw);
+  if (m) return MONTHS[+m[2] - 1] + " " + (+m[3]);
+  return raw;
+}
+
+function parseYMD(raw) {
+  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(raw);
+  if (!m) return null;
+  return new Date(Date.UTC(+m[1], +m[2] - 1, +m[3]));
+}
+
+function addDays(raw, delta) {
+  const dt = parseYMD(raw);
+  if (!dt) return raw;
+  dt.setUTCDate(dt.getUTCDate() + delta);
+  return dt.toISOString().slice(0, 10);
+}
+
+function nyToday() {
+  return new Intl.DateTimeFormat("en-CA", {
+    timeZone: "America/New_York",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit"
+  }).format(new Date());
+}
+
+function resolvedEndDate() {
+  const cfg = CONFIG.end_date;
+  if (!cfg || cfg === "today") return DATA.end_date || nyToday();
+  return cfg;
+}
+
+function companies() {
+  return (CONFIG.companies || []).map((c, i) => ({
+    name: c.name,
+    short: c.short || c.name,
+    aliases: c.aliases || [],
+    linkedin: c.linkedin || "",
+    key: slugify(c.name),
+    color: PALETTE[i % PALETTE.length],
+    idx: i
+  }));
+}
+
+function companyByKey(key) {
+  return companies().find(c => c.key === key) || null;
+}
+
+function colorFor(key) {
+  const c = companyByKey(key);
+  return (c && c.color) || PALETTE[0];
+}
+
+function windowDaysList() {
+  const list = CONFIG.windows_days && CONFIG.windows_days.length
+    ? CONFIG.windows_days.slice()
+    : [7, 15];
+  return list.map(Number);
+}
+
+function windowMeta(days) {
+  const end = resolvedEndDate();
+  const start = addDays(end, -days);
+  const cached = DATA.windows && (DATA.windows[String(days)] || DATA.windows[days + "d"]);
+  const range_label = (cached && cached.range_label)
+    ? cached.range_label
+    : (formatShort(start) + "–" + (+end.slice(8)) + ", " + end.slice(0, 4));
+  return {
+    days: days,
+    id: days + "d",
+    label: days + " days",
+    start: (cached && cached.start) || start,
+    end: (cached && cached.end) || end,
+    range_label: range_label
+  };
+}
+
+function allHits() {
+  if (Array.isArray(DATA.hits) && DATA.hits.length) return DATA.hits;
+  const out = [];
+  const wins = DATA.windows || {};
+  Object.keys(wins).forEach(k => {
+    const w = wins[k];
+    (w.employee_posts || []).concat(w.company_posts || []).concat(w.official_listings || []).forEach(h => out.push(h));
+  });
+  const seen = new Set();
+  return out.filter(h => {
+    const id = (h.post_url || "") + "|" + (h.author_name || "") + "|" + (h.post_date || "");
+    if (seen.has(id)) return false;
+    seen.add(id);
+    return true;
+  });
+}
+
+function hitsInWindow(days) {
+  const w = windowMeta(days);
+  return allHits().filter(h => {
+    const d = h.post_date || "";
+    return d >= w.start && d <= w.end;
+  });
 }
 
 function sourceLabel(t) {
@@ -163,8 +307,38 @@ function sourceLabel(t) {
   return "Official listing";
 }
 
-function activeWindow() {
-  return DATA.windows[windowId];
+function isListing(h) {
+  return h.source_type === "job_listing";
+}
+
+let windowDays = CONFIG.default_window_days || windowDaysList()[0] || 7;
+let companyFilter = "all";
+
+function filteredHits() {
+  return hitsInWindow(windowDays).filter(h => companyFilter === "all" || h.company_key === companyFilter);
+}
+
+function filterLabel() {
+  if (companyFilter === "all") return null;
+  const c = companyByKey(companyFilter);
+  return c ? c.name : companyFilter;
+}
+
+function emptyHTML(kind) {
+  const co = filterLabel();
+  const w = windowMeta(windowDays);
+  const title = co
+    ? "No matching posts for " + co + " in this window"
+    : "No matching posts in this window";
+  const detail = co
+    ? "No " + kind + " for " + co + " between " + w.range_label + "."
+    : "No " + kind + " for the selected companies between " + w.range_label + ".";
+  return (
+    '<div class="empty">' +
+      '<p class="t">' + esc(title) + "</p>" +
+      '<p class="d">' + esc(detail) + "</p>" +
+    "</div>"
+  );
 }
 
 function cardHTML(item) {
@@ -174,20 +348,21 @@ function cardHTML(item) {
   const whoBits = [];
   if (item.author_name) whoBits.push(esc(item.author_name));
   if (item.author_title) whoBits.push(esc(item.author_title));
-  const whoLine = whoBits.join(" · ");
   const facts = [];
   if (item.location) facts.push("<span><b>Location</b> " + esc(item.location) + "</span>");
   if (item.experience) facts.push("<span><b>Experience</b> " + esc(item.experience) + "</span>");
   if (item.apply_info) facts.push("<span><b>Apply</b> " + esc(item.apply_info) + "</span>");
+  const color = colorFor(item.company_key);
+  const badge = item.company_badge || (companyByKey(item.company_key) || {}).short || item.author_company || item.company_key;
   const tags = [
-    '<span class="tag co-' + item.company_key + '">' + esc(item.company_badge) + "</span>",
-    '<span class="tag ' + (item.source_type === "job_listing" ? "src-list" : "src-emp") + '">' + sourceLabel(item.source_type) + "</span>"
+    '<span class="tag" style="background:' + color.bg + ";color:" + color.text + '">' + esc(badge) + "</span>",
+    '<span class="tag ' + (isListing(item) ? "src-list" : "src-emp") + '">' + sourceLabel(item.source_type) + "</span>"
   ];
   return (
-    '<article class="card ' + item.company_key + '">' +
+    '<article class="card" style="border-left-color:' + color.accent + '">' +
       '<div class="badges">' + tags.join("") + "</div>" +
       '<h3 class="title">' + esc(headline) + "</h3>" +
-      '<p class="who">' + whoLine + (date ? ' · <span class="date">' + esc(date) + "</span>" : "") + "</p>" +
+      '<p class="who">' + whoBits.join(" · ") + (date ? ' · <span class="date">' + esc(date) + "</span>" : "") + "</p>" +
       (roles.length > 1 ? '<div class="roles">' + roles.map(r => '<span class="role">' + esc(r) + "</span>").join("") + "</div>" : "") +
       (facts.length ? '<div class="facts">' + facts.join("") + "</div>" : "") +
       (item.post_text_excerpt ? '<p class="excerpt">' + esc(item.post_text_excerpt) + "</p>" : "") +
@@ -199,75 +374,148 @@ function cardHTML(item) {
   );
 }
 
-function emptyHTML(block) {
-  return (
-    '<div class="empty">' +
-      '<p class="t">' + esc(block.title) + "</p>" +
-      '<p class="d">' + esc(block.detail) + "</p>" +
-    "</div>"
-  );
+function renderHeader() {
+  const w = windowMeta(windowDays);
+  const names = companies().map(c => c.name);
+  const shorts = companies().map(c => c.short);
+  document.getElementById("subtitle").textContent =
+    names.join(" · ") + " · " + w.label + " · " + w.range_label;
+  document.getElementById("scanPill").textContent =
+    (CONFIG.keyword || DATA.keyword || "Salesforce") + " · " + shorts.join(" · ");
+  document.title = (DATA.title || "Salesforce hiring radar") + " · " + shorts.join(" & ") + " · " + w.label;
 }
 
 function renderWindows() {
-  const order = ["7d", "15d"];
-  document.getElementById("windows").innerHTML = order.map(id => {
-    const w = DATA.windows[id];
-    return '<button class="win' + (windowId === id ? " active" : "") + '" data-window="' + id + '" role="tab" aria-selected="' + (windowId === id) + '">' +
+  document.getElementById("windows").innerHTML = windowDaysList().map(days => {
+    const w = windowMeta(days);
+    return '<button class="win' + (windowDays === days ? " active" : "") + '" data-days="' + days + '" role="tab" aria-selected="' + (windowDays === days) + '">' +
       esc(w.label) + '<span class="range">' + esc(w.range_label) + "</span></button>";
   }).join("");
   document.querySelectorAll(".win").forEach(btn => {
-    btn.addEventListener("click", () => { windowId = btn.dataset.window; render(); });
+    btn.addEventListener("click", () => {
+      windowDays = Number(btn.dataset.days);
+      render();
+    });
   });
 }
 
-function renderHeader() {
-  const w = activeWindow();
-  document.getElementById("subtitle").textContent =
-    "Persistent Systems · Acuity Analytics · " + w.label + " · " + w.range_label;
+function renderFilters() {
+  const all = '<button class="chip' + (companyFilter === "all" ? " active" : "") + '" data-key="all">All companies</button>';
+  const chips = companies().map(c => {
+    const on = companyFilter === c.key;
+    return '<button class="chip' + (on ? " active" : "") + '" data-key="' + esc(c.key) + '" style="' +
+      (on ? "border-color:" + c.color.accent : "") + '">' +
+      '<span class="dot" style="background:' + c.color.accent + '"></span>' +
+      esc(c.short) + "</button>";
+  }).join("");
+  document.getElementById("filters").innerHTML = all + chips;
+  document.querySelectorAll("#filters .chip").forEach(btn => {
+    btn.addEventListener("click", () => {
+      companyFilter = btn.dataset.key;
+      render();
+    });
+  });
 }
 
 function renderStats() {
-  const w = activeWindow();
-  const s = w.stats;
-  const hint = w.range_label;
+  const w = windowMeta(windowDays);
+  const hits = hitsInWindow(windowDays);
+  const view = companyFilter === "all" ? hits : hits.filter(h => h.company_key === companyFilter);
+  const posts = view.filter(h => !isListing(h));
+  const listings = view.filter(isListing);
   const cards = [
-    [s.employee_posts + s.company_posts, "Employee / company posts", "Verified hiring posts · " + hint],
-    [s.official_listings, "Official listings", "Dated clearly inside " + hint],
-    [s.persistent, "Persistent Systems", "In the active window"],
-    [s.acuity, "Acuity Analytics", "Includes Acuity Knowledge Partners"]
+    { n: posts.length, l: "Employee / company posts", h: "Verified hiring posts · " + w.range_label, color: null },
+    { n: listings.length, l: "Official listings", h: "Dated clearly inside " + w.range_label, color: null }
   ];
-  document.getElementById("stats").innerHTML = cards.map(([n, l, h]) =>
-    '<div class="stat"><div class="n' + (n === 0 ? " zero" : "") + '">' + n + '</div><div class="l">' + esc(l) + '</div><div class="hint">' + esc(h) + "</div></div>"
+  companies().forEach(c => {
+    const n = hits.filter(h => h.company_key === c.key).length;
+    cards.push({
+      n: n,
+      l: c.name,
+      h: (c.aliases.length ? "Also " + c.aliases.join(", ") : "In the active window"),
+      color: c.color
+    });
+  });
+  document.getElementById("stats").innerHTML = cards.map(s =>
+    '<div class="stat' + (s.color ? " co" : "") + '"' + (s.color ? ' style="border-top-color:' + s.color.accent + '"' : "") + ">" +
+      '<div class="n' + (s.n === 0 ? " zero" : "") + '"' + (s.color && s.n ? ' style="color:' + s.color.accent + '"' : "") + ">" + s.n + "</div>" +
+      '<div class="l">' + esc(s.l) + "</div>" +
+      '<div class="hint">' + esc(s.h) + "</div>" +
+    "</div>"
   ).join("");
 }
 
+function renderSettings() {
+  const endCfg = CONFIG.end_date || "today";
+  const resolved = resolvedEndDate();
+  const endText = endCfg === "today"
+    ? 'today <span>(America/New_York → ' + esc(DATA.end_date_display || formatDate(resolved)) + ")</span>"
+    : esc(endCfg);
+  const wins = windowDaysList();
+  const def = CONFIG.default_window_days || wins[0];
+  const winText = wins.map(d => d + "d").join(" · ") + " <span>(default " + def + "d)</span>";
+  const rows = companies().map(c => {
+    const aka = c.aliases.length ? "aka " + c.aliases.join(", ") : "no aliases";
+    const link = c.linkedin
+      ? ' · <a href="' + esc(c.linkedin) + '" target="_blank" rel="noopener">' + esc(c.linkedin.replace(/^https?:\/\//, "")) + "</a>"
+      : "";
+    return (
+      '<div class="co-row">' +
+        '<span class="swatch" style="background:' + c.color.accent + '"></span>' +
+        "<div>" +
+          '<div class="name">' + esc(c.short) + " · " + esc(c.name) + "</div>" +
+          '<div class="meta">' + esc(aka) + link + "</div>" +
+        "</div>" +
+      "</div>"
+    );
+  }).join("");
+  document.getElementById("settings").innerHTML =
+    "<h2>Scan settings</h2>" +
+    '<div class="set-grid">' +
+      '<div class="set-item"><div class="k">Keyword</div><div class="v">' + esc(CONFIG.keyword || "Salesforce") + "</div></div>" +
+      '<div class="set-item"><div class="k">Windows</div><div class="v">' + winText + "</div></div>" +
+      '<div class="set-item"><div class="k">End date</div><div class="v">' + endText + "</div></div>" +
+    "</div>" +
+    '<div class="co-list">' + rows + "</div>" +
+    '<p class="hint">Anyone can change companies, add a company, change the keyword, or add a window (for example <code>30</code>) in <b>salesforce-hiring-config.json</b>. The next scan picks it up.</p>';
+}
+
 function renderBoard() {
-  const w = activeWindow();
-  const posts = (w.employee_posts || []).concat(w.company_posts || []);
-  const listings = w.official_listings || [];
+  const w = windowMeta(windowDays);
+  const hits = filteredHits();
+  const posts = hits.filter(h => !isListing(h));
+  const listings = hits.filter(isListing);
   let html = "";
   html +=
     '<section class="section">' +
       '<div class="section-head"><h2>Employee &amp; company posts</h2><span class="n">' + posts.length + " · " + esc(w.range_label) + "</span></div>" +
-      (posts.length ? '<div class="list">' + posts.map(cardHTML).join("") + "</div>" : emptyHTML(w.empty_employee)) +
+      (posts.length ? '<div class="list">' + posts.map(cardHTML).join("") + "</div>" : emptyHTML("employee or company posts")) +
     "</section>";
   html +=
     '<section class="section">' +
       '<div class="section-head"><h2>Official listings</h2><span class="n">' + listings.length + " · " + esc(w.range_label) + "</span></div>" +
-      (listings.length ? '<div class="list">' + listings.map(cardHTML).join("") + "</div>" : emptyHTML(w.empty_official)) +
+      (listings.length ? '<div class="list">' + listings.map(cardHTML).join("") + "</div>" : emptyHTML("official listings")) +
     "</section>";
   document.getElementById("board").innerHTML = html;
 }
 
 function renderFooter() {
-  const notes = DATA.footer_notes.concat(DATA.scope_notes);
+  const w = windowMeta(windowDays);
+  const notes = [
+    "Scanned " + (DATA.scanned_at_display || formatDate(DATA.end_date) || "") + ". Live LinkedIn search while signed in.",
+    "This board refreshes weekday mornings.",
+    "Companies, keyword, and date windows are set in salesforce-hiring-config.json — edit that file to add a company or a 30-day tab.",
+    "Active window: last " + w.label + " ending " + (DATA.end_date_display || formatDate(resolvedEndDate())) + " (" + w.range_label + "). Older history is not re-added."
+  ];
   document.getElementById("footer").innerHTML = notes.map(n => "<p>" + esc(n) + "</p>").join("");
 }
 
 function render() {
   renderHeader();
   renderWindows();
+  renderFilters();
   renderStats();
+  renderSettings();
   renderBoard();
   renderFooter();
 }

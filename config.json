@@ -1,0 +1,25 @@
+{
+  "keyword": "Salesforce",
+  "end_date": "today",
+  "windows_days": [
+    7,
+    15
+  ],
+  "default_window_days": 7,
+  "companies": [
+    {
+      "name": "Persistent Systems",
+      "short": "Persistent",
+      "aliases": [],
+      "linkedin": "https://www.linkedin.com/company/persistent-systems"
+    },
+    {
+      "name": "Acuity Analytics",
+      "short": "Acuity",
+      "aliases": [
+        "Acuity Knowledge Partners"
+      ],
+      "linkedin": "https://www.linkedin.com/company/acuityanalytics"
+    }
+  ]
+}
