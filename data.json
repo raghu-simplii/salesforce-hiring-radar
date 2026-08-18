@@ -1,0 +1,161 @@
+{
+  "title": "Salesforce hiring radar",
+  "subtitle": "Persistent Systems · Acuity Analytics · 7-day and 15-day windows ending Aug 17, 2026",
+  "prepared_for": "Raghu Seetharam",
+  "scanned_at": "2026-08-17T21:25:00-04:00",
+  "scanned_at_display": "Aug 17, 2026, 9:25 PM ET",
+  "keyword": "Salesforce",
+  "companies": [
+    "Persistent Systems",
+    "Acuity Analytics"
+  ],
+  "acuity_aka": [
+    "Acuity Knowledge Partners"
+  ],
+  "acuity_linkedin": "linkedin.com/company/acuityanalytics",
+  "default_window": "7d",
+  "windows": {
+    "7d": {
+      "id": "7d",
+      "label": "7 days",
+      "start": "2026-08-10",
+      "end": "2026-08-17",
+      "range_label": "Aug 10–17, 2026",
+      "employee_posts": [
+        {
+          "author_name": "Vaibhav Chaubey",
+          "author_title": "Salesforce Developer, 6X Certified, Agentforce Specialist",
+          "author_company": "Persistent Systems",
+          "post_date": "2026-08-17",
+          "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7494997280228261888/",
+          "post_text_excerpt": "Persistent Systems is Hiring – Multiple Salesforce Roles. Development, Service Cloud, Life Sciences Cloud, and Salesforce Administration. Experience 2+ years. Notice period: immediate to 30 days. Location: Multiple locations. DM CV.",
+          "roles": [
+            "Salesforce Developer",
+            "Salesforce Administrator",
+            "Service Cloud",
+            "Life Sciences Cloud"
+          ],
+          "location": "Multiple locations (India)",
+          "experience": "2+ years",
+          "apply_info": "DM Vaibhav Chaubey on LinkedIn with updated CV",
+          "source_type": "employee_post",
+          "date_confidence": "high",
+          "company_key": "persistent",
+          "company_badge": "Persistent"
+        }
+      ],
+      "company_posts": [],
+      "official_listings": [
+        {
+          "author_name": "Persistent Systems",
+          "author_company": "Persistent Systems",
+          "roles": [
+            "Salesforce Architect"
+          ],
+          "location": "Brentwood, TN",
+          "post_date": "2026-08-12",
+          "post_url": "https://www.linkedin.com/jobs/view/4452716173/",
+          "post_text_excerpt": "Salesforce Architect at Persistent Systems, Brentwood, TN. Shown as posted 5 days ago on LinkedIn on Aug 17, 2026.",
+          "source_type": "job_listing",
+          "date_confidence": "high",
+          "notes": "From Persistent company jobs tab, \"5 days ago\" on Aug 17.",
+          "company_key": "persistent",
+          "company_badge": "Persistent"
+        }
+      ],
+      "stats": {
+        "employee_posts": 1,
+        "company_posts": 0,
+        "official_listings": 1,
+        "persistent": 2,
+        "acuity": 0,
+        "total": 2
+      },
+      "empty_employee": {
+        "title": "No Acuity employee Salesforce hiring posts in the last 7 days.",
+        "detail": "Acuity Analytics (Acuity Knowledge Partners) has 0 verified employee posts between Aug 10 and Aug 17, 2026. Persistent hits are shown above when present."
+      },
+      "empty_official": {
+        "title": "No Acuity official listings dated Aug 10–17.",
+        "detail": "Acuity Analytics has 0 official Salesforce listings clearly dated inside this 7-day window."
+      }
+    },
+    "15d": {
+      "id": "15d",
+      "label": "15 days",
+      "start": "2026-08-02",
+      "end": "2026-08-17",
+      "range_label": "Aug 2–17, 2026",
+      "employee_posts": [
+        {
+          "author_name": "Vaibhav Chaubey",
+          "author_title": "Salesforce Developer, 6X Certified, Agentforce Specialist",
+          "author_company": "Persistent Systems",
+          "post_date": "2026-08-17",
+          "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7494997280228261888/",
+          "post_text_excerpt": "Persistent Systems is Hiring – Multiple Salesforce Roles. Development, Service Cloud, Life Sciences Cloud, and Salesforce Administration. Experience 2+ years. Notice period: immediate to 30 days. Location: Multiple locations. DM CV.",
+          "roles": [
+            "Salesforce Developer",
+            "Salesforce Administrator",
+            "Service Cloud",
+            "Life Sciences Cloud"
+          ],
+          "location": "Multiple locations (India)",
+          "experience": "2+ years",
+          "apply_info": "DM Vaibhav Chaubey on LinkedIn with updated CV",
+          "source_type": "employee_post",
+          "date_confidence": "high",
+          "company_key": "persistent",
+          "company_badge": "Persistent"
+        }
+      ],
+      "company_posts": [],
+      "official_listings": [
+        {
+          "author_name": "Persistent Systems",
+          "author_company": "Persistent Systems",
+          "roles": [
+            "Salesforce Architect"
+          ],
+          "location": "Brentwood, TN",
+          "post_date": "2026-08-12",
+          "post_url": "https://www.linkedin.com/jobs/view/4452716173/",
+          "post_text_excerpt": "Salesforce Architect at Persistent Systems, Brentwood, TN. Shown as posted 5 days ago on LinkedIn on Aug 17, 2026.",
+          "source_type": "job_listing",
+          "date_confidence": "high",
+          "notes": "From Persistent company jobs tab, \"5 days ago\" on Aug 17.",
+          "company_key": "persistent",
+          "company_badge": "Persistent"
+        }
+      ],
+      "stats": {
+        "employee_posts": 1,
+        "company_posts": 0,
+        "official_listings": 1,
+        "persistent": 2,
+        "acuity": 0,
+        "total": 2
+      },
+      "empty_employee": {
+        "title": "No Acuity employee Salesforce hiring posts in the last 15 days.",
+        "detail": "Acuity Analytics (Acuity Knowledge Partners) has 0 verified employee posts between Aug 2 and Aug 17, 2026. Persistent hits are shown above when present."
+      },
+      "empty_official": {
+        "title": "No Acuity official listings dated Aug 2–17.",
+        "detail": "Acuity Analytics has 0 official Salesforce listings clearly dated inside this 15-day window."
+      }
+    }
+  },
+  "scope_notes": [
+    "Board is limited to two windows ending Aug 17, 2026: last 7 days (Aug 10–17) and last 15 days (Aug 2–17).",
+    "Both windows include live signed-in LinkedIn hits for Persistent Systems; Acuity remains at zero in both windows.",
+    "Older employee posts (May/June/December history) are not re-added.",
+    "Empty states apply to Acuity when filtered; the board is not empty overall."
+  ],
+  "footer_notes": [
+    "Scanned Aug 17, 2026, 9:25 PM ET.",
+    "Live LinkedIn search while signed in.",
+    "Acuity 7-day and 15-day employee posts: 0.",
+    "This board will be refreshed on a schedule."
+  ]
+}
