@@ -1,21 +1,11 @@
 {
   "title": "Salesforce hiring radar",
   "prepared_for": "Raghu Seetharam",
-  "scanned_at": "2026-08-17T22:00:00-04:00",
-  "scanned_at_display": "Aug 17, 2026, 10:00 PM ET",
-  "end_date": "2026-08-17",
-  "end_date_display": "Aug 17, 2026",
+  "scanned_at": "2026-08-18T12:45:00-04:00",
+  "scanned_at_display": "Aug 18, 2026, 12:45 PM ET",
+  "end_date": "2026-08-18",
+  "end_date_display": "Aug 18, 2026",
   "keyword": "Salesforce",
-  "scan_files": [
-    "/workspace/linkedin-web-scan-30d.json",
-    "/workspace/acuity-india-web-scan-30d.json",
-    "/workspace/ciklum-web-scan-30d.json",
-    "/workspace/carrier-india-sf-scan-30d.json",
-    "/workspace/randstad-blr-sf-scan-30d.json"
-  ],
-  "scan_files_unused": [
-    "/workspace/acuity-india-scan-30d.json"
-  ],
   "hits": [
     {
       "author_name": "Vaibhav Chaubey",
@@ -23,20 +13,21 @@
       "author_company": "Persistent Systems",
       "post_date": "2026-08-17",
       "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7494997280228261888/",
-      "post_text_excerpt": "Persistent Systems is Hiring – Multiple Salesforce Roles. 2+ years. Immediate joiners to 30 days. Multiple locations. DM updated CV/resume to Vaibhav Chaubey.",
+      "post_text_excerpt": "Persistent Systems is Hiring – Multiple Salesforce Roles",
       "roles": [
-        "Salesforce Development",
+        "Salesforce Developer",
         "Service Cloud",
         "Life Sciences Cloud",
         "Salesforce Administration"
       ],
       "location": "Multiple locations",
       "experience": "2+ years",
-      "apply_info": "DM updated CV/resume to Vaibhav Chaubey",
+      "apply_info": "DM updated CV/resume to Vaibhav Chaubey on LinkedIn",
       "source_type": "employee_post",
       "date_confidence": "high",
       "company_key": "persistent-systems",
-      "company_badge": "Persistent"
+      "company_badge": "Persistent",
+      "notes": "KEPT from prior scan. Re-checked 2026-08-18: LinkedIn relative age '1d'; activity 7494997280228261888 unix-ms timestamp 2026-08-17. Persistent employee, not agency. Notice period: immediate joiners to 30 days. No Aug 18 recrawl found a newer Vaibhav hiring post."
     },
     {
       "author_name": "Ciklum India",
@@ -121,26 +112,6 @@
     {
       "author_name": "Ciklum India",
       "author_title": "Official job listing",
-      "author_company": "Ciklum / Ciklum India",
-      "post_date": "2026-08-14",
-      "post_url": "https://www.bestkaam.com/job/principal-ai-lead-ciklum-india-chennai-4-8-years-632678",
-      "post_text_excerpt": "Principal AI Lead. Chennai, India Third-party aggregator of official Ciklum India text. Posted 3 days ago. Included because location is Chennai and recency is in window; treat apply-by date as unreliable.",
-      "roles": [
-        "Principal AI Lead"
-      ],
-      "location": "Chennai, India",
-      "experience": "4–8 years (aggregator card)",
-      "apply_info": "Aggregator listing of official Ciklum India req; apply via Ciklum careers / LinkedIn. Note: aggregator also showed an 'Apply by June 29, 2026' which may be stale metadata.",
-      "source_type": "job_listing",
-      "date_confidence": "high",
-      "company_key": "ciklum",
-      "company_badge": "Ciklum",
-      "notes": "Third-party aggregator of official Ciklum India text. Posted 3 days ago. Included because location is Chennai and recency is in window; treat apply-by date as unreliable.",
-      "date_raw": "approx 2026-08-14"
-    },
-    {
-      "author_name": "Ciklum India",
-      "author_title": "Official job listing",
       "author_company": "Ciklum India",
       "post_date": "2026-08-14",
       "post_url": "https://www.linkedin.com/jobs/search/?keywords=Ciklum&location=India",
@@ -156,6 +127,26 @@
       "company_key": "ciklum",
       "company_badge": "Ciklum",
       "notes": "Seen on public LinkedIn search '41 Ciklum jobs in India' on 2026-08-17 as 3 days ago, Actively Hiring or early applicant. Individual job-view URL not exposed without login. Deduped by title+city; LinkedIn showed multiple cards for some AI/QA/Full Stack titles.",
+      "date_raw": "approx 2026-08-14"
+    },
+    {
+      "author_name": "Ciklum India",
+      "author_title": "Official job listing",
+      "author_company": "Ciklum / Ciklum India",
+      "post_date": "2026-08-14",
+      "post_url": "https://www.bestkaam.com/job/principal-ai-lead-ciklum-india-chennai-4-8-years-632678",
+      "post_text_excerpt": "Principal AI Lead. Chennai, India Third-party aggregator of official Ciklum India text. Posted 3 days ago. Included because location is Chennai and recency is in window; treat apply-by date as unreliable.",
+      "roles": [
+        "Principal AI Lead"
+      ],
+      "location": "Chennai, India",
+      "experience": "4–8 years (aggregator card)",
+      "apply_info": "Aggregator listing of official Ciklum India req; apply via Ciklum careers / LinkedIn. Note: aggregator also showed an 'Apply by June 29, 2026' which may be stale metadata.",
+      "source_type": "job_listing",
+      "date_confidence": "high",
+      "company_key": "ciklum",
+      "company_badge": "Ciklum",
+      "notes": "Third-party aggregator of official Ciklum India text. Posted 3 days ago. Included because location is Chennai and recency is in window; treat apply-by date as unreliable.",
       "date_raw": "approx 2026-08-14"
     },
     {
@@ -179,22 +170,23 @@
       "date_raw": "approx 2026-08-13"
     },
     {
-      "author_name": "Rajarshi .",
-      "author_title": "Talent Acquisition (North America); Manager - Talent Acquisition (Salesforce BU)",
-      "author_company": "Persistent Systems",
+      "author_name": "Persistent Systems; job poster Rajarshi . (Talent Acquisition",
+      "author_title": "",
+      "author_company": "North America)",
       "post_date": "2026-08-12",
       "post_url": "https://www.linkedin.com/jobs/view/4452716173/",
-      "post_text_excerpt": "Salesforce Architect at Persistent Systems — Brentwood, TN. 12-15 years (job); 10+ years Salesforce with 4+ years as architect (requirements). Brentwood, TN. Apply on LinkedIn; DM job poster Rajarshi.",
+      "post_text_excerpt": "Salesforce Architect",
       "roles": [
         "Salesforce Architect"
       ],
       "location": "Brentwood, TN",
-      "experience": "12-15 years (job); 10+ years Salesforce with 4+ years as architect (requirements)",
-      "apply_info": "Apply on LinkedIn; DM job poster Rajarshi",
+      "experience": "12-15 years listed; 10+ years Salesforce with at least 4 years in an architect role",
+      "apply_info": "LinkedIn Apply on the job post; contact job poster Rajarshi (Talent Acquisition, North America)",
       "source_type": "job_listing",
       "date_confidence": "high",
       "company_key": "persistent-systems",
-      "company_badge": "Persistent"
+      "company_badge": "Persistent",
+      "notes": "KEPT from prior scan. Re-checked 2026-08-18: LinkedIn shows '6 days ago' (maps to 2026-08-12). Still the only US Salesforce-titled Persistent Systems job in LinkedIn past-month search. Hybrid; FTE/CTH. Sales/Service/Marketing/Experience Clouds."
     },
     {
       "author_name": "Ciklum",
@@ -237,6 +229,25 @@
       "date_raw": "approx 2026-08-12"
     },
     {
+      "author_name": "Nandhini N",
+      "author_title": "Senior Talent Acquisition Consultant",
+      "author_company": "Ciklum",
+      "post_date": "2026-08-11",
+      "post_url": "https://www.linkedin.com/posts/nandhininatrajan_hiring-ciklum-solutionarchitect-activity-7491389121446412290-IokH",
+      "post_text_excerpt": "Ciklum is hiring Solution Architect – .NET Full Stack in Chennai / Pune. 12+ years overall, 3+ years solution architecture. .NET Core/C#, Angular, Azure, AKS, microservices. Immediate joiners. Email nnat@ciklum.com.",
+      "roles": [
+        ".NET Full Stack Solution Architect"
+      ],
+      "location": "Chennai / Pune, India",
+      "experience": "12+ years (3+ years solution architecture)",
+      "apply_info": "DM Nandhini N or email nnat@ciklum.com",
+      "source_type": "employee_post",
+      "date_confidence": "medium",
+      "company_key": "ciklum",
+      "company_badge": "Ciklum",
+      "notes": "LinkedIn showed “1w” on 2026-08-18 → dated 2026-08-11. Current Ciklum TA (@ciklum.com). New vs Aug 17 board."
+    },
+    {
       "author_name": "Ciklum India",
       "author_title": "Official job listing",
       "author_company": "Ciklum India",
@@ -255,6 +266,26 @@
       "company_badge": "Ciklum",
       "notes": "Seen on public LinkedIn search '41 Ciklum jobs in India' on 2026-08-17 as 6 days ago, Actively Hiring or early applicant. Individual job-view URL not exposed without login. Deduped by title+city; LinkedIn showed multiple cards for some AI/QA/Full Stack titles.",
       "date_raw": "approx 2026-08-11"
+    },
+    {
+      "author_name": "Ciklum",
+      "author_title": "Official job listing (poster: Svitlana Lienta, Senior Talent Acquisition Consultant @ Ciklum)",
+      "author_company": "Ciklum",
+      "post_date": "2026-08-10",
+      "post_url": "https://www.linkedin.com/jobs/view/business-development-director-hi-tech-at-ciklum-4432976278",
+      "post_text_excerpt": "Business Development Director (Hi-Tech). United States (full-time; LinkedIn listed Remote among US Ciklum jobs) Seen 2026-08-17 as '1 week ago', 146 applicants. Description explicitly says full-time in the US / US Hi-Tech market.",
+      "roles": [
+        "Business Development Director (Hi-Tech)"
+      ],
+      "location": "United States (full-time; LinkedIn listed Remote among US Ciklum jobs)",
+      "experience": "7+ years enterprise services / digital engineering / consulting sales in the US Hi-Tech / SaaS market",
+      "apply_info": "Apply on LinkedIn job posting; job text: 'Submit your application.'",
+      "source_type": "job_listing",
+      "date_confidence": "medium",
+      "company_key": "ciklum",
+      "company_badge": "Ciklum",
+      "notes": "Seen 2026-08-17 as '1 week ago', 146 applicants. Description explicitly says full-time in the US / US Hi-Tech market.",
+      "date_raw": "approx 2026-08-10"
     },
     {
       "author_name": "Ciklum India",
@@ -317,26 +348,6 @@
       "date_raw": "approx 2026-08-10"
     },
     {
-      "author_name": "Ciklum",
-      "author_title": "Official job listing",
-      "author_company": "Ciklum",
-      "post_date": "2026-08-10",
-      "post_url": "https://builtinlondon.uk/job/senior-account-manager/10277017",
-      "post_text_excerpt": "Senior Account Manager. Greater London, England, United Kingdom (LinkedIn: Hybrid). Built In: Remote United Kingdom. London HQ: 21-33 Great Eastern Street, FORA - Shoreditch, London EC2A 3EJ. (UK) LinkedIn UK search on 2026-08-17 showed 1 Ciklum job: Senior Account Manager, Greater London, Hybrid, Actively Hiring, 1…",
-      "roles": [
-        "Senior Account Manager"
-      ],
-      "location": "Greater London, England, United Kingdom (LinkedIn: Hybrid). Built In: Remote United Kingdom. London HQ: 21-33 Great Eastern Street, FORA - Shoreditch, London EC2A 3EJ.",
-      "experience": "Minimum 8 years client account and relationship management (consulting / IT services / digital engagements); Consumer vertical knowledge",
-      "apply_info": "Apply on Built In London or LinkedIn UK Ciklum jobs (only 1 UK listing). Also https://jobs.ciklum.com/offices/united-kingdom/",
-      "source_type": "job_listing",
-      "date_confidence": "medium",
-      "company_key": "ciklum",
-      "company_badge": "Ciklum",
-      "notes": "LinkedIn UK search on 2026-08-17 showed 1 Ciklum job: Senior Account Manager, Greater London, Hybrid, Actively Hiring, 1 week ago. Built In London listing is the same role, reposted 2 days ago. Full-time in the United Kingdom. Consumer vertical account growth / P&L.",
-      "date_raw": "approx 2026-08-10"
-    },
-    {
       "author_name": "Ciklum India",
       "author_title": "Official job listing",
       "author_company": "Ciklum India",
@@ -394,26 +405,6 @@
       "company_key": "ciklum",
       "company_badge": "Ciklum",
       "notes": "Seen on public LinkedIn search '41 Ciklum jobs in India' on 2026-08-17 as 1 week ago, Actively Hiring or early applicant. Individual job-view URL not exposed without login. Deduped by title+city; LinkedIn showed multiple cards for some AI/QA/Full Stack titles.",
-      "date_raw": "approx 2026-08-10"
-    },
-    {
-      "author_name": "Ciklum",
-      "author_title": "Official job listing (poster: Svitlana Lienta, Senior Talent Acquisition Consultant @ Ciklum)",
-      "author_company": "Ciklum",
-      "post_date": "2026-08-10",
-      "post_url": "https://www.linkedin.com/jobs/view/business-development-director-hi-tech-at-ciklum-4432976278",
-      "post_text_excerpt": "Business Development Director (Hi-Tech). United States (full-time; LinkedIn listed Remote among US Ciklum jobs) Seen 2026-08-17 as '1 week ago', 146 applicants. Description explicitly says full-time in the US / US Hi-Tech market.",
-      "roles": [
-        "Business Development Director (Hi-Tech)"
-      ],
-      "location": "United States (full-time; LinkedIn listed Remote among US Ciklum jobs)",
-      "experience": "7+ years enterprise services / digital engineering / consulting sales in the US Hi-Tech / SaaS market",
-      "apply_info": "Apply on LinkedIn job posting; job text: 'Submit your application.'",
-      "source_type": "job_listing",
-      "date_confidence": "medium",
-      "company_key": "ciklum",
-      "company_badge": "Ciklum",
-      "notes": "Seen 2026-08-17 as '1 week ago', 146 applicants. Description explicitly says full-time in the US / US Hi-Tech market.",
       "date_raw": "approx 2026-08-10"
     },
     {
@@ -513,23 +504,44 @@
       "date_raw": "~2026-08-10 (1 week ago on 2026-08-17)"
     },
     {
+      "author_name": "Ciklum",
+      "author_title": "Official job listing",
+      "author_company": "Ciklum",
+      "post_date": "2026-08-10",
+      "post_url": "https://builtinlondon.uk/job/senior-account-manager/10277017",
+      "post_text_excerpt": "Senior Account Manager. Greater London, England, United Kingdom (LinkedIn: Hybrid). Built In: Remote United Kingdom. London HQ: 21-33 Great Eastern Street, FORA - Shoreditch, London EC2A 3EJ. (UK) LinkedIn UK search on 2026-08-17 showed 1 Ciklum job: Senior Account Manager, Greater London, Hybrid, Actively Hiring, 1…",
+      "roles": [
+        "Senior Account Manager"
+      ],
+      "location": "Greater London, England, United Kingdom (LinkedIn: Hybrid). Built In: Remote United Kingdom. London HQ: 21-33 Great Eastern Street, FORA - Shoreditch, London EC2A 3EJ.",
+      "experience": "Minimum 8 years client account and relationship management (consulting / IT services / digital engagements); Consumer vertical knowledge",
+      "apply_info": "Apply on Built In London or LinkedIn UK Ciklum jobs (only 1 UK listing). Also https://jobs.ciklum.com/offices/united-kingdom/",
+      "source_type": "job_listing",
+      "date_confidence": "medium",
+      "company_key": "ciklum",
+      "company_badge": "Ciklum",
+      "notes": "LinkedIn UK search on 2026-08-17 showed 1 Ciklum job: Senior Account Manager, Greater London, Hybrid, Actively Hiring, 1 week ago. Built In London listing is the same role, reposted 2 days ago. Full-time in the United Kingdom. Consumer vertical account growth / P&L.",
+      "date_raw": "approx 2026-08-10"
+    },
+    {
       "author_name": "Jayprakash Shakya (Jay)",
       "author_title": "Lead Software Engineer",
       "author_company": "Persistent Systems",
       "post_date": "2026-08-07",
       "post_url": "https://www.linkedin.com/posts/jayprakash-shakya-jay-08522912b_connections-salesforcejobs-salesforcedeveloper-activity-7491449498607464450-RWfG",
-      "post_text_excerpt": "Persistent Systems is hiring Salesforce Developers and Salesforce Tech Leads for Jaipur. Developer 2–5 years; Tech Lead 8+. Immediate joiners and candidates serving notice period preferred. Jaipur, Rajasthan only. DM CV plus total experience, relevant Salesforce experience, and notice period.",
+      "post_text_excerpt": "Persistent Systems is hiring Salesforce Developers and Salesforce Tech Leads for Jaipur",
       "roles": [
-        "Salesforce Developer (2–5 years)",
-        "Salesforce Tech Lead (8+ years)"
+        "Salesforce Developer",
+        "Salesforce Tech Lead"
       ],
-      "location": "Jaipur, Rajasthan only",
-      "experience": "Developer 2–5 years; Tech Lead 8+",
-      "apply_info": "DM CV plus total experience, relevant Salesforce experience, and notice period",
+      "location": "Jaipur, Rajasthan (only)",
+      "experience": "Salesforce Developer 2–5 years; Salesforce Tech Lead 8+ years",
+      "apply_info": "DM Jayprakash Shakya CV plus total experience, relevant Salesforce experience, and notice period",
       "source_type": "employee_post",
       "date_confidence": "high",
       "company_key": "persistent-systems",
-      "company_badge": "Persistent"
+      "company_badge": "Persistent",
+      "notes": "KEPT from prior scan. Re-checked 2026-08-18: LinkedIn relative age '1w'; activity 7491449498607464450 unix-ms timestamp 2026-08-07. Still inside window start 2026-07-19. Integrations (REST/SOAP), LWC, Apex, Sales/Service/Experience Cloud. Immediate joiners / serving notice preferred. Persistent employee referral post."
     },
     {
       "author_name": "Rabiya Basra",
@@ -570,6 +582,44 @@
       "notes": "LinkedIn post dated 2026-08-04. Page also showed relative '1w' on 2026-08-17. Email is @ciklum.com. WebSearch identified author as Talent Sourcing Specialist at Ciklum India (Chennai)."
     },
     {
+      "author_name": "Persistent Systems",
+      "author_title": "",
+      "author_company": "Persistent Systems",
+      "post_date": "2026-08-04",
+      "post_url": "https://in.linkedin.com/jobs/search/?keywords=%22Salesforce%20Automation%20QA%22%20Persistent&f_TPR=r2592000",
+      "post_text_excerpt": "Salesforce Automation QA Lead - AccelQ",
+      "roles": [
+        "Salesforce Automation QA Lead"
+      ],
+      "location": "Pune City, Maharashtra, India",
+      "experience": "Not listed on the public search card",
+      "apply_info": "LinkedIn Apply via Persistent Systems jobs (India listing; numeric job ID not exposed in public HTML)",
+      "source_type": "job_listing",
+      "date_confidence": "medium",
+      "company_key": "persistent-systems",
+      "company_badge": "Persistent",
+      "notes": "NEW. Verified 2026-08-18 on LinkedIn India jobs: employer Persistent Systems, 'Actively Hiring', relative age '2 weeks ago' (~2026-08-04). Salesforce-keyword QA lead (AccelQ). Same search also lists the non-lead AccelQ QA role."
+    },
+    {
+      "author_name": "Persistent Systems",
+      "author_title": "",
+      "author_company": "Persistent Systems",
+      "post_date": "2026-08-04",
+      "post_url": "https://in.linkedin.com/jobs/search/?keywords=%22Salesforce%20Automation%20QA%22%20Persistent&f_TPR=r2592000",
+      "post_text_excerpt": "Salesforce Automation QA - AccelQ",
+      "roles": [
+        "Salesforce Automation QA"
+      ],
+      "location": "Pune City, Maharashtra, India",
+      "experience": "Not listed on the public search card",
+      "apply_info": "LinkedIn Apply via Persistent Systems jobs (India listing; numeric job ID not exposed in public HTML)",
+      "source_type": "job_listing",
+      "date_confidence": "medium",
+      "company_key": "persistent-systems",
+      "company_badge": "Persistent",
+      "notes": "NEW. Verified 2026-08-18 on LinkedIn India jobs: employer Persistent Systems, 'Actively Hiring', relative age '2 weeks ago' (~2026-08-04). Salesforce-keyword QA role (AccelQ)."
+    },
+    {
       "author_name": "Samrudhi Pardhe",
       "author_title": "Senior Talent Acquisition Specialist",
       "author_company": "Ciklum",
@@ -593,25 +643,6 @@
       "author_title": "Senior Executive HR / TA, Acuity Analytics",
       "author_company": "Acuity Analytics",
       "post_date": "2026-08-03",
-      "post_url": "https://www.linkedin.com/posts/diksha-garg-1b0951115_hiring-cprogramming-dotnet-activity-7489962705756512256-kI_E",
-      "post_text_excerpt": "Lead Developer – C Programmer (Capital Markets) (7-10 years) Gurgaon / Pune / Bangalore, India TA post plus official Careers embed. C/C++, post-trade, regulatory reporting. Matches LinkedIn official job Technical Lead - C Programmer (Bengaluru, 1 week ago).",
-      "roles": [
-        "Lead Developer – C Programmer (Capital Markets) (7-10 years)"
-      ],
-      "location": "Gurgaon / Pune / Bangalore, India",
-      "experience": null,
-      "apply_info": "diksha.garg@acuityanalytics.com ; official apply https://lnkd.in/d4jY33_g",
-      "source_type": "employee_post",
-      "date_confidence": "high",
-      "company_key": "acuity-analytics",
-      "company_badge": "Acuity",
-      "notes": "TA post plus official Careers embed. C/C++, post-trade, regulatory reporting. Matches LinkedIn official job Technical Lead - C Programmer (Bengaluru, 1 week ago)."
-    },
-    {
-      "author_name": "Diksha Garg",
-      "author_title": "Senior Executive HR / TA, Acuity Analytics",
-      "author_company": "Acuity Analytics",
-      "post_date": "2026-08-03",
       "post_url": "https://www.linkedin.com/posts/diksha-garg-1b0951115_hiring-etltesting-dataqa-activity-7490016580488163329-jFRY",
       "post_text_excerpt": "Data QA Engineer / ETL Test Engineer (5-12 years) Pune, India Employee/TA post; also embeds the official Careers Data QA post. Capital Markets/Trading/Banking domain.",
       "roles": [
@@ -625,6 +656,25 @@
       "company_key": "acuity-analytics",
       "company_badge": "Acuity",
       "notes": "Employee/TA post; also embeds the official Careers Data QA post. Capital Markets/Trading/Banking domain."
+    },
+    {
+      "author_name": "Diksha Garg",
+      "author_title": "Senior Executive HR / TA, Acuity Analytics",
+      "author_company": "Acuity Analytics",
+      "post_date": "2026-08-03",
+      "post_url": "https://www.linkedin.com/posts/diksha-garg-1b0951115_hiring-cprogramming-dotnet-activity-7489962705756512256-kI_E",
+      "post_text_excerpt": "Lead Developer – C Programmer (Capital Markets) (7-10 years) Gurgaon / Pune / Bangalore, India TA post plus official Careers embed. C/C++, post-trade, regulatory reporting. Matches LinkedIn official job Technical Lead - C Programmer (Bengaluru, 1 week ago).",
+      "roles": [
+        "Lead Developer – C Programmer (Capital Markets) (7-10 years)"
+      ],
+      "location": "Gurgaon / Pune / Bangalore, India",
+      "experience": null,
+      "apply_info": "diksha.garg@acuityanalytics.com ; official apply https://lnkd.in/d4jY33_g",
+      "source_type": "employee_post",
+      "date_confidence": "high",
+      "company_key": "acuity-analytics",
+      "company_badge": "Acuity",
+      "notes": "TA post plus official Careers embed. C/C++, post-trade, regulatory reporting. Matches LinkedIn official job Technical Lead - C Programmer (Bengaluru, 1 week ago)."
     },
     {
       "author_name": "Careers at Acuity Analytics",
@@ -927,6 +977,44 @@
       "notes": "In-window official India listing. Keyword match on Salesforce.com and ServiceMax. Not a dedicated Salesforce developer/architect requisition — primary stack is Worksoft test automation across S/4 HANA plus Salesforce/ServiceMax."
     },
     {
+      "author_name": "Persistent Systems",
+      "author_title": "",
+      "author_company": "Persistent Systems",
+      "post_date": "2026-07-28",
+      "post_url": "https://www.linkedin.com/jobs/search/?keywords=%22Salesforce%20Technical%20Architect%22%20Persistent&geoId=102713980&f_TPR=r2592000",
+      "post_text_excerpt": "Salesforce Technical Architect",
+      "roles": [
+        "Salesforce Technical Architect"
+      ],
+      "location": "Pune City, Maharashtra, India",
+      "experience": "Not listed on the public search card",
+      "apply_info": "LinkedIn Apply via Persistent Systems jobs (India listing; numeric job ID not exposed in public HTML)",
+      "source_type": "job_listing",
+      "date_confidence": "medium",
+      "company_key": "persistent-systems",
+      "company_badge": "Persistent",
+      "notes": "NEW. Verified 2026-08-18 on LinkedIn India jobs: employer Persistent Systems, 'Actively Hiring', relative age '3 weeks ago' (~2026-07-28; 21–27 days still on/after 2026-07-19). Search URL is the live listing that returns this single Persistent result. Public crawl did not yield /jobs/view/{id}."
+    },
+    {
+      "author_name": "Persistent Systems",
+      "author_title": "",
+      "author_company": "Persistent Systems",
+      "post_date": "2026-07-28",
+      "post_url": "https://in.linkedin.com/jobs/search/?keywords=%22Senior%20Salesforce%20Voice%22%20Persistent",
+      "post_text_excerpt": "Senior Salesforce Voice & Amazon Connect Engineer",
+      "roles": [
+        "Senior Salesforce Voice & Amazon Connect Engineer"
+      ],
+      "location": "Pune City, Maharashtra, India",
+      "experience": "Not listed on the public search card",
+      "apply_info": "LinkedIn Apply via Persistent Systems jobs (India listing; numeric job ID not exposed in public HTML)",
+      "source_type": "job_listing",
+      "date_confidence": "medium",
+      "company_key": "persistent-systems",
+      "company_badge": "Persistent",
+      "notes": "NEW. Verified 2026-08-18 on LinkedIn India jobs: employer Persistent Systems, 'Actively Hiring', relative age '3 weeks ago' (~2026-07-28). Salesforce-keyword role (Service Cloud Voice / Amazon Connect). Search URL returns this single Persistent result."
+    },
+    {
       "author_name": "Randstad India (official jobs portal)",
       "author_title": "Official jobs portal",
       "author_company": "Randstad",
@@ -1031,9 +1119,9 @@
       "id": "30d",
       "days": 30,
       "label": "30 days",
-      "start": "2026-07-18",
-      "end": "2026-08-17",
-      "range_label": "July 18–Aug 17, 2026",
+      "start": "2026-07-19",
+      "end": "2026-08-18",
+      "range_label": "July 19–Aug 18, 2026",
       "employee_posts": [
         {
           "author_name": "Vaibhav Chaubey",
@@ -1041,20 +1129,40 @@
           "author_company": "Persistent Systems",
           "post_date": "2026-08-17",
           "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7494997280228261888/",
-          "post_text_excerpt": "Persistent Systems is Hiring – Multiple Salesforce Roles. 2+ years. Immediate joiners to 30 days. Multiple locations. DM updated CV/resume to Vaibhav Chaubey.",
+          "post_text_excerpt": "Persistent Systems is Hiring – Multiple Salesforce Roles",
           "roles": [
-            "Salesforce Development",
+            "Salesforce Developer",
             "Service Cloud",
             "Life Sciences Cloud",
             "Salesforce Administration"
           ],
           "location": "Multiple locations",
           "experience": "2+ years",
-          "apply_info": "DM updated CV/resume to Vaibhav Chaubey",
+          "apply_info": "DM updated CV/resume to Vaibhav Chaubey on LinkedIn",
           "source_type": "employee_post",
           "date_confidence": "high",
           "company_key": "persistent-systems",
-          "company_badge": "Persistent"
+          "company_badge": "Persistent",
+          "notes": "KEPT from prior scan. Re-checked 2026-08-18: LinkedIn relative age '1d'; activity 7494997280228261888 unix-ms timestamp 2026-08-17. Persistent employee, not agency. Notice period: immediate joiners to 30 days. No Aug 18 recrawl found a newer Vaibhav hiring post."
+        },
+        {
+          "author_name": "Nandhini N",
+          "author_title": "Senior Talent Acquisition Consultant",
+          "author_company": "Ciklum",
+          "post_date": "2026-08-11",
+          "post_url": "https://www.linkedin.com/posts/nandhininatrajan_hiring-ciklum-solutionarchitect-activity-7491389121446412290-IokH",
+          "post_text_excerpt": "Ciklum is hiring Solution Architect – .NET Full Stack in Chennai / Pune. 12+ years overall, 3+ years solution architecture. .NET Core/C#, Angular, Azure, AKS, microservices. Immediate joiners. Email nnat@ciklum.com.",
+          "roles": [
+            ".NET Full Stack Solution Architect"
+          ],
+          "location": "Chennai / Pune, India",
+          "experience": "12+ years (3+ years solution architecture)",
+          "apply_info": "DM Nandhini N or email nnat@ciklum.com",
+          "source_type": "employee_post",
+          "date_confidence": "medium",
+          "company_key": "ciklum",
+          "company_badge": "Ciklum",
+          "notes": "LinkedIn showed “1w” on 2026-08-18 → dated 2026-08-11. Current Ciklum TA (@ciklum.com). New vs Aug 17 board."
         },
         {
           "author_name": "Jayprakash Shakya (Jay)",
@@ -1062,18 +1170,19 @@
           "author_company": "Persistent Systems",
           "post_date": "2026-08-07",
           "post_url": "https://www.linkedin.com/posts/jayprakash-shakya-jay-08522912b_connections-salesforcejobs-salesforcedeveloper-activity-7491449498607464450-RWfG",
-          "post_text_excerpt": "Persistent Systems is hiring Salesforce Developers and Salesforce Tech Leads for Jaipur. Developer 2–5 years; Tech Lead 8+. Immediate joiners and candidates serving notice period preferred. Jaipur, Rajasthan only. DM CV plus total experience, relevant Salesforce experience, and notice period.",
+          "post_text_excerpt": "Persistent Systems is hiring Salesforce Developers and Salesforce Tech Leads for Jaipur",
           "roles": [
-            "Salesforce Developer (2–5 years)",
-            "Salesforce Tech Lead (8+ years)"
+            "Salesforce Developer",
+            "Salesforce Tech Lead"
           ],
-          "location": "Jaipur, Rajasthan only",
-          "experience": "Developer 2–5 years; Tech Lead 8+",
-          "apply_info": "DM CV plus total experience, relevant Salesforce experience, and notice period",
+          "location": "Jaipur, Rajasthan (only)",
+          "experience": "Salesforce Developer 2–5 years; Salesforce Tech Lead 8+ years",
+          "apply_info": "DM Jayprakash Shakya CV plus total experience, relevant Salesforce experience, and notice period",
           "source_type": "employee_post",
           "date_confidence": "high",
           "company_key": "persistent-systems",
-          "company_badge": "Persistent"
+          "company_badge": "Persistent",
+          "notes": "KEPT from prior scan. Re-checked 2026-08-18: LinkedIn relative age '1w'; activity 7491449498607464450 unix-ms timestamp 2026-08-07. Still inside window start 2026-07-19. Integrations (REST/SOAP), LWC, Apex, Sales/Service/Experience Cloud. Immediate joiners / serving notice preferred. Persistent employee referral post."
         },
         {
           "author_name": "Rabiya Basra",
@@ -1137,25 +1246,6 @@
           "author_title": "Senior Executive HR / TA, Acuity Analytics",
           "author_company": "Acuity Analytics",
           "post_date": "2026-08-03",
-          "post_url": "https://www.linkedin.com/posts/diksha-garg-1b0951115_hiring-cprogramming-dotnet-activity-7489962705756512256-kI_E",
-          "post_text_excerpt": "Lead Developer – C Programmer (Capital Markets) (7-10 years) Gurgaon / Pune / Bangalore, India TA post plus official Careers embed. C/C++, post-trade, regulatory reporting. Matches LinkedIn official job Technical Lead - C Programmer (Bengaluru, 1 week ago).",
-          "roles": [
-            "Lead Developer – C Programmer (Capital Markets) (7-10 years)"
-          ],
-          "location": "Gurgaon / Pune / Bangalore, India",
-          "experience": null,
-          "apply_info": "diksha.garg@acuityanalytics.com ; official apply https://lnkd.in/d4jY33_g",
-          "source_type": "employee_post",
-          "date_confidence": "high",
-          "company_key": "acuity-analytics",
-          "company_badge": "Acuity",
-          "notes": "TA post plus official Careers embed. C/C++, post-trade, regulatory reporting. Matches LinkedIn official job Technical Lead - C Programmer (Bengaluru, 1 week ago)."
-        },
-        {
-          "author_name": "Diksha Garg",
-          "author_title": "Senior Executive HR / TA, Acuity Analytics",
-          "author_company": "Acuity Analytics",
-          "post_date": "2026-08-03",
           "post_url": "https://www.linkedin.com/posts/diksha-garg-1b0951115_hiring-etltesting-dataqa-activity-7490016580488163329-jFRY",
           "post_text_excerpt": "Data QA Engineer / ETL Test Engineer (5-12 years) Pune, India Employee/TA post; also embeds the official Careers Data QA post. Capital Markets/Trading/Banking domain.",
           "roles": [
@@ -1169,6 +1259,25 @@
           "company_key": "acuity-analytics",
           "company_badge": "Acuity",
           "notes": "Employee/TA post; also embeds the official Careers Data QA post. Capital Markets/Trading/Banking domain."
+        },
+        {
+          "author_name": "Diksha Garg",
+          "author_title": "Senior Executive HR / TA, Acuity Analytics",
+          "author_company": "Acuity Analytics",
+          "post_date": "2026-08-03",
+          "post_url": "https://www.linkedin.com/posts/diksha-garg-1b0951115_hiring-cprogramming-dotnet-activity-7489962705756512256-kI_E",
+          "post_text_excerpt": "Lead Developer – C Programmer (Capital Markets) (7-10 years) Gurgaon / Pune / Bangalore, India TA post plus official Careers embed. C/C++, post-trade, regulatory reporting. Matches LinkedIn official job Technical Lead - C Programmer (Bengaluru, 1 week ago).",
+          "roles": [
+            "Lead Developer – C Programmer (Capital Markets) (7-10 years)"
+          ],
+          "location": "Gurgaon / Pune / Bangalore, India",
+          "experience": null,
+          "apply_info": "diksha.garg@acuityanalytics.com ; official apply https://lnkd.in/d4jY33_g",
+          "source_type": "employee_post",
+          "date_confidence": "high",
+          "company_key": "acuity-analytics",
+          "company_badge": "Acuity",
+          "notes": "TA post plus official Careers embed. C/C++, post-trade, regulatory reporting. Matches LinkedIn official job Technical Lead - C Programmer (Bengaluru, 1 week ago)."
         }
       ],
       "company_posts": [
@@ -1298,26 +1407,6 @@
         {
           "author_name": "Ciklum India",
           "author_title": "Official job listing",
-          "author_company": "Ciklum / Ciklum India",
-          "post_date": "2026-08-14",
-          "post_url": "https://www.bestkaam.com/job/principal-ai-lead-ciklum-india-chennai-4-8-years-632678",
-          "post_text_excerpt": "Principal AI Lead. Chennai, India Third-party aggregator of official Ciklum India text. Posted 3 days ago. Included because location is Chennai and recency is in window; treat apply-by date as unreliable.",
-          "roles": [
-            "Principal AI Lead"
-          ],
-          "location": "Chennai, India",
-          "experience": "4–8 years (aggregator card)",
-          "apply_info": "Aggregator listing of official Ciklum India req; apply via Ciklum careers / LinkedIn. Note: aggregator also showed an 'Apply by June 29, 2026' which may be stale metadata.",
-          "source_type": "job_listing",
-          "date_confidence": "high",
-          "company_key": "ciklum",
-          "company_badge": "Ciklum",
-          "notes": "Third-party aggregator of official Ciklum India text. Posted 3 days ago. Included because location is Chennai and recency is in window; treat apply-by date as unreliable.",
-          "date_raw": "approx 2026-08-14"
-        },
-        {
-          "author_name": "Ciklum India",
-          "author_title": "Official job listing",
           "author_company": "Ciklum India",
           "post_date": "2026-08-14",
           "post_url": "https://www.linkedin.com/jobs/search/?keywords=Ciklum&location=India",
@@ -1333,6 +1422,26 @@
           "company_key": "ciklum",
           "company_badge": "Ciklum",
           "notes": "Seen on public LinkedIn search '41 Ciklum jobs in India' on 2026-08-17 as 3 days ago, Actively Hiring or early applicant. Individual job-view URL not exposed without login. Deduped by title+city; LinkedIn showed multiple cards for some AI/QA/Full Stack titles.",
+          "date_raw": "approx 2026-08-14"
+        },
+        {
+          "author_name": "Ciklum India",
+          "author_title": "Official job listing",
+          "author_company": "Ciklum / Ciklum India",
+          "post_date": "2026-08-14",
+          "post_url": "https://www.bestkaam.com/job/principal-ai-lead-ciklum-india-chennai-4-8-years-632678",
+          "post_text_excerpt": "Principal AI Lead. Chennai, India Third-party aggregator of official Ciklum India text. Posted 3 days ago. Included because location is Chennai and recency is in window; treat apply-by date as unreliable.",
+          "roles": [
+            "Principal AI Lead"
+          ],
+          "location": "Chennai, India",
+          "experience": "4–8 years (aggregator card)",
+          "apply_info": "Aggregator listing of official Ciklum India req; apply via Ciklum careers / LinkedIn. Note: aggregator also showed an 'Apply by June 29, 2026' which may be stale metadata.",
+          "source_type": "job_listing",
+          "date_confidence": "high",
+          "company_key": "ciklum",
+          "company_badge": "Ciklum",
+          "notes": "Third-party aggregator of official Ciklum India text. Posted 3 days ago. Included because location is Chennai and recency is in window; treat apply-by date as unreliable.",
           "date_raw": "approx 2026-08-14"
         },
         {
@@ -1356,22 +1465,23 @@
           "date_raw": "approx 2026-08-13"
         },
         {
-          "author_name": "Rajarshi .",
-          "author_title": "Talent Acquisition (North America); Manager - Talent Acquisition (Salesforce BU)",
-          "author_company": "Persistent Systems",
+          "author_name": "Persistent Systems; job poster Rajarshi . (Talent Acquisition",
+          "author_title": "",
+          "author_company": "North America)",
           "post_date": "2026-08-12",
           "post_url": "https://www.linkedin.com/jobs/view/4452716173/",
-          "post_text_excerpt": "Salesforce Architect at Persistent Systems — Brentwood, TN. 12-15 years (job); 10+ years Salesforce with 4+ years as architect (requirements). Brentwood, TN. Apply on LinkedIn; DM job poster Rajarshi.",
+          "post_text_excerpt": "Salesforce Architect",
           "roles": [
             "Salesforce Architect"
           ],
           "location": "Brentwood, TN",
-          "experience": "12-15 years (job); 10+ years Salesforce with 4+ years as architect (requirements)",
-          "apply_info": "Apply on LinkedIn; DM job poster Rajarshi",
+          "experience": "12-15 years listed; 10+ years Salesforce with at least 4 years in an architect role",
+          "apply_info": "LinkedIn Apply on the job post; contact job poster Rajarshi (Talent Acquisition, North America)",
           "source_type": "job_listing",
           "date_confidence": "high",
           "company_key": "persistent-systems",
-          "company_badge": "Persistent"
+          "company_badge": "Persistent",
+          "notes": "KEPT from prior scan. Re-checked 2026-08-18: LinkedIn shows '6 days ago' (maps to 2026-08-12). Still the only US Salesforce-titled Persistent Systems job in LinkedIn past-month search. Hybrid; FTE/CTH. Sales/Service/Marketing/Experience Clouds."
         },
         {
           "author_name": "Ciklum",
@@ -1434,6 +1544,26 @@
           "date_raw": "approx 2026-08-11"
         },
         {
+          "author_name": "Ciklum",
+          "author_title": "Official job listing (poster: Svitlana Lienta, Senior Talent Acquisition Consultant @ Ciklum)",
+          "author_company": "Ciklum",
+          "post_date": "2026-08-10",
+          "post_url": "https://www.linkedin.com/jobs/view/business-development-director-hi-tech-at-ciklum-4432976278",
+          "post_text_excerpt": "Business Development Director (Hi-Tech). United States (full-time; LinkedIn listed Remote among US Ciklum jobs) Seen 2026-08-17 as '1 week ago', 146 applicants. Description explicitly says full-time in the US / US Hi-Tech market.",
+          "roles": [
+            "Business Development Director (Hi-Tech)"
+          ],
+          "location": "United States (full-time; LinkedIn listed Remote among US Ciklum jobs)",
+          "experience": "7+ years enterprise services / digital engineering / consulting sales in the US Hi-Tech / SaaS market",
+          "apply_info": "Apply on LinkedIn job posting; job text: 'Submit your application.'",
+          "source_type": "job_listing",
+          "date_confidence": "medium",
+          "company_key": "ciklum",
+          "company_badge": "Ciklum",
+          "notes": "Seen 2026-08-17 as '1 week ago', 146 applicants. Description explicitly says full-time in the US / US Hi-Tech market.",
+          "date_raw": "approx 2026-08-10"
+        },
+        {
           "author_name": "Ciklum India",
           "author_title": "Official job listing",
           "author_company": "Ciklum India",
@@ -1494,26 +1624,6 @@
           "date_raw": "approx 2026-08-10"
         },
         {
-          "author_name": "Ciklum",
-          "author_title": "Official job listing",
-          "author_company": "Ciklum",
-          "post_date": "2026-08-10",
-          "post_url": "https://builtinlondon.uk/job/senior-account-manager/10277017",
-          "post_text_excerpt": "Senior Account Manager. Greater London, England, United Kingdom (LinkedIn: Hybrid). Built In: Remote United Kingdom. London HQ: 21-33 Great Eastern Street, FORA - Shoreditch, London EC2A 3EJ. (UK) LinkedIn UK search on 2026-08-17 showed 1 Ciklum job: Senior Account Manager, Greater London, Hybrid, Actively Hiring, 1…",
-          "roles": [
-            "Senior Account Manager"
-          ],
-          "location": "Greater London, England, United Kingdom (LinkedIn: Hybrid). Built In: Remote United Kingdom. London HQ: 21-33 Great Eastern Street, FORA - Shoreditch, London EC2A 3EJ.",
-          "experience": "Minimum 8 years client account and relationship management (consulting / IT services / digital engagements); Consumer vertical knowledge",
-          "apply_info": "Apply on Built In London or LinkedIn UK Ciklum jobs (only 1 UK listing). Also https://jobs.ciklum.com/offices/united-kingdom/",
-          "source_type": "job_listing",
-          "date_confidence": "medium",
-          "company_key": "ciklum",
-          "company_badge": "Ciklum",
-          "notes": "LinkedIn UK search on 2026-08-17 showed 1 Ciklum job: Senior Account Manager, Greater London, Hybrid, Actively Hiring, 1 week ago. Built In London listing is the same role, reposted 2 days ago. Full-time in the United Kingdom. Consumer vertical account growth / P&L.",
-          "date_raw": "approx 2026-08-10"
-        },
-        {
           "author_name": "Ciklum India",
           "author_title": "Official job listing",
           "author_company": "Ciklum India",
@@ -1571,26 +1681,6 @@
           "company_key": "ciklum",
           "company_badge": "Ciklum",
           "notes": "Seen on public LinkedIn search '41 Ciklum jobs in India' on 2026-08-17 as 1 week ago, Actively Hiring or early applicant. Individual job-view URL not exposed without login. Deduped by title+city; LinkedIn showed multiple cards for some AI/QA/Full Stack titles.",
-          "date_raw": "approx 2026-08-10"
-        },
-        {
-          "author_name": "Ciklum",
-          "author_title": "Official job listing (poster: Svitlana Lienta, Senior Talent Acquisition Consultant @ Ciklum)",
-          "author_company": "Ciklum",
-          "post_date": "2026-08-10",
-          "post_url": "https://www.linkedin.com/jobs/view/business-development-director-hi-tech-at-ciklum-4432976278",
-          "post_text_excerpt": "Business Development Director (Hi-Tech). United States (full-time; LinkedIn listed Remote among US Ciklum jobs) Seen 2026-08-17 as '1 week ago', 146 applicants. Description explicitly says full-time in the US / US Hi-Tech market.",
-          "roles": [
-            "Business Development Director (Hi-Tech)"
-          ],
-          "location": "United States (full-time; LinkedIn listed Remote among US Ciklum jobs)",
-          "experience": "7+ years enterprise services / digital engineering / consulting sales in the US Hi-Tech / SaaS market",
-          "apply_info": "Apply on LinkedIn job posting; job text: 'Submit your application.'",
-          "source_type": "job_listing",
-          "date_confidence": "medium",
-          "company_key": "ciklum",
-          "company_badge": "Ciklum",
-          "notes": "Seen 2026-08-17 as '1 week ago', 146 applicants. Description explicitly says full-time in the US / US Hi-Tech market.",
           "date_raw": "approx 2026-08-10"
         },
         {
@@ -1688,6 +1778,64 @@
           "company_key": "acuity-analytics",
           "company_badge": "Acuity",
           "date_raw": "~2026-08-10 (1 week ago on 2026-08-17)"
+        },
+        {
+          "author_name": "Ciklum",
+          "author_title": "Official job listing",
+          "author_company": "Ciklum",
+          "post_date": "2026-08-10",
+          "post_url": "https://builtinlondon.uk/job/senior-account-manager/10277017",
+          "post_text_excerpt": "Senior Account Manager. Greater London, England, United Kingdom (LinkedIn: Hybrid). Built In: Remote United Kingdom. London HQ: 21-33 Great Eastern Street, FORA - Shoreditch, London EC2A 3EJ. (UK) LinkedIn UK search on 2026-08-17 showed 1 Ciklum job: Senior Account Manager, Greater London, Hybrid, Actively Hiring, 1…",
+          "roles": [
+            "Senior Account Manager"
+          ],
+          "location": "Greater London, England, United Kingdom (LinkedIn: Hybrid). Built In: Remote United Kingdom. London HQ: 21-33 Great Eastern Street, FORA - Shoreditch, London EC2A 3EJ.",
+          "experience": "Minimum 8 years client account and relationship management (consulting / IT services / digital engagements); Consumer vertical knowledge",
+          "apply_info": "Apply on Built In London or LinkedIn UK Ciklum jobs (only 1 UK listing). Also https://jobs.ciklum.com/offices/united-kingdom/",
+          "source_type": "job_listing",
+          "date_confidence": "medium",
+          "company_key": "ciklum",
+          "company_badge": "Ciklum",
+          "notes": "LinkedIn UK search on 2026-08-17 showed 1 Ciklum job: Senior Account Manager, Greater London, Hybrid, Actively Hiring, 1 week ago. Built In London listing is the same role, reposted 2 days ago. Full-time in the United Kingdom. Consumer vertical account growth / P&L.",
+          "date_raw": "approx 2026-08-10"
+        },
+        {
+          "author_name": "Persistent Systems",
+          "author_title": "",
+          "author_company": "Persistent Systems",
+          "post_date": "2026-08-04",
+          "post_url": "https://in.linkedin.com/jobs/search/?keywords=%22Salesforce%20Automation%20QA%22%20Persistent&f_TPR=r2592000",
+          "post_text_excerpt": "Salesforce Automation QA Lead - AccelQ",
+          "roles": [
+            "Salesforce Automation QA Lead"
+          ],
+          "location": "Pune City, Maharashtra, India",
+          "experience": "Not listed on the public search card",
+          "apply_info": "LinkedIn Apply via Persistent Systems jobs (India listing; numeric job ID not exposed in public HTML)",
+          "source_type": "job_listing",
+          "date_confidence": "medium",
+          "company_key": "persistent-systems",
+          "company_badge": "Persistent",
+          "notes": "NEW. Verified 2026-08-18 on LinkedIn India jobs: employer Persistent Systems, 'Actively Hiring', relative age '2 weeks ago' (~2026-08-04). Salesforce-keyword QA lead (AccelQ). Same search also lists the non-lead AccelQ QA role."
+        },
+        {
+          "author_name": "Persistent Systems",
+          "author_title": "",
+          "author_company": "Persistent Systems",
+          "post_date": "2026-08-04",
+          "post_url": "https://in.linkedin.com/jobs/search/?keywords=%22Salesforce%20Automation%20QA%22%20Persistent&f_TPR=r2592000",
+          "post_text_excerpt": "Salesforce Automation QA - AccelQ",
+          "roles": [
+            "Salesforce Automation QA"
+          ],
+          "location": "Pune City, Maharashtra, India",
+          "experience": "Not listed on the public search card",
+          "apply_info": "LinkedIn Apply via Persistent Systems jobs (India listing; numeric job ID not exposed in public HTML)",
+          "source_type": "job_listing",
+          "date_confidence": "medium",
+          "company_key": "persistent-systems",
+          "company_badge": "Persistent",
+          "notes": "NEW. Verified 2026-08-18 on LinkedIn India jobs: employer Persistent Systems, 'Actively Hiring', relative age '2 weeks ago' (~2026-08-04). Salesforce-keyword QA role (AccelQ)."
         },
         {
           "author_name": "Ciklum India",
@@ -1949,6 +2097,44 @@
           "notes": "In-window official India listing. Keyword match on Salesforce.com and ServiceMax. Not a dedicated Salesforce developer/architect requisition — primary stack is Worksoft test automation across S/4 HANA plus Salesforce/ServiceMax."
         },
         {
+          "author_name": "Persistent Systems",
+          "author_title": "",
+          "author_company": "Persistent Systems",
+          "post_date": "2026-07-28",
+          "post_url": "https://www.linkedin.com/jobs/search/?keywords=%22Salesforce%20Technical%20Architect%22%20Persistent&geoId=102713980&f_TPR=r2592000",
+          "post_text_excerpt": "Salesforce Technical Architect",
+          "roles": [
+            "Salesforce Technical Architect"
+          ],
+          "location": "Pune City, Maharashtra, India",
+          "experience": "Not listed on the public search card",
+          "apply_info": "LinkedIn Apply via Persistent Systems jobs (India listing; numeric job ID not exposed in public HTML)",
+          "source_type": "job_listing",
+          "date_confidence": "medium",
+          "company_key": "persistent-systems",
+          "company_badge": "Persistent",
+          "notes": "NEW. Verified 2026-08-18 on LinkedIn India jobs: employer Persistent Systems, 'Actively Hiring', relative age '3 weeks ago' (~2026-07-28; 21–27 days still on/after 2026-07-19). Search URL is the live listing that returns this single Persistent result. Public crawl did not yield /jobs/view/{id}."
+        },
+        {
+          "author_name": "Persistent Systems",
+          "author_title": "",
+          "author_company": "Persistent Systems",
+          "post_date": "2026-07-28",
+          "post_url": "https://in.linkedin.com/jobs/search/?keywords=%22Senior%20Salesforce%20Voice%22%20Persistent",
+          "post_text_excerpt": "Senior Salesforce Voice & Amazon Connect Engineer",
+          "roles": [
+            "Senior Salesforce Voice & Amazon Connect Engineer"
+          ],
+          "location": "Pune City, Maharashtra, India",
+          "experience": "Not listed on the public search card",
+          "apply_info": "LinkedIn Apply via Persistent Systems jobs (India listing; numeric job ID not exposed in public HTML)",
+          "source_type": "job_listing",
+          "date_confidence": "medium",
+          "company_key": "persistent-systems",
+          "company_badge": "Persistent",
+          "notes": "NEW. Verified 2026-08-18 on LinkedIn India jobs: employer Persistent Systems, 'Actively Hiring', relative age '3 weeks ago' (~2026-07-28). Salesforce-keyword role (Service Cloud Voice / Amazon Connect). Search URL returns this single Persistent result."
+        },
+        {
           "author_name": "Randstad India (official jobs portal)",
           "author_title": "Official jobs portal",
           "author_company": "Randstad",
@@ -2049,17 +2235,17 @@
         }
       ],
       "stats": {
-        "employee_posts": 7,
+        "employee_posts": 8,
         "company_posts": 2,
-        "official_listings": 42,
+        "official_listings": 46,
         "by_company": {
-          "persistent-systems": 3,
+          "persistent-systems": 7,
           "acuity-analytics": 10,
-          "ciklum": 36,
+          "ciklum": 37,
           "carrier": 1,
           "randstad": 1
         },
-        "total": 51
+        "total": 56
       }
     }
   }
