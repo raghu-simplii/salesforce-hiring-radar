@@ -21,8 +21,41 @@
         "Acuity Knowledge Partners"
       ],
       "linkedin": "https://www.linkedin.com/company/acuityanalytics",
-      "keyword": null,
-      "keyword_note": "any job",
+      "keyword": "IT",
+      "keyword_note": "IT / software engineering only — full stack, Salesforce, .NET, UI, C/C++, data engineering, QA/SDET, architects. No analyst or business roles.",
+      "role_include_examples": [
+        "full stack",
+        "Salesforce",
+        ".NET",
+        "developer",
+        "engineer (software)",
+        "architect",
+        "programmer",
+        "UI",
+        "QA",
+        "SDET",
+        "DevOps",
+        "Snowflake",
+        "ETL"
+      ],
+      "role_exclude": [
+        "analyst",
+        "business operations",
+        "fund accounting",
+        "credit",
+        "investment banking",
+        "loan operations",
+        "equity research",
+        "quant research",
+        "IFRS",
+        "compliance",
+        "petroleum",
+        "survey",
+        "presales",
+        "executive assistant",
+        "legal",
+        "cosec"
+      ],
       "location": "India"
     },
     {
