@@ -10,7 +10,9 @@
       "name": "Persistent Systems",
       "short": "Persistent",
       "aliases": [],
-      "linkedin": "https://www.linkedin.com/company/persistent-systems"
+      "linkedin": "https://www.linkedin.com/company/persistent-systems",
+      "keyword": "Salesforce",
+      "location": null
     },
     {
       "name": "Acuity Analytics",
@@ -18,7 +20,63 @@
       "aliases": [
         "Acuity Knowledge Partners"
       ],
-      "linkedin": "https://www.linkedin.com/company/acuityanalytics"
+      "linkedin": "https://www.linkedin.com/company/acuityanalytics",
+      "keyword": null,
+      "keyword_note": "any job",
+      "location": "India"
+    },
+    {
+      "name": "Ciklum",
+      "short": "Ciklum",
+      "aliases": [],
+      "linkedin": "https://www.linkedin.com/company/ciklum",
+      "keyword": null,
+      "keyword_note": "any job",
+      "locations": [
+        "United States",
+        "United Kingdom",
+        "India"
+      ]
+    },
+    {
+      "name": "Carrier",
+      "short": "Carrier",
+      "aliases": [
+        "Carrier Global",
+        "Carrier Corporation"
+      ],
+      "linkedin": "https://www.linkedin.com/company/carrier",
+      "keyword": "Salesforce ecosystem",
+      "keywords": [
+        "Salesforce",
+        "Service Cloud",
+        "Sales Cloud",
+        "Experience Cloud",
+        "Marketing Cloud",
+        "CPQ",
+        "Revenue Cloud",
+        "Agentforce",
+        "ServiceMax",
+        "SFDC",
+        "Service Max",
+        "Field Service"
+      ],
+      "location": "India",
+      "keyword_note": "Salesforce ecosystem including ServiceMax, Service Cloud, CPQ, Agentforce"
+    },
+    {
+      "name": "Randstad",
+      "short": "Randstad",
+      "aliases": [
+        "Randstad GDC",
+        "Randstad India",
+        "Randstad Sourceright"
+      ],
+      "linkedin": "https://www.linkedin.com/company/randstad",
+      "keyword": "Salesforce",
+      "location": "Bangalore",
+      "location_note": "Bangalore GDC only",
+      "keyword_note": "Salesforce only"
     }
   ]
 }
