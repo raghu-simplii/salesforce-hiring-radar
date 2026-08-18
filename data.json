@@ -1,12 +1,32 @@
 {
   "title": "Salesforce hiring radar",
   "prepared_for": "Raghu Seetharam",
-  "scanned_at": "2026-08-18T12:45:00-04:00",
-  "scanned_at_display": "Aug 18, 2026, 12:45 PM ET",
+  "scanned_at": "2026-08-18T12:46:00-04:00",
+  "scanned_at_display": "Aug 18, 2026, 12:46 PM ET",
   "end_date": "2026-08-18",
   "end_date_display": "Aug 18, 2026",
   "keyword": "Salesforce",
   "hits": [
+    {
+      "author_name": "Ciklum India",
+      "author_title": "Official job listing",
+      "author_company": "Ciklum India",
+      "post_date": "2026-08-18",
+      "post_url": "https://www.linkedin.com/jobs/search/?keywords=Ciklum&location=India",
+      "post_text_excerpt": "Senior Automation QA (JavaScript) Engineer. Chennai, Tamil Nadu, India Seen on public LinkedIn search '41 Ciklum jobs in India' on 2026-08-17 as 3 weeks ago, Actively Hiring or early applicant. Individual job-view URL not exposed without login. Deduped by title+city; LinkedIn showed multiple cards for some AI/QA/Full…",
+      "roles": [
+        "Senior Automation QA (JavaScript) Engineer"
+      ],
+      "location": "Chennai, Tamil Nadu, India",
+      "experience": "not published on public card",
+      "apply_info": "Apply via LinkedIn Ciklum / Ciklum India jobs. Official portal https://jobs.ciklum.com/offices/india/ and https://explore-jobs.ciklum.com/en/sites/ciklum-career/jobs (portal returned 403 to WebFetch).",
+      "source_type": "job_listing",
+      "date_confidence": "medium",
+      "company_key": "ciklum",
+      "company_badge": "Ciklum",
+      "notes": "Seen on public LinkedIn search '41 Ciklum jobs in India' on 2026-08-17 as 3 weeks ago, Actively Hiring or early applicant. Individual job-view URL not exposed without login. Deduped by title+city; LinkedIn showed multiple cards for some AI/QA/Full Stack titles. LinkedIn India past-24h card on 2026-08-18.",
+      "date_raw": "approx 2026-07-27"
+    },
     {
       "author_name": "Vaibhav Chaubey",
       "author_title": "Lead Software Engineer / Salesforce Developer",
@@ -130,26 +150,6 @@
       "date_raw": "approx 2026-08-14"
     },
     {
-      "author_name": "Ciklum India",
-      "author_title": "Official job listing",
-      "author_company": "Ciklum / Ciklum India",
-      "post_date": "2026-08-14",
-      "post_url": "https://www.bestkaam.com/job/principal-ai-lead-ciklum-india-chennai-4-8-years-632678",
-      "post_text_excerpt": "Principal AI Lead. Chennai, India Third-party aggregator of official Ciklum India text. Posted 3 days ago. Included because location is Chennai and recency is in window; treat apply-by date as unreliable.",
-      "roles": [
-        "Principal AI Lead"
-      ],
-      "location": "Chennai, India",
-      "experience": "4–8 years (aggregator card)",
-      "apply_info": "Aggregator listing of official Ciklum India req; apply via Ciklum careers / LinkedIn. Note: aggregator also showed an 'Apply by June 29, 2026' which may be stale metadata.",
-      "source_type": "job_listing",
-      "date_confidence": "high",
-      "company_key": "ciklum",
-      "company_badge": "Ciklum",
-      "notes": "Third-party aggregator of official Ciklum India text. Posted 3 days ago. Included because location is Chennai and recency is in window; treat apply-by date as unreliable.",
-      "date_raw": "approx 2026-08-14"
-    },
-    {
       "author_name": "Ciklum",
       "author_title": "Official job listing",
       "author_company": "Ciklum",
@@ -227,25 +227,6 @@
       "company_badge": "Ciklum",
       "notes": "Verified on public LinkedIn US search 2026-08-17: Actively Hiring, 5 days ago.",
       "date_raw": "approx 2026-08-12"
-    },
-    {
-      "author_name": "Nandhini N",
-      "author_title": "Senior Talent Acquisition Consultant",
-      "author_company": "Ciklum",
-      "post_date": "2026-08-11",
-      "post_url": "https://www.linkedin.com/posts/nandhininatrajan_hiring-ciklum-solutionarchitect-activity-7491389121446412290-IokH",
-      "post_text_excerpt": "Ciklum is hiring Solution Architect – .NET Full Stack in Chennai / Pune. 12+ years overall, 3+ years solution architecture. .NET Core/C#, Angular, Azure, AKS, microservices. Immediate joiners. Email nnat@ciklum.com.",
-      "roles": [
-        ".NET Full Stack Solution Architect"
-      ],
-      "location": "Chennai / Pune, India",
-      "experience": "12+ years (3+ years solution architecture)",
-      "apply_info": "DM Nandhini N or email nnat@ciklum.com",
-      "source_type": "employee_post",
-      "date_confidence": "medium",
-      "company_key": "ciklum",
-      "company_badge": "Ciklum",
-      "notes": "LinkedIn showed “1w” on 2026-08-18 → dated 2026-08-11. Current Ciklum TA (@ciklum.com). New vs Aug 17 board."
     },
     {
       "author_name": "Ciklum India",
@@ -524,6 +505,25 @@
       "date_raw": "approx 2026-08-10"
     },
     {
+      "author_name": "Nandhini N",
+      "author_title": "Senior Talent Acquisition Consultant",
+      "author_company": "Ciklum",
+      "post_date": "2026-08-07",
+      "post_url": "https://www.linkedin.com/posts/nandhininatrajan_hiring-ciklum-solutionarchitect-activity-7491389121446412290-IokH",
+      "post_text_excerpt": "Ciklum is hiring Solution Architect – .NET Full Stack in Chennai / Pune. 12+ years overall, 3+ years solution architecture. .NET Core/C#, Angular, Azure, AKS, microservices. Immediate joiners. Email nnat@ciklum.com.",
+      "roles": [
+        ".NET Full Stack Solution Architect"
+      ],
+      "location": "Chennai / Pune, India",
+      "experience": "12+ years (3+ years solution architecture)",
+      "apply_info": "DM Nandhini N or email nnat@ciklum.com",
+      "source_type": "employee_post",
+      "date_confidence": "high",
+      "company_key": "ciklum",
+      "company_badge": "Ciklum",
+      "notes": "LinkedIn activity dated 2026-08-07 (page showed 1w on 2026-08-18). Current Ciklum TA."
+    },
+    {
       "author_name": "Jayprakash Shakya (Jay)",
       "author_title": "Lead Software Engineer",
       "author_company": "Persistent Systems",
@@ -542,6 +542,44 @@
       "company_key": "persistent-systems",
       "company_badge": "Persistent",
       "notes": "KEPT from prior scan. Re-checked 2026-08-18: LinkedIn relative age '1w'; activity 7491449498607464450 unix-ms timestamp 2026-08-07. Still inside window start 2026-07-19. Integrations (REST/SOAP), LWC, Apex, Sales/Service/Experience Cloud. Immediate joiners / serving notice preferred. Persistent employee referral post."
+    },
+    {
+      "author_name": "Rishabh Dubey",
+      "author_title": "Lead Software Engineer",
+      "author_company": "Persistent Systems",
+      "post_date": "2026-08-04",
+      "post_url": "https://www.linkedin.com/search/results/content/?keywords=Persistent%20Systems%20Salesforce%20hiring&datePosted=%22past-month%22",
+      "post_text_excerpt": "Persistent Systems is hiring across multiple technology domains, including Senior Salesforce Voice & Amazon Connect Engineer (6–10 years, all Persistent locations), plus .NET, AI, PostgreSQL, SRE, and Embedded C. Offers referrals.",
+      "roles": [
+        "Senior Salesforce Voice & Amazon Connect Engineer"
+      ],
+      "location": "All Persistent locations",
+      "experience": "6–10 years (Salesforce Voice role)",
+      "apply_info": "Send resume, years of experience, and notice period; Rishabh can refer",
+      "source_type": "employee_post",
+      "date_confidence": "medium",
+      "company_key": "persistent-systems",
+      "company_badge": "Persistent",
+      "notes": "Seen in signed-in LinkedIn Past month search on 2026-08-18 (2w). Post permalink not in search DOM; search URL recorded. Salesforce Voice role is the qualifying title."
+    },
+    {
+      "author_name": "Hari Baskar",
+      "author_title": "Senior Talent Adviser, Ciklum India",
+      "author_company": "Ciklum",
+      "post_date": "2026-08-04",
+      "post_url": "https://www.linkedin.com/search/results/content/?keywords=Ciklum%20hiring&datePosted=%22past-month%22",
+      "post_text_excerpt": "Ciklum India is hiring Expert AI Engineer in Chennai. GenAI, LLMs, RAG, Python, LangChain, Azure AI/ML, vector DBs, Snowflake, Kubernetes. 10+ years, 0–30 day notice. Resume to harip@ciklum.com.",
+      "roles": [
+        "Expert AI Engineer"
+      ],
+      "location": "Chennai, India",
+      "experience": "10+ years",
+      "apply_info": "harip@ciklum.com",
+      "source_type": "employee_post",
+      "date_confidence": "medium",
+      "company_key": "ciklum",
+      "company_badge": "Ciklum",
+      "notes": "Seen in signed-in LinkedIn Past month search on 2026-08-18 (2w). Permalink not in search DOM. Location India confirmed. Raza Sohail .NET post omitted (location not stated)."
     },
     {
       "author_name": "Rabiya Basra",
@@ -1036,26 +1074,6 @@
       "gdc_note": "Listing is Bengaluru but does not name Randstad GDC/GCC. Portal labels it 'A client of Randstad India' (staffing for a client, not confirmed as an internal Bangalore GDC seat)."
     },
     {
-      "author_name": "Ciklum India",
-      "author_title": "Official job listing",
-      "author_company": "Ciklum India",
-      "post_date": "2026-07-27",
-      "post_url": "https://www.linkedin.com/jobs/search/?keywords=Ciklum&location=India",
-      "post_text_excerpt": "Senior Automation QA (JavaScript) Engineer. Chennai, Tamil Nadu, India Seen on public LinkedIn search '41 Ciklum jobs in India' on 2026-08-17 as 3 weeks ago, Actively Hiring or early applicant. Individual job-view URL not exposed without login. Deduped by title+city; LinkedIn showed multiple cards for some AI/QA/Full…",
-      "roles": [
-        "Senior Automation QA (JavaScript) Engineer"
-      ],
-      "location": "Chennai, Tamil Nadu, India",
-      "experience": "not published on public card",
-      "apply_info": "Apply via LinkedIn Ciklum / Ciklum India jobs. Official portal https://jobs.ciklum.com/offices/india/ and https://explore-jobs.ciklum.com/en/sites/ciklum-career/jobs (portal returned 403 to WebFetch).",
-      "source_type": "job_listing",
-      "date_confidence": "medium",
-      "company_key": "ciklum",
-      "company_badge": "Ciklum",
-      "notes": "Seen on public LinkedIn search '41 Ciklum jobs in India' on 2026-08-17 as 3 weeks ago, Actively Hiring or early applicant. Individual job-view URL not exposed without login. Deduped by title+city; LinkedIn showed multiple cards for some AI/QA/Full Stack titles.",
-      "date_raw": "approx 2026-07-27"
-    },
-    {
       "author_name": "Acuity Analytics",
       "author_title": "official LinkedIn job",
       "author_company": "Acuity Analytics",
@@ -1112,6 +1130,28 @@
       "company_key": "acuity-analytics",
       "company_badge": "Acuity",
       "date_raw": "~2026-07-27 (3 weeks ago on 2026-08-17)"
+    },
+    {
+      "author_name": "Pratik Kedar",
+      "author_title": "Salesforce QA Lead",
+      "author_company": "Persistent Systems",
+      "post_date": "2026-07-24",
+      "post_url": "https://www.linkedin.com/posts/pratik-kedar-83027a9b_hiring-salesforce-persistentsystems-activity-7486318830579908609-Xgmm",
+      "post_text_excerpt": "Persistent is hiring Salesforce Developer, Senior Developer, QA Lead, and Technical Lead. Pune and Nagpur. 5+ years. Immediate to 30 days notice. DM for referral.",
+      "roles": [
+        "Salesforce Developer",
+        "Senior Salesforce Developer",
+        "Salesforce QA Lead",
+        "Salesforce Technical Lead"
+      ],
+      "location": "Pune, Nagpur",
+      "experience": "5+ years",
+      "apply_info": "DM resume to Pratik Kedar on LinkedIn for referral",
+      "source_type": "employee_post",
+      "date_confidence": "high",
+      "company_key": "persistent-systems",
+      "company_badge": "Persistent",
+      "notes": "Persistent employee (Salesforce QA Lead). Found on 2026-08-18 refresh."
     }
   ],
   "windows": {
@@ -1149,7 +1189,7 @@
           "author_name": "Nandhini N",
           "author_title": "Senior Talent Acquisition Consultant",
           "author_company": "Ciklum",
-          "post_date": "2026-08-11",
+          "post_date": "2026-08-07",
           "post_url": "https://www.linkedin.com/posts/nandhininatrajan_hiring-ciklum-solutionarchitect-activity-7491389121446412290-IokH",
           "post_text_excerpt": "Ciklum is hiring Solution Architect – .NET Full Stack in Chennai / Pune. 12+ years overall, 3+ years solution architecture. .NET Core/C#, Angular, Azure, AKS, microservices. Immediate joiners. Email nnat@ciklum.com.",
           "roles": [
@@ -1159,10 +1199,10 @@
           "experience": "12+ years (3+ years solution architecture)",
           "apply_info": "DM Nandhini N or email nnat@ciklum.com",
           "source_type": "employee_post",
-          "date_confidence": "medium",
+          "date_confidence": "high",
           "company_key": "ciklum",
           "company_badge": "Ciklum",
-          "notes": "LinkedIn showed “1w” on 2026-08-18 → dated 2026-08-11. Current Ciklum TA (@ciklum.com). New vs Aug 17 board."
+          "notes": "LinkedIn activity dated 2026-08-07 (page showed 1w on 2026-08-18). Current Ciklum TA."
         },
         {
           "author_name": "Jayprakash Shakya (Jay)",
@@ -1183,6 +1223,44 @@
           "company_key": "persistent-systems",
           "company_badge": "Persistent",
           "notes": "KEPT from prior scan. Re-checked 2026-08-18: LinkedIn relative age '1w'; activity 7491449498607464450 unix-ms timestamp 2026-08-07. Still inside window start 2026-07-19. Integrations (REST/SOAP), LWC, Apex, Sales/Service/Experience Cloud. Immediate joiners / serving notice preferred. Persistent employee referral post."
+        },
+        {
+          "author_name": "Rishabh Dubey",
+          "author_title": "Lead Software Engineer",
+          "author_company": "Persistent Systems",
+          "post_date": "2026-08-04",
+          "post_url": "https://www.linkedin.com/search/results/content/?keywords=Persistent%20Systems%20Salesforce%20hiring&datePosted=%22past-month%22",
+          "post_text_excerpt": "Persistent Systems is hiring across multiple technology domains, including Senior Salesforce Voice & Amazon Connect Engineer (6–10 years, all Persistent locations), plus .NET, AI, PostgreSQL, SRE, and Embedded C. Offers referrals.",
+          "roles": [
+            "Senior Salesforce Voice & Amazon Connect Engineer"
+          ],
+          "location": "All Persistent locations",
+          "experience": "6–10 years (Salesforce Voice role)",
+          "apply_info": "Send resume, years of experience, and notice period; Rishabh can refer",
+          "source_type": "employee_post",
+          "date_confidence": "medium",
+          "company_key": "persistent-systems",
+          "company_badge": "Persistent",
+          "notes": "Seen in signed-in LinkedIn Past month search on 2026-08-18 (2w). Post permalink not in search DOM; search URL recorded. Salesforce Voice role is the qualifying title."
+        },
+        {
+          "author_name": "Hari Baskar",
+          "author_title": "Senior Talent Adviser, Ciklum India",
+          "author_company": "Ciklum",
+          "post_date": "2026-08-04",
+          "post_url": "https://www.linkedin.com/search/results/content/?keywords=Ciklum%20hiring&datePosted=%22past-month%22",
+          "post_text_excerpt": "Ciklum India is hiring Expert AI Engineer in Chennai. GenAI, LLMs, RAG, Python, LangChain, Azure AI/ML, vector DBs, Snowflake, Kubernetes. 10+ years, 0–30 day notice. Resume to harip@ciklum.com.",
+          "roles": [
+            "Expert AI Engineer"
+          ],
+          "location": "Chennai, India",
+          "experience": "10+ years",
+          "apply_info": "harip@ciklum.com",
+          "source_type": "employee_post",
+          "date_confidence": "medium",
+          "company_key": "ciklum",
+          "company_badge": "Ciklum",
+          "notes": "Seen in signed-in LinkedIn Past month search on 2026-08-18 (2w). Permalink not in search DOM. Location India confirmed. Raza Sohail .NET post omitted (location not stated)."
         },
         {
           "author_name": "Rabiya Basra",
@@ -1278,6 +1356,28 @@
           "company_key": "acuity-analytics",
           "company_badge": "Acuity",
           "notes": "TA post plus official Careers embed. C/C++, post-trade, regulatory reporting. Matches LinkedIn official job Technical Lead - C Programmer (Bengaluru, 1 week ago)."
+        },
+        {
+          "author_name": "Pratik Kedar",
+          "author_title": "Salesforce QA Lead",
+          "author_company": "Persistent Systems",
+          "post_date": "2026-07-24",
+          "post_url": "https://www.linkedin.com/posts/pratik-kedar-83027a9b_hiring-salesforce-persistentsystems-activity-7486318830579908609-Xgmm",
+          "post_text_excerpt": "Persistent is hiring Salesforce Developer, Senior Developer, QA Lead, and Technical Lead. Pune and Nagpur. 5+ years. Immediate to 30 days notice. DM for referral.",
+          "roles": [
+            "Salesforce Developer",
+            "Senior Salesforce Developer",
+            "Salesforce QA Lead",
+            "Salesforce Technical Lead"
+          ],
+          "location": "Pune, Nagpur",
+          "experience": "5+ years",
+          "apply_info": "DM resume to Pratik Kedar on LinkedIn for referral",
+          "source_type": "employee_post",
+          "date_confidence": "high",
+          "company_key": "persistent-systems",
+          "company_badge": "Persistent",
+          "notes": "Persistent employee (Salesforce QA Lead). Found on 2026-08-18 refresh."
         }
       ],
       "company_posts": [
@@ -1324,6 +1424,26 @@
         }
       ],
       "official_listings": [
+        {
+          "author_name": "Ciklum India",
+          "author_title": "Official job listing",
+          "author_company": "Ciklum India",
+          "post_date": "2026-08-18",
+          "post_url": "https://www.linkedin.com/jobs/search/?keywords=Ciklum&location=India",
+          "post_text_excerpt": "Senior Automation QA (JavaScript) Engineer. Chennai, Tamil Nadu, India Seen on public LinkedIn search '41 Ciklum jobs in India' on 2026-08-17 as 3 weeks ago, Actively Hiring or early applicant. Individual job-view URL not exposed without login. Deduped by title+city; LinkedIn showed multiple cards for some AI/QA/Full…",
+          "roles": [
+            "Senior Automation QA (JavaScript) Engineer"
+          ],
+          "location": "Chennai, Tamil Nadu, India",
+          "experience": "not published on public card",
+          "apply_info": "Apply via LinkedIn Ciklum / Ciklum India jobs. Official portal https://jobs.ciklum.com/offices/india/ and https://explore-jobs.ciklum.com/en/sites/ciklum-career/jobs (portal returned 403 to WebFetch).",
+          "source_type": "job_listing",
+          "date_confidence": "medium",
+          "company_key": "ciklum",
+          "company_badge": "Ciklum",
+          "notes": "Seen on public LinkedIn search '41 Ciklum jobs in India' on 2026-08-17 as 3 weeks ago, Actively Hiring or early applicant. Individual job-view URL not exposed without login. Deduped by title+city; LinkedIn showed multiple cards for some AI/QA/Full Stack titles. LinkedIn India past-24h card on 2026-08-18.",
+          "date_raw": "approx 2026-07-27"
+        },
         {
           "author_name": "Ciklum India",
           "author_title": "Official job listing",
@@ -1422,26 +1542,6 @@
           "company_key": "ciklum",
           "company_badge": "Ciklum",
           "notes": "Seen on public LinkedIn search '41 Ciklum jobs in India' on 2026-08-17 as 3 days ago, Actively Hiring or early applicant. Individual job-view URL not exposed without login. Deduped by title+city; LinkedIn showed multiple cards for some AI/QA/Full Stack titles.",
-          "date_raw": "approx 2026-08-14"
-        },
-        {
-          "author_name": "Ciklum India",
-          "author_title": "Official job listing",
-          "author_company": "Ciklum / Ciklum India",
-          "post_date": "2026-08-14",
-          "post_url": "https://www.bestkaam.com/job/principal-ai-lead-ciklum-india-chennai-4-8-years-632678",
-          "post_text_excerpt": "Principal AI Lead. Chennai, India Third-party aggregator of official Ciklum India text. Posted 3 days ago. Included because location is Chennai and recency is in window; treat apply-by date as unreliable.",
-          "roles": [
-            "Principal AI Lead"
-          ],
-          "location": "Chennai, India",
-          "experience": "4–8 years (aggregator card)",
-          "apply_info": "Aggregator listing of official Ciklum India req; apply via Ciklum careers / LinkedIn. Note: aggregator also showed an 'Apply by June 29, 2026' which may be stale metadata.",
-          "source_type": "job_listing",
-          "date_confidence": "high",
-          "company_key": "ciklum",
-          "company_badge": "Ciklum",
-          "notes": "Third-party aggregator of official Ciklum India text. Posted 3 days ago. Included because location is Chennai and recency is in window; treat apply-by date as unreliable.",
           "date_raw": "approx 2026-08-14"
         },
         {
@@ -2156,26 +2256,6 @@
           "gdc_note": "Listing is Bengaluru but does not name Randstad GDC/GCC. Portal labels it 'A client of Randstad India' (staffing for a client, not confirmed as an internal Bangalore GDC seat)."
         },
         {
-          "author_name": "Ciklum India",
-          "author_title": "Official job listing",
-          "author_company": "Ciklum India",
-          "post_date": "2026-07-27",
-          "post_url": "https://www.linkedin.com/jobs/search/?keywords=Ciklum&location=India",
-          "post_text_excerpt": "Senior Automation QA (JavaScript) Engineer. Chennai, Tamil Nadu, India Seen on public LinkedIn search '41 Ciklum jobs in India' on 2026-08-17 as 3 weeks ago, Actively Hiring or early applicant. Individual job-view URL not exposed without login. Deduped by title+city; LinkedIn showed multiple cards for some AI/QA/Full…",
-          "roles": [
-            "Senior Automation QA (JavaScript) Engineer"
-          ],
-          "location": "Chennai, Tamil Nadu, India",
-          "experience": "not published on public card",
-          "apply_info": "Apply via LinkedIn Ciklum / Ciklum India jobs. Official portal https://jobs.ciklum.com/offices/india/ and https://explore-jobs.ciklum.com/en/sites/ciklum-career/jobs (portal returned 403 to WebFetch).",
-          "source_type": "job_listing",
-          "date_confidence": "medium",
-          "company_key": "ciklum",
-          "company_badge": "Ciklum",
-          "notes": "Seen on public LinkedIn search '41 Ciklum jobs in India' on 2026-08-17 as 3 weeks ago, Actively Hiring or early applicant. Individual job-view URL not exposed without login. Deduped by title+city; LinkedIn showed multiple cards for some AI/QA/Full Stack titles.",
-          "date_raw": "approx 2026-07-27"
-        },
-        {
           "author_name": "Acuity Analytics",
           "author_title": "official LinkedIn job",
           "author_company": "Acuity Analytics",
@@ -2235,17 +2315,17 @@
         }
       ],
       "stats": {
-        "employee_posts": 8,
+        "employee_posts": 11,
         "company_posts": 2,
-        "official_listings": 46,
+        "official_listings": 45,
         "by_company": {
-          "persistent-systems": 7,
+          "persistent-systems": 9,
           "acuity-analytics": 10,
           "ciklum": 37,
           "carrier": 1,
           "randstad": 1
         },
-        "total": 56
+        "total": 58
       }
     }
   }
