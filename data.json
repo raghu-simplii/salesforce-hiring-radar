@@ -1,8 +1,8 @@
 {
   "title": "Salesforce hiring radar",
   "prepared_for": "Raghu Seetharam",
-  "scanned_at": "2026-08-18T12:48:00-04:00",
-  "scanned_at_display": "Aug 18, 2026, 12:48 PM ET",
+  "scanned_at": "2026-08-18T19:42:00-04:00",
+  "scanned_at_display": "Aug 18, 2026, 7:42 PM ET",
   "end_date": "2026-08-18",
   "end_date_display": "Aug 18, 2026",
   "keyword": "Salesforce",
@@ -292,6 +292,25 @@
       "company_badge": "Ciklum",
       "notes": "Verified on public LinkedIn US search 2026-08-17: Actively Hiring, 5 days ago.",
       "date_raw": "approx 2026-08-12"
+    },
+    {
+      "author_name": "Dentsu Creative / Merkle (Workday ATS syndicated via Built In)",
+      "author_title": "",
+      "author_company": "Merkle",
+      "post_date": "2026-08-12",
+      "post_url": "https://builtin.com/job/sf-data-cloud-consultant/10485705",
+      "post_text_excerpt": "SF Data Cloud consultant",
+      "roles": [
+        "Salesforce Data Cloud Consultant"
+      ],
+      "location": "Pune – Baner, Amar Madhuban Tech Park, Maharashtra, India; in-office",
+      "experience": "Senior; hands-on Data Cloud implementation/admin; Data Cloud Consultant cert preferred",
+      "apply_info": "https://builtin.com/job/sf-data-cloud-consultant/10485705 — listing was removed 2026-08-12 08:17 UTC. Official ATS was dentsuaegis.wd3.myworkdayjobs.com.",
+      "source_type": "job_listing",
+      "date_confidence": "medium",
+      "company_key": "merkle",
+      "company_badge": "Merkle",
+      "notes": "Original posted date not shown. Page states job was removed 2026-08-12 (inside window), so it was live during the window. Brand: Merkle, full-time permanent. Included because it is an official Merkle-branded India Salesforce Data Cloud req confirmed live in-window; not invented."
     },
     {
       "author_name": "Ciklum India",
@@ -626,6 +645,26 @@
       "company_badge": "Persistent"
     },
     {
+      "author_name": "dentsu / Merkle (Workday ATS syndicated via Built In)",
+      "author_title": "",
+      "author_company": "Merkle",
+      "post_date": "2026-08-07",
+      "post_url": "https://builtin.com/job/salesforce-commerce-cloud-sfcc-frontend-engineer/10576141",
+      "post_text_excerpt": "Salesforce Commerce Cloud (SFCC) Frontend Engineer",
+      "roles": [
+        "Salesforce Commerce Cloud (SFCC) Frontend Engineer",
+        "SFRA / B2C Commerce Developer"
+      ],
+      "location": "Pune – DGS India Indiqube Orchid (Industrial Estate, Kharadi listed on card), Maharashtra, India; in-office",
+      "experience": "5+ years frontend, at least 1 year SFCC B2C",
+      "apply_info": "https://builtin.com/job/salesforce-commerce-cloud-sfcc-frontend-engineer/10576141. Official ATS: dentsuaegis.wd3.myworkdayjobs.com.",
+      "source_type": "job_listing",
+      "date_confidence": "medium",
+      "company_key": "merkle",
+      "company_badge": "Merkle",
+      "notes": "Built In showed 'Posted 11 Days Ago' when fetched 2026-08-18 → inferred date 2026-08-07 (in window). Brand: Merkle, full-time permanent. SFRA, ISML, OCAPI/SCAPI, React/TypeScript."
+    },
+    {
       "author_name": "Rishabh Dubey",
       "author_title": "Lead Software Engineer",
       "author_company": "Persistent Systems",
@@ -789,6 +828,26 @@
       "date_confidence": "medium",
       "company_key": "persistent-systems",
       "company_badge": "Persistent"
+    },
+    {
+      "author_name": "Dentsu Creative / Merkle (Workday ATS syndicated via Built In)",
+      "author_title": "",
+      "author_company": "Merkle",
+      "post_date": "2026-08-04",
+      "post_url": "https://builtin.com/job/senior-salesforce-developer/9730758",
+      "post_text_excerpt": "Salesforce Commerce Cloud - Fullstack (Lead Front-End / SFRA)",
+      "roles": [
+        "Salesforce Commerce Cloud Fullstack",
+        "Lead Front-End Developer – SFCC/SFRA"
+      ],
+      "location": "Pune – DGS India Kharadi EON Free Zone, Maharashtra, India; in-office",
+      "experience": "Minimum 6 years frontend including at least 3 years SFCC/SFRA",
+      "apply_info": "https://builtin.com/job/senior-salesforce-developer/9730758. Official ATS: dentsuaegis.wd3.myworkdayjobs.com.",
+      "source_type": "job_listing",
+      "date_confidence": "medium",
+      "company_key": "merkle",
+      "company_badge": "Merkle",
+      "notes": "Built In showed 'Reposted 14 Days Ago' when fetched 2026-08-18 → inferred repost date 2026-08-04 (in window). Original first-post date unknown. Brand: Merkle, full-time permanent. Distinct from the 5+ yr SFCC Frontend Engineer req."
     },
     {
       "author_name": "Samrudhi Pardhe",
@@ -1025,6 +1084,128 @@
       "company_badge": "Ciklum",
       "notes": "Seen on public LinkedIn search '41 Ciklum jobs in India' on 2026-08-17 as 2 weeks ago, Actively Hiring or early applicant. Individual job-view URL not exposed without login. Deduped by title+city; LinkedIn showed multiple cards for some AI/QA/Full Stack titles. Card company name on LinkedIn search was Ciklum (not Ciklum India).",
       "date_raw": "approx 2026-08-03"
+    },
+    {
+      "author_name": "dentsu / Merkle (Workday ATS syndicated via Built In)",
+      "author_title": "",
+      "author_company": "Merkle",
+      "post_date": "2026-07-31",
+      "post_url": "https://builtin.com/job/sfdc-consultant/10486776",
+      "post_text_excerpt": "SFDC Consultant",
+      "roles": [
+        "SFDC Consultant",
+        "Salesforce Developer/Consultant",
+        "Sales Cloud",
+        "Service Cloud"
+      ],
+      "location": "Pune – Baner, Amar Madhuban Tech Park (listing also shows IT Park Talawade), Maharashtra, India; in-office",
+      "experience": "Mid level; hands-on Apex/LWC/Flow; PD I/II, Sales Cloud Consultant, Service Cloud Consultant preferred",
+      "apply_info": "https://builtin.com/job/sfdc-consultant/10486776 (source listing). Official ATS: dentsuaegis.wd3.myworkdayjobs.com. Duplicate aggregator: https://builtin.com/job/sfdc-consultant/10485704 (Dentsu Creative label, same Brand Merkle / Baner location).",
+      "source_type": "job_listing",
+      "date_confidence": "medium",
+      "company_key": "merkle",
+      "company_badge": "Merkle",
+      "notes": "Built In showed 'Posted 18 Days Ago' when fetched 2026-08-18 → inferred date 2026-07-31 (in window). JD explicitly Brand: Merkle, full-time permanent. Sales/Service Cloud, Data Cloud/MC integration, Agentforce as good-to-have. Exact Workday requisition ID not recovered from public HTML."
+    },
+    {
+      "author_name": "Sanju Leons",
+      "author_title": "Project Manager at Dentsu Global Services (Bengaluru); posting Merkle / DGS India roles",
+      "author_company": "Merkle",
+      "post_date": "2026-07-30",
+      "post_url": "https://www.linkedin.com/posts/sanju-leons-597355105_senior-software-engineer-activity-7488583180447432704-dtt8",
+      "post_text_excerpt": "We're Hiring: Senior Software Engineer – Salesforce Data Cloud & Marketing Cloud Personalization | Merkle (Dentsu Global Services)",
+      "roles": [
+        "Senior Software Engineer – Salesforce Data Cloud",
+        "Marketing Cloud Personalization (MCP)",
+        "Technical Lead – CDP Platforms"
+      ],
+      "location": "Bengaluru (Manyata N1 Block), Mumbai, New Delhi, Pune, India",
+      "experience": "5–9 years in Salesforce Data Cloud, MCP, or CDP; shift 12:00 PM–10:00 PM",
+      "apply_info": "dentsuaegis.wd3.myworkdayjobs.com (linked from post as Senior Software Engineer). Same req syndicated as official_job entries below.",
+      "source_type": "employee_post",
+      "date_confidence": "high",
+      "company_key": "merkle",
+      "company_badge": "Merkle",
+      "notes": "Verified LinkedIn post dated 2026-07-30. Data Cloud + Marketing Cloud Personalization / Interaction Studio / Journey Builder. Brand Merkle on matching official listings."
+    },
+    {
+      "author_name": "Sanju Leons",
+      "author_title": "Project Manager at Dentsu Global Services (Bengaluru); posting Merkle / DGS India roles",
+      "author_company": "Merkle",
+      "post_date": "2026-07-30",
+      "post_url": "https://www.linkedin.com/posts/sanju-leons-597355105_salesforce-commerce-cloud-developer-activity-7488579366420004864-u1cV",
+      "post_text_excerpt": "We're Hiring | Salesforce Commerce Cloud (SFCC) Developer | Merkle",
+      "roles": [
+        "Salesforce Commerce Cloud (SFCC) Developer",
+        "B2C Commerce Developer"
+      ],
+      "location": "Bengaluru (Manyata Tech Park), India",
+      "experience": "4+ years",
+      "apply_info": "dentsuaegis.wd3.myworkdayjobs.com (linked from post as Salesforce Commerce Cloud Developer)",
+      "source_type": "employee_post",
+      "date_confidence": "high",
+      "company_key": "merkle",
+      "company_badge": "Merkle",
+      "notes": "Verified LinkedIn post dated 2026-07-30. SFRA/SiteGenesis, OCAPI/SCAPI, ISML. Related earlier post of the same role on 2026-07-17 is outside the window (see excluded)."
+    },
+    {
+      "author_name": "Sanju Leons",
+      "author_title": "Project Manager at Dentsu Global Services (Bengaluru); posting Merkle / DGS India roles",
+      "author_company": "Merkle",
+      "post_date": "2026-07-30",
+      "post_url": "https://www.linkedin.com/posts/sanju-leons-597355105_salesforce-commerce-cloud-b2b-activity-7488578819402940416-Td_D",
+      "post_text_excerpt": "We're Hiring | Technical Lead – Salesforce B2B Commerce Cloud | Merkle",
+      "roles": [
+        "Technical Lead – Salesforce B2B Commerce Cloud"
+      ],
+      "location": "Pune (Kharadi EON Free Zone), India",
+      "experience": "7–10 years",
+      "apply_info": "dentsuaegis.wd3.myworkdayjobs.com (linked from post as Salesforce Commerce Cloud (B2B))",
+      "source_type": "employee_post",
+      "date_confidence": "high",
+      "company_key": "merkle",
+      "company_badge": "Merkle",
+      "notes": "Verified LinkedIn post dated 2026-07-30. B2B Commerce Cloud, LWC, Experience Cloud, Apex, Q2O, ERP integration, Agentforce Commerce mentioned."
+    },
+    {
+      "author_name": "Sanju Leons",
+      "author_title": "Project Manager at Dentsu Global Services (Bengaluru); posting Merkle / DGS India roles",
+      "author_company": "Merkle",
+      "post_date": "2026-07-30",
+      "post_url": "https://www.linkedin.com/posts/sanju-leons-597355105_salesforce-associate-architect-activity-7488576765204946944-BQv9",
+      "post_text_excerpt": "We're Hiring | Salesforce Associate Architect / Salesforce Tech Lead | Merkle",
+      "roles": [
+        "Salesforce Associate Architect",
+        "Salesforce Tech Lead"
+      ],
+      "location": "Pune (IndiQube Orchid), India",
+      "experience": "Not stated in post; senior architect/tech-lead level. Preferred certs: Sales Cloud Consultant, Service Cloud Consultant, Data Cloud Consultant, Data Architect, Agentforce Specialist",
+      "apply_info": "dentsuaegis.wd3.myworkdayjobs.com (linked from post as Salesforce Associate Architect). Same req also syndicated at https://simplify.jobs/p/f0c670db-5171-4e04-872b-a86250e362e0/Salesforce-Associate-Architect — Brand Merkle, DGS India - Pune - Indiqube Orchid, full-time permanent.",
+      "source_type": "employee_post",
+      "date_confidence": "high",
+      "company_key": "merkle",
+      "company_badge": "Merkle",
+      "notes": "Verified LinkedIn post dated 2026-07-30 (in window). Role covers Sales Cloud, Service Cloud, Data Cloud, Agentforce, Experience Cloud, Field Service, Marketing Cloud integration. Official JD on Simplify lists Brand: Merkle."
+    },
+    {
+      "author_name": "Sanju Leons",
+      "author_title": "Project Manager at Dentsu Global Services (Bengaluru); posting Merkle / DGS India roles",
+      "author_company": "Merkle",
+      "post_date": "2026-07-30",
+      "post_url": "https://www.linkedin.com/posts/sanju-leons-597355105_api-developer-salesforce-commerce-cloud-activity-7488579828582039552-lrSv",
+      "post_text_excerpt": "We're Hiring | API Developer – Salesforce Commerce Cloud (SFCC) | Merkle",
+      "roles": [
+        "API Developer – Salesforce Commerce Cloud",
+        "SFCC Integration / Headless Commerce Developer"
+      ],
+      "location": "Bengaluru (Manyata Tech Park), India",
+      "experience": "4+ years",
+      "apply_info": "dentsuaegis.wd3.myworkdayjobs.com (linked from post as API Developer - Salesforce Commerce Cloud)",
+      "source_type": "employee_post",
+      "date_confidence": "high",
+      "company_key": "merkle",
+      "company_badge": "Merkle",
+      "notes": "Verified LinkedIn post dated 2026-07-30. SCAPI/OCAPI, BFF, headless/API-first Commerce Cloud."
     },
     {
       "author_name": "Ciklum India",
@@ -1301,6 +1482,28 @@
       "notes": null
     },
     {
+      "author_name": "dentsu / Merkle (Workday ATS syndicated via Built In Mumbai)",
+      "author_title": "",
+      "author_company": "Merkle",
+      "post_date": "2026-07-27",
+      "post_url": "https://builtinmumbai.in/job/senior-software-engineer/10021528",
+      "post_text_excerpt": "Senior Software Engineer / Technical Lead – CDP Platforms (Salesforce Data Cloud)",
+      "roles": [
+        "Senior Software Engineer",
+        "Technical Lead – CDP Platforms",
+        "Salesforce Data Cloud",
+        "Marketing Cloud Personalization"
+      ],
+      "location": "Posted against Mumbai; JD location DGS India - Bengaluru - Manyata N1 Block; also listed Bangalore/Pune/Mumbai/Gurugram on other syndications",
+      "experience": "5 to 9 years; shift 12 PM–10 PM",
+      "apply_info": "https://builtinmumbai.in/job/senior-software-engineer/10021528. Also https://adtechtalent.com/jobs/technical-lead-6 (Merkle, Bengaluru, shown ~8 days ago as of retrieve). Official ATS: dentsuaegis.wd3.myworkdayjobs.com.",
+      "source_type": "job_listing",
+      "date_confidence": "medium",
+      "company_key": "merkle",
+      "company_badge": "Merkle",
+      "notes": "Built In showed 'Reposted 22 Days Ago' when fetched 2026-08-18 → inferred repost date 2026-07-27 (in window). Original first-post date unknown. Matches Sanju Leons 2026-07-30 employee post. Brand: Merkle, full-time permanent. AdTechTalent listing dated ~2026-08-10 is the same req."
+    },
+    {
       "author_name": "Pratik Kedar",
       "author_title": "Salesforce QA Lead",
       "author_company": "Persistent Systems",
@@ -1503,6 +1706,106 @@
           "company_key": "acuity-analytics",
           "company_badge": "Acuity",
           "notes": "TA post plus official Careers embed. C/C++, post-trade, regulatory reporting. Matches LinkedIn official job Technical Lead - C Programmer (Bengaluru, 1 week ago)."
+        },
+        {
+          "author_name": "Sanju Leons",
+          "author_title": "Project Manager at Dentsu Global Services (Bengaluru); posting Merkle / DGS India roles",
+          "author_company": "Merkle",
+          "post_date": "2026-07-30",
+          "post_url": "https://www.linkedin.com/posts/sanju-leons-597355105_senior-software-engineer-activity-7488583180447432704-dtt8",
+          "post_text_excerpt": "We're Hiring: Senior Software Engineer – Salesforce Data Cloud & Marketing Cloud Personalization | Merkle (Dentsu Global Services)",
+          "roles": [
+            "Senior Software Engineer – Salesforce Data Cloud",
+            "Marketing Cloud Personalization (MCP)",
+            "Technical Lead – CDP Platforms"
+          ],
+          "location": "Bengaluru (Manyata N1 Block), Mumbai, New Delhi, Pune, India",
+          "experience": "5–9 years in Salesforce Data Cloud, MCP, or CDP; shift 12:00 PM–10:00 PM",
+          "apply_info": "dentsuaegis.wd3.myworkdayjobs.com (linked from post as Senior Software Engineer). Same req syndicated as official_job entries below.",
+          "source_type": "employee_post",
+          "date_confidence": "high",
+          "company_key": "merkle",
+          "company_badge": "Merkle",
+          "notes": "Verified LinkedIn post dated 2026-07-30. Data Cloud + Marketing Cloud Personalization / Interaction Studio / Journey Builder. Brand Merkle on matching official listings."
+        },
+        {
+          "author_name": "Sanju Leons",
+          "author_title": "Project Manager at Dentsu Global Services (Bengaluru); posting Merkle / DGS India roles",
+          "author_company": "Merkle",
+          "post_date": "2026-07-30",
+          "post_url": "https://www.linkedin.com/posts/sanju-leons-597355105_salesforce-commerce-cloud-developer-activity-7488579366420004864-u1cV",
+          "post_text_excerpt": "We're Hiring | Salesforce Commerce Cloud (SFCC) Developer | Merkle",
+          "roles": [
+            "Salesforce Commerce Cloud (SFCC) Developer",
+            "B2C Commerce Developer"
+          ],
+          "location": "Bengaluru (Manyata Tech Park), India",
+          "experience": "4+ years",
+          "apply_info": "dentsuaegis.wd3.myworkdayjobs.com (linked from post as Salesforce Commerce Cloud Developer)",
+          "source_type": "employee_post",
+          "date_confidence": "high",
+          "company_key": "merkle",
+          "company_badge": "Merkle",
+          "notes": "Verified LinkedIn post dated 2026-07-30. SFRA/SiteGenesis, OCAPI/SCAPI, ISML. Related earlier post of the same role on 2026-07-17 is outside the window (see excluded)."
+        },
+        {
+          "author_name": "Sanju Leons",
+          "author_title": "Project Manager at Dentsu Global Services (Bengaluru); posting Merkle / DGS India roles",
+          "author_company": "Merkle",
+          "post_date": "2026-07-30",
+          "post_url": "https://www.linkedin.com/posts/sanju-leons-597355105_salesforce-commerce-cloud-b2b-activity-7488578819402940416-Td_D",
+          "post_text_excerpt": "We're Hiring | Technical Lead – Salesforce B2B Commerce Cloud | Merkle",
+          "roles": [
+            "Technical Lead – Salesforce B2B Commerce Cloud"
+          ],
+          "location": "Pune (Kharadi EON Free Zone), India",
+          "experience": "7–10 years",
+          "apply_info": "dentsuaegis.wd3.myworkdayjobs.com (linked from post as Salesforce Commerce Cloud (B2B))",
+          "source_type": "employee_post",
+          "date_confidence": "high",
+          "company_key": "merkle",
+          "company_badge": "Merkle",
+          "notes": "Verified LinkedIn post dated 2026-07-30. B2B Commerce Cloud, LWC, Experience Cloud, Apex, Q2O, ERP integration, Agentforce Commerce mentioned."
+        },
+        {
+          "author_name": "Sanju Leons",
+          "author_title": "Project Manager at Dentsu Global Services (Bengaluru); posting Merkle / DGS India roles",
+          "author_company": "Merkle",
+          "post_date": "2026-07-30",
+          "post_url": "https://www.linkedin.com/posts/sanju-leons-597355105_salesforce-associate-architect-activity-7488576765204946944-BQv9",
+          "post_text_excerpt": "We're Hiring | Salesforce Associate Architect / Salesforce Tech Lead | Merkle",
+          "roles": [
+            "Salesforce Associate Architect",
+            "Salesforce Tech Lead"
+          ],
+          "location": "Pune (IndiQube Orchid), India",
+          "experience": "Not stated in post; senior architect/tech-lead level. Preferred certs: Sales Cloud Consultant, Service Cloud Consultant, Data Cloud Consultant, Data Architect, Agentforce Specialist",
+          "apply_info": "dentsuaegis.wd3.myworkdayjobs.com (linked from post as Salesforce Associate Architect). Same req also syndicated at https://simplify.jobs/p/f0c670db-5171-4e04-872b-a86250e362e0/Salesforce-Associate-Architect — Brand Merkle, DGS India - Pune - Indiqube Orchid, full-time permanent.",
+          "source_type": "employee_post",
+          "date_confidence": "high",
+          "company_key": "merkle",
+          "company_badge": "Merkle",
+          "notes": "Verified LinkedIn post dated 2026-07-30 (in window). Role covers Sales Cloud, Service Cloud, Data Cloud, Agentforce, Experience Cloud, Field Service, Marketing Cloud integration. Official JD on Simplify lists Brand: Merkle."
+        },
+        {
+          "author_name": "Sanju Leons",
+          "author_title": "Project Manager at Dentsu Global Services (Bengaluru); posting Merkle / DGS India roles",
+          "author_company": "Merkle",
+          "post_date": "2026-07-30",
+          "post_url": "https://www.linkedin.com/posts/sanju-leons-597355105_api-developer-salesforce-commerce-cloud-activity-7488579828582039552-lrSv",
+          "post_text_excerpt": "We're Hiring | API Developer – Salesforce Commerce Cloud (SFCC) | Merkle",
+          "roles": [
+            "API Developer – Salesforce Commerce Cloud",
+            "SFCC Integration / Headless Commerce Developer"
+          ],
+          "location": "Bengaluru (Manyata Tech Park), India",
+          "experience": "4+ years",
+          "apply_info": "dentsuaegis.wd3.myworkdayjobs.com (linked from post as API Developer - Salesforce Commerce Cloud)",
+          "source_type": "employee_post",
+          "date_confidence": "high",
+          "company_key": "merkle",
+          "company_badge": "Merkle",
+          "notes": "Verified LinkedIn post dated 2026-07-30. SCAPI/OCAPI, BFF, headless/API-first Commerce Cloud."
         },
         {
           "author_name": "Hari Baskar",
@@ -1842,6 +2145,25 @@
           "date_raw": "approx 2026-08-12"
         },
         {
+          "author_name": "Dentsu Creative / Merkle (Workday ATS syndicated via Built In)",
+          "author_title": "",
+          "author_company": "Merkle",
+          "post_date": "2026-08-12",
+          "post_url": "https://builtin.com/job/sf-data-cloud-consultant/10485705",
+          "post_text_excerpt": "SF Data Cloud consultant",
+          "roles": [
+            "Salesforce Data Cloud Consultant"
+          ],
+          "location": "Pune – Baner, Amar Madhuban Tech Park, Maharashtra, India; in-office",
+          "experience": "Senior; hands-on Data Cloud implementation/admin; Data Cloud Consultant cert preferred",
+          "apply_info": "https://builtin.com/job/sf-data-cloud-consultant/10485705 — listing was removed 2026-08-12 08:17 UTC. Official ATS was dentsuaegis.wd3.myworkdayjobs.com.",
+          "source_type": "job_listing",
+          "date_confidence": "medium",
+          "company_key": "merkle",
+          "company_badge": "Merkle",
+          "notes": "Original posted date not shown. Page states job was removed 2026-08-12 (inside window), so it was live during the window. Brand: Merkle, full-time permanent. Included because it is an official Merkle-branded India Salesforce Data Cloud req confirmed live in-window; not invented."
+        },
+        {
           "author_name": "Ciklum India",
           "author_title": "Official job listing",
           "author_company": "Ciklum India",
@@ -2136,6 +2458,26 @@
           "date_raw": "approx 2026-08-10"
         },
         {
+          "author_name": "dentsu / Merkle (Workday ATS syndicated via Built In)",
+          "author_title": "",
+          "author_company": "Merkle",
+          "post_date": "2026-08-07",
+          "post_url": "https://builtin.com/job/salesforce-commerce-cloud-sfcc-frontend-engineer/10576141",
+          "post_text_excerpt": "Salesforce Commerce Cloud (SFCC) Frontend Engineer",
+          "roles": [
+            "Salesforce Commerce Cloud (SFCC) Frontend Engineer",
+            "SFRA / B2C Commerce Developer"
+          ],
+          "location": "Pune – DGS India Indiqube Orchid (Industrial Estate, Kharadi listed on card), Maharashtra, India; in-office",
+          "experience": "5+ years frontend, at least 1 year SFCC B2C",
+          "apply_info": "https://builtin.com/job/salesforce-commerce-cloud-sfcc-frontend-engineer/10576141. Official ATS: dentsuaegis.wd3.myworkdayjobs.com.",
+          "source_type": "job_listing",
+          "date_confidence": "medium",
+          "company_key": "merkle",
+          "company_badge": "Merkle",
+          "notes": "Built In showed 'Posted 11 Days Ago' when fetched 2026-08-18 → inferred date 2026-08-07 (in window). Brand: Merkle, full-time permanent. SFRA, ISML, OCAPI/SCAPI, React/TypeScript."
+        },
+        {
           "author_name": "Acuity Analytics",
           "author_title": "",
           "author_company": "Acuity Analytics",
@@ -2242,6 +2584,26 @@
           "date_confidence": "medium",
           "company_key": "persistent-systems",
           "company_badge": "Persistent"
+        },
+        {
+          "author_name": "Dentsu Creative / Merkle (Workday ATS syndicated via Built In)",
+          "author_title": "",
+          "author_company": "Merkle",
+          "post_date": "2026-08-04",
+          "post_url": "https://builtin.com/job/senior-salesforce-developer/9730758",
+          "post_text_excerpt": "Salesforce Commerce Cloud - Fullstack (Lead Front-End / SFRA)",
+          "roles": [
+            "Salesforce Commerce Cloud Fullstack",
+            "Lead Front-End Developer – SFCC/SFRA"
+          ],
+          "location": "Pune – DGS India Kharadi EON Free Zone, Maharashtra, India; in-office",
+          "experience": "Minimum 6 years frontend including at least 3 years SFCC/SFRA",
+          "apply_info": "https://builtin.com/job/senior-salesforce-developer/9730758. Official ATS: dentsuaegis.wd3.myworkdayjobs.com.",
+          "source_type": "job_listing",
+          "date_confidence": "medium",
+          "company_key": "merkle",
+          "company_badge": "Merkle",
+          "notes": "Built In showed 'Reposted 14 Days Ago' when fetched 2026-08-18 → inferred repost date 2026-08-04 (in window). Original first-post date unknown. Brand: Merkle, full-time permanent. Distinct from the 5+ yr SFCC Frontend Engineer req."
         },
         {
           "author_name": "Ciklum India",
@@ -2402,6 +2764,28 @@
           "company_badge": "Ciklum",
           "notes": "Seen on public LinkedIn search '41 Ciklum jobs in India' on 2026-08-17 as 2 weeks ago, Actively Hiring or early applicant. Individual job-view URL not exposed without login. Deduped by title+city; LinkedIn showed multiple cards for some AI/QA/Full Stack titles. Card company name on LinkedIn search was Ciklum (not Ciklum India).",
           "date_raw": "approx 2026-08-03"
+        },
+        {
+          "author_name": "dentsu / Merkle (Workday ATS syndicated via Built In)",
+          "author_title": "",
+          "author_company": "Merkle",
+          "post_date": "2026-07-31",
+          "post_url": "https://builtin.com/job/sfdc-consultant/10486776",
+          "post_text_excerpt": "SFDC Consultant",
+          "roles": [
+            "SFDC Consultant",
+            "Salesforce Developer/Consultant",
+            "Sales Cloud",
+            "Service Cloud"
+          ],
+          "location": "Pune – Baner, Amar Madhuban Tech Park (listing also shows IT Park Talawade), Maharashtra, India; in-office",
+          "experience": "Mid level; hands-on Apex/LWC/Flow; PD I/II, Sales Cloud Consultant, Service Cloud Consultant preferred",
+          "apply_info": "https://builtin.com/job/sfdc-consultant/10486776 (source listing). Official ATS: dentsuaegis.wd3.myworkdayjobs.com. Duplicate aggregator: https://builtin.com/job/sfdc-consultant/10485704 (Dentsu Creative label, same Brand Merkle / Baner location).",
+          "source_type": "job_listing",
+          "date_confidence": "medium",
+          "company_key": "merkle",
+          "company_badge": "Merkle",
+          "notes": "Built In showed 'Posted 18 Days Ago' when fetched 2026-08-18 → inferred date 2026-07-31 (in window). JD explicitly Brand: Merkle, full-time permanent. Sales/Service Cloud, Data Cloud/MC integration, Agentforce as good-to-have. Exact Workday requisition ID not recovered from public HTML."
         },
         {
           "author_name": "Ciklum India",
@@ -2636,20 +3020,43 @@
           "company_key": "acuity-analytics",
           "company_badge": "Acuity",
           "notes": null
+        },
+        {
+          "author_name": "dentsu / Merkle (Workday ATS syndicated via Built In Mumbai)",
+          "author_title": "",
+          "author_company": "Merkle",
+          "post_date": "2026-07-27",
+          "post_url": "https://builtinmumbai.in/job/senior-software-engineer/10021528",
+          "post_text_excerpt": "Senior Software Engineer / Technical Lead – CDP Platforms (Salesforce Data Cloud)",
+          "roles": [
+            "Senior Software Engineer",
+            "Technical Lead – CDP Platforms",
+            "Salesforce Data Cloud",
+            "Marketing Cloud Personalization"
+          ],
+          "location": "Posted against Mumbai; JD location DGS India - Bengaluru - Manyata N1 Block; also listed Bangalore/Pune/Mumbai/Gurugram on other syndications",
+          "experience": "5 to 9 years; shift 12 PM–10 PM",
+          "apply_info": "https://builtinmumbai.in/job/senior-software-engineer/10021528. Also https://adtechtalent.com/jobs/technical-lead-6 (Merkle, Bengaluru, shown ~8 days ago as of retrieve). Official ATS: dentsuaegis.wd3.myworkdayjobs.com.",
+          "source_type": "job_listing",
+          "date_confidence": "medium",
+          "company_key": "merkle",
+          "company_badge": "Merkle",
+          "notes": "Built In showed 'Reposted 22 Days Ago' when fetched 2026-08-18 → inferred repost date 2026-07-27 (in window). Original first-post date unknown. Matches Sanju Leons 2026-07-30 employee post. Brand: Merkle, full-time permanent. AdTechTalent listing dated ~2026-08-10 is the same req."
         }
       ],
       "stats": {
-        "employee_posts": 11,
+        "employee_posts": 16,
         "company_posts": 2,
-        "official_listings": 54,
+        "official_listings": 59,
         "by_company": {
           "persistent-systems": 9,
           "acuity-analytics": 18,
           "ciklum": 38,
           "carrier": 1,
-          "randstad": 1
+          "randstad": 1,
+          "merkle": 10
         },
-        "total": 67
+        "total": 77
       }
     }
   }
