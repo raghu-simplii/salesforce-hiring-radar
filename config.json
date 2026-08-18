@@ -2,10 +2,9 @@
   "keyword": "Salesforce",
   "end_date": "today",
   "windows_days": [
-    7,
-    15
+    30
   ],
-  "default_window_days": 7,
+  "default_window_days": 30,
   "companies": [
     {
       "name": "Persistent Systems",

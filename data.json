@@ -1,26 +1,26 @@
 {
   "title": "Salesforce hiring radar",
   "prepared_for": "Raghu Seetharam",
-  "scanned_at": "2026-08-17T21:25:00-04:00",
-  "scanned_at_display": "Aug 17, 2026, 9:25 PM ET",
+  "scanned_at": "2026-08-17T21:45:00-04:00",
+  "scanned_at_display": "Aug 17, 2026, 9:45 PM ET",
   "end_date": "2026-08-17",
   "end_date_display": "Aug 17, 2026",
   "keyword": "Salesforce",
   "hits": [
     {
       "author_name": "Vaibhav Chaubey",
-      "author_title": "Salesforce Developer, 6X Certified, Agentforce Specialist",
+      "author_title": "Lead Software Engineer / Salesforce Developer",
       "author_company": "Persistent Systems",
       "post_date": "2026-08-17",
       "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7494997280228261888/",
-      "post_text_excerpt": "Persistent Systems is Hiring – Multiple Salesforce Roles. Development, Service Cloud, Life Sciences Cloud, and Salesforce Administration. Experience 2+ years. Notice period: immediate to 30 days. Location: Multiple locations. DM CV.",
+      "post_text_excerpt": "Persistent Systems is Hiring – Multiple Salesforce Roles. Development, Service Cloud, Life Sciences Cloud, Salesforce Administration. 2+ years. Immediate to 30 days notice. Multiple locations. DM CV.",
       "roles": [
         "Salesforce Developer",
         "Salesforce Administrator",
         "Service Cloud",
         "Life Sciences Cloud"
       ],
-      "location": "Multiple locations (India)",
+      "location": "Multiple locations",
       "experience": "2+ years",
       "apply_info": "DM Vaibhav Chaubey on LinkedIn with updated CV",
       "source_type": "employee_post",
@@ -30,46 +30,86 @@
     },
     {
       "author_name": "Persistent Systems",
+      "author_title": "posted via Rajarshi, Talent Acquisition (Salesforce BU)",
       "author_company": "Persistent Systems",
+      "post_date": "2026-08-12",
+      "post_url": "https://www.linkedin.com/jobs/view/4452716173/",
+      "post_text_excerpt": "Salesforce Architect at Persistent Systems, Brentwood, TN. 12–15 years. Official LinkedIn job.",
       "roles": [
         "Salesforce Architect"
       ],
       "location": "Brentwood, TN",
-      "post_date": "2026-08-12",
-      "post_url": "https://www.linkedin.com/jobs/view/4452716173/",
-      "post_text_excerpt": "Salesforce Architect at Persistent Systems, Brentwood, TN. Shown as posted 5 days ago on LinkedIn on Aug 17, 2026.",
+      "experience": "12–15 years",
+      "apply_info": "Apply on LinkedIn; DM Rajarshi",
       "source_type": "job_listing",
       "date_confidence": "high",
-      "notes": "From Persistent company jobs tab, \"5 days ago\" on Aug 17.",
+      "company_key": "persistent-systems",
+      "company_badge": "Persistent"
+    },
+    {
+      "author_name": "Jayprakash Shakya (Jay)",
+      "author_title": "Lead Software Engineer",
+      "author_company": "Persistent Systems",
+      "post_date": "2026-08-07",
+      "post_url": "https://www.linkedin.com/posts/jayprakash-shakya-jay-08522912b_connections-salesforcejobs-salesforcedeveloper-activity-7491449498607464450-RWfG",
+      "post_text_excerpt": "Persistent Systems is hiring Salesforce Developers (2–5 years) and Salesforce Tech Leads (8+) for Jaipur only. LWC, Apex, REST/SOAP, Sales/Service/Experience Cloud. Immediate joiners and notice-period candidates preferred. DM CV plus experience and notice period.",
+      "roles": [
+        "Salesforce Developer",
+        "Salesforce Tech Lead"
+      ],
+      "location": "Jaipur, Rajasthan",
+      "experience": "Developer 2–5 years; Tech Lead 8+",
+      "apply_info": "DM Jayprakash Shakya on LinkedIn with CV, experience, and notice period",
+      "source_type": "employee_post",
+      "date_confidence": "high",
       "company_key": "persistent-systems",
       "company_badge": "Persistent"
     }
   ],
   "windows": {
-    "7": {
-      "id": "7d",
-      "days": 7,
-      "label": "7 days",
-      "start": "2026-08-10",
+    "30": {
+      "id": "30d",
+      "days": 30,
+      "label": "30 days",
+      "start": "2026-07-18",
       "end": "2026-08-17",
-      "range_label": "Aug 10–17, 2026",
+      "range_label": "July 18–Aug 17, 2026",
       "employee_posts": [
         {
           "author_name": "Vaibhav Chaubey",
-          "author_title": "Salesforce Developer, 6X Certified, Agentforce Specialist",
+          "author_title": "Lead Software Engineer / Salesforce Developer",
           "author_company": "Persistent Systems",
           "post_date": "2026-08-17",
           "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7494997280228261888/",
-          "post_text_excerpt": "Persistent Systems is Hiring – Multiple Salesforce Roles. Development, Service Cloud, Life Sciences Cloud, and Salesforce Administration. Experience 2+ years. Notice period: immediate to 30 days. Location: Multiple locations. DM CV.",
+          "post_text_excerpt": "Persistent Systems is Hiring – Multiple Salesforce Roles. Development, Service Cloud, Life Sciences Cloud, Salesforce Administration. 2+ years. Immediate to 30 days notice. Multiple locations. DM CV.",
           "roles": [
             "Salesforce Developer",
             "Salesforce Administrator",
             "Service Cloud",
             "Life Sciences Cloud"
           ],
-          "location": "Multiple locations (India)",
+          "location": "Multiple locations",
           "experience": "2+ years",
           "apply_info": "DM Vaibhav Chaubey on LinkedIn with updated CV",
+          "source_type": "employee_post",
+          "date_confidence": "high",
+          "company_key": "persistent-systems",
+          "company_badge": "Persistent"
+        },
+        {
+          "author_name": "Jayprakash Shakya (Jay)",
+          "author_title": "Lead Software Engineer",
+          "author_company": "Persistent Systems",
+          "post_date": "2026-08-07",
+          "post_url": "https://www.linkedin.com/posts/jayprakash-shakya-jay-08522912b_connections-salesforcejobs-salesforcedeveloper-activity-7491449498607464450-RWfG",
+          "post_text_excerpt": "Persistent Systems is hiring Salesforce Developers (2–5 years) and Salesforce Tech Leads (8+) for Jaipur only. LWC, Apex, REST/SOAP, Sales/Service/Experience Cloud. Immediate joiners and notice-period candidates preferred. DM CV plus experience and notice period.",
+          "roles": [
+            "Salesforce Developer",
+            "Salesforce Tech Lead"
+          ],
+          "location": "Jaipur, Rajasthan",
+          "experience": "Developer 2–5 years; Tech Lead 8+",
+          "apply_info": "DM Jayprakash Shakya on LinkedIn with CV, experience, and notice period",
           "source_type": "employee_post",
           "date_confidence": "high",
           "company_key": "persistent-systems",
@@ -80,90 +120,32 @@
       "official_listings": [
         {
           "author_name": "Persistent Systems",
+          "author_title": "posted via Rajarshi, Talent Acquisition (Salesforce BU)",
           "author_company": "Persistent Systems",
+          "post_date": "2026-08-12",
+          "post_url": "https://www.linkedin.com/jobs/view/4452716173/",
+          "post_text_excerpt": "Salesforce Architect at Persistent Systems, Brentwood, TN. 12–15 years. Official LinkedIn job.",
           "roles": [
             "Salesforce Architect"
           ],
           "location": "Brentwood, TN",
-          "post_date": "2026-08-12",
-          "post_url": "https://www.linkedin.com/jobs/view/4452716173/",
-          "post_text_excerpt": "Salesforce Architect at Persistent Systems, Brentwood, TN. Shown as posted 5 days ago on LinkedIn on Aug 17, 2026.",
+          "experience": "12–15 years",
+          "apply_info": "Apply on LinkedIn; DM Rajarshi",
           "source_type": "job_listing",
           "date_confidence": "high",
-          "notes": "From Persistent company jobs tab, \"5 days ago\" on Aug 17.",
           "company_key": "persistent-systems",
           "company_badge": "Persistent"
         }
       ],
       "stats": {
-        "employee_posts": 1,
+        "employee_posts": 2,
         "company_posts": 0,
         "official_listings": 1,
         "by_company": {
-          "persistent-systems": 2,
+          "persistent-systems": 3,
           "acuity-analytics": 0
         },
-        "total": 2
-      }
-    },
-    "15": {
-      "id": "15d",
-      "days": 15,
-      "label": "15 days",
-      "start": "2026-08-02",
-      "end": "2026-08-17",
-      "range_label": "Aug 2–17, 2026",
-      "employee_posts": [
-        {
-          "author_name": "Vaibhav Chaubey",
-          "author_title": "Salesforce Developer, 6X Certified, Agentforce Specialist",
-          "author_company": "Persistent Systems",
-          "post_date": "2026-08-17",
-          "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7494997280228261888/",
-          "post_text_excerpt": "Persistent Systems is Hiring – Multiple Salesforce Roles. Development, Service Cloud, Life Sciences Cloud, and Salesforce Administration. Experience 2+ years. Notice period: immediate to 30 days. Location: Multiple locations. DM CV.",
-          "roles": [
-            "Salesforce Developer",
-            "Salesforce Administrator",
-            "Service Cloud",
-            "Life Sciences Cloud"
-          ],
-          "location": "Multiple locations (India)",
-          "experience": "2+ years",
-          "apply_info": "DM Vaibhav Chaubey on LinkedIn with updated CV",
-          "source_type": "employee_post",
-          "date_confidence": "high",
-          "company_key": "persistent-systems",
-          "company_badge": "Persistent"
-        }
-      ],
-      "company_posts": [],
-      "official_listings": [
-        {
-          "author_name": "Persistent Systems",
-          "author_company": "Persistent Systems",
-          "roles": [
-            "Salesforce Architect"
-          ],
-          "location": "Brentwood, TN",
-          "post_date": "2026-08-12",
-          "post_url": "https://www.linkedin.com/jobs/view/4452716173/",
-          "post_text_excerpt": "Salesforce Architect at Persistent Systems, Brentwood, TN. Shown as posted 5 days ago on LinkedIn on Aug 17, 2026.",
-          "source_type": "job_listing",
-          "date_confidence": "high",
-          "notes": "From Persistent company jobs tab, \"5 days ago\" on Aug 17.",
-          "company_key": "persistent-systems",
-          "company_badge": "Persistent"
-        }
-      ],
-      "stats": {
-        "employee_posts": 1,
-        "company_posts": 0,
-        "official_listings": 1,
-        "by_company": {
-          "persistent-systems": 2,
-          "acuity-analytics": 0
-        },
-        "total": 2
+        "total": 3
       }
     }
   }
