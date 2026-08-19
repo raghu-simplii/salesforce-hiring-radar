@@ -511,6 +511,7 @@ body[data-tab="staffing"] #configMatrix { display: none; }
         <input type="text" id="newCoName" placeholder="Company name" autocomplete="off" required />
         <input type="url" id="newCoWeb" placeholder="Website, e.g. https://www.tachyontech.com" required />
         <input type="text" id="newCoLoc" placeholder="Location (optional)" />
+        <input type="url" id="coSyncUrl" placeholder="Scan hook URL (Routines → Hiring radar watchlist sync, once)" autocomplete="off" />
         <label class="ck"><input type="checkbox" id="newCoSf" checked /> Salesforce</label>
         <label class="ck"><input type="checkbox" id="newCoNon" /> Non-Salesforce</label>
         <button type="submit" class="btn-add" id="coSaveBtn">Add company</button>
@@ -1915,6 +1916,18 @@ document.getElementById("searchBox").addEventListener("input", e => {
 
 loadCompanyConfig();
 applyKnownCompanies();
+(function () {
+  const el = document.getElementById("coSyncUrl");
+  if (!el) return;
+  const saved = localStorage.getItem("radar-watchlist-webhook") || CONFIG.watchlist_webhook || "";
+  if (saved) el.value = saved;
+  el.addEventListener("change", () => {
+    const v = (el.value || "").trim();
+    try { localStorage.setItem("radar-watchlist-webhook", v); } catch (e) {}
+    if (v) pushWatchlistToScan();
+  });
+})();
+
 const matrixCard = document.getElementById("configMatrix");
 const matrixToggle = document.getElementById("matrixToggle");
 if (matrixCard && localStorage.getItem("radar-watchlist-open") === "1") matrixCard.classList.add("open");
