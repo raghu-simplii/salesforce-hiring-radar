@@ -188,6 +188,67 @@
       "careers": "https://www.tachyontech.com/careers/",
       "website": "https://www.tachyontech.com",
       "key": "tachyon-technologies"
+    },
+    {
+      "name": "Liberty Personnel Services",
+      "short": "Liberty",
+      "aliases": [
+        "Liberty Personal Services",
+        "Liberty Personnel",
+        "Liberty Jobs"
+      ],
+      "linkedin": "https://www.linkedin.com/company/liberty-personnel-services-inc",
+      "keyword": "Salesforce",
+      "keyword_note": "Staffing firm. Include Salesforce / SFDC roles they are hiring for (client or internal). Flag as agency listings.",
+      "location": "United States",
+      "salesforce": true,
+      "non_salesforce": false,
+      "careers": "https://libertyjobs.com/",
+      "website": "https://libertyjobs.com",
+      "key": "liberty-personnel-services"
+    },
+    {
+      "name": "InfoVision",
+      "short": "InfoVision",
+      "aliases": [
+        "Infovision",
+        "InfoVision Inc"
+      ],
+      "linkedin": "https://www.linkedin.com/company/infovision",
+      "keyword": "Salesforce+other",
+      "keyword_note": "Salesforce plus official non-Salesforce careers. US and India.",
+      "locations": [
+        "United States",
+        "India"
+      ],
+      "salesforce": true,
+      "non_salesforce": true,
+      "careers": "https://www.infovision.com/careers/",
+      "website": "https://www.infovision.com",
+      "key": "infovision"
+    },
+    {
+      "name": "Lloyd's List Intelligence",
+      "short": "Lloyd List",
+      "aliases": [
+        "Lloyd List",
+        "Lloyds List",
+        "Lloyd's List",
+        "Lloyd's List Intelligence"
+      ],
+      "linkedin": "https://www.linkedin.com/company/lloyds-list-intelligence",
+      "keyword": "Salesforce+other",
+      "keyword_note": "Salesforce plus official careers. Maritime intelligence, London / global.",
+      "locations": [
+        "United Kingdom",
+        "United States",
+        "India"
+      ],
+      "salesforce": true,
+      "non_salesforce": true,
+      "careers": "https://www.lloydslistintelligence.com/careers",
+      "website": "https://www.lloydslistintelligence.com",
+      "key": "lloyds-list-intelligence"
     }
   ],
   "staffing_leads": {
