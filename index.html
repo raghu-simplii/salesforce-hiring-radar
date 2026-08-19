@@ -252,6 +252,13 @@ header.top {
 .jobs-click:hover { text-decoration: underline; }
 .card { cursor: pointer; }
 .card:hover { border-color: var(--coral); }
+.rep .linkish {
+  background: none; border: 0; padding: 0; margin: 0;
+  font: inherit; font-weight: 700; color: var(--coral);
+  cursor: pointer; text-decoration: underline; text-underline-offset: 2px;
+}
+.rep tbody tr:hover td { background: var(--track); }
+.rep td.num { font-variant-numeric: tabular-nums; }
 .seq .idx { font-size: 11px; letter-spacing: .14em; color: var(--faint); font-weight: 700; }
 .seq h3 { font-size: 20px; letter-spacing: -0.03em; margin: 4px 0 6px; color: var(--text-2); font-weight: 650; }
 .seq .rule { font-size: 12.5px; color: var(--muted); margin: 0 0 10px; }
@@ -569,10 +576,10 @@ body[data-tab="staffing"] #configMatrix { display: none; }
     <div id="trends"></div>
   </section>
 
-  <section class="block" data-view="overview">
+  <section class="block" data-view="overview companies">
     <p class="kicker">Reports</p>
     <h2>Company and role-family rollup</h2>
-    <p class="sub">Posts are employee + company. Role family is counted from role text on each hit.</p>
+    <p class="sub">Click a company, Posts, Listings, or Total to open those rows. Coral numbers are links.</p>
     <div id="reports"></div>
   </section>
 
@@ -1192,17 +1199,22 @@ function renderTrends(hits) {
 }
 
 function renderReports(hits) {
+  const box = document.getElementById("reports");
+  if (!box) return;
   const rows = companies().map(c => {
     const mine = hits.filter(h => h.company_key === c.key);
+    const posts = mine.filter(isPost).length;
+    const listings = mine.filter(isListing).length;
     let newest = "";
     mine.forEach(h => { if ((h.post_date || "") > newest) newest = h.post_date; });
     const rule = companyRule(c);
+    const key = esc(c.key);
     return (
       "<tr>" +
-        "<td>" + esc(c.name) + "</td>" +
-        '<td class="num">' + mine.filter(isPost).length + "</td>" +
-        '<td class="num">' + mine.filter(isListing).length + "</td>" +
-        '<td class="num">' + mine.length + "</td>" +
+        '<td><button type="button" class="linkish" data-open-co="' + key + '" data-open-src="all">' + esc(c.name) + "</button></td>" +
+        '<td class="num"><button type="button" class="linkish" data-open-co="' + key + '" data-open-src="employee">' + posts + "</button></td>" +
+        '<td class="num"><button type="button" class="linkish" data-open-co="' + key + '" data-open-src="listing">' + listings + "</button></td>" +
+        '<td class="num"><button type="button" class="linkish" data-open-co="' + key + '" data-open-src="all">' + mine.length + "</button></td>" +
         "<td>" + esc(newest ? formatDate(newest) : "—") + "</td>" +
         "<td>" + esc(rule.keyword) + "</td>" +
       "</tr>"
@@ -1215,11 +1227,18 @@ function renderReports(hits) {
   const famHtml = fams.map(f =>
     '<div class="fam"><div class="n">' + (famCount[f] || 0) + '</div><div class="l">' + esc(f) + "</div></div>"
   ).join("");
-  document.getElementById("reports").innerHTML =
+  box.innerHTML =
     '<div class="table-wrap"><table class="rep">' +
       "<thead><tr><th>Company</th><th>Posts</th><th>Listings</th><th>Total</th><th>Newest</th><th>Filter</th></tr></thead>" +
       "<tbody>" + rows + "</tbody></table></div>" +
     '<div class="fam-grid">' + famHtml + "</div>";
+  box.querySelectorAll("[data-open-co]").forEach(el => {
+    el.addEventListener("click", e => {
+      e.preventDefault();
+      e.stopPropagation();
+      openCompanyBoard(el.getAttribute("data-open-co"), el.getAttribute("data-open-src") || "all");
+    });
+  });
 }
 
 function renderFilters() {
