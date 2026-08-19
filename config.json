@@ -12,7 +12,10 @@
       "aliases": [],
       "linkedin": "https://www.linkedin.com/company/persistent-systems",
       "keyword": "Salesforce",
-      "location": null
+      "location": null,
+      "salesforce": true,
+      "non_salesforce": true,
+      "careers": "https://careers.persistent.com/"
     },
     {
       "name": "Acuity Analytics",
@@ -22,7 +25,7 @@
       ],
       "linkedin": "https://www.linkedin.com/company/acuityanalytics",
       "keyword": "IT",
-      "keyword_note": "IT / software engineering only \u2014 full stack, Salesforce, .NET, UI, C/C++, data engineering, QA/SDET, architects. No analyst or business roles.",
+      "keyword_note": "IT / software engineering only — full stack, Salesforce, .NET, UI, C/C++, data engineering, QA/SDET, architects. No analyst or business roles.",
       "role_include_examples": [
         "full stack",
         "Salesforce",
@@ -56,7 +59,10 @@
         "legal",
         "cosec"
       ],
-      "location": "India"
+      "location": "India",
+      "salesforce": true,
+      "non_salesforce": true,
+      "careers": "https://www.acuitykp.com/careers/"
     },
     {
       "name": "Ciklum",
@@ -69,7 +75,10 @@
         "United States",
         "United Kingdom",
         "India"
-      ]
+      ],
+      "salesforce": true,
+      "non_salesforce": true,
+      "careers": "https://www.ciklum.com/careers"
     },
     {
       "name": "Carrier",
@@ -95,7 +104,10 @@
         "Field Service"
       ],
       "location": "India",
-      "keyword_note": "Salesforce ecosystem including ServiceMax, Service Cloud, CPQ, Agentforce"
+      "keyword_note": "Salesforce ecosystem including ServiceMax, Service Cloud, CPQ, Agentforce",
+      "salesforce": true,
+      "non_salesforce": false,
+      "careers": "https://careers.carrier.com/"
     },
     {
       "name": "Randstad",
@@ -109,7 +121,10 @@
       "keyword": "Salesforce",
       "location": "Bangalore",
       "location_note": "Bangalore GDC only",
-      "keyword_note": "Salesforce only"
+      "keyword_note": "Salesforce only",
+      "salesforce": true,
+      "non_salesforce": false,
+      "careers": "https://www.randstad.in/jobs/"
     },
     {
       "name": "Merkle",
@@ -137,7 +152,23 @@
       ],
       "location": "India",
       "keyword_note": "Salesforce hiring or employee posts declaring Salesforce hiring. India only.",
-      "location_note": "India only"
+      "location_note": "India only",
+      "salesforce": true,
+      "non_salesforce": false,
+      "careers": "https://www.merkle.com/en/careers.html"
     }
-  ]
+  ],
+  "staffing_leads": {
+    "enabled": true,
+    "tab": "US Staffing Leads",
+    "geo": "US",
+    "company_size_prefer": 2000,
+    "company_size_cap": 5000,
+    "roles": "junior / admin-level Salesforce",
+    "sources": [
+      "linkedin",
+      "indeed",
+      "ziprecruiter"
+    ]
+  }
 }
