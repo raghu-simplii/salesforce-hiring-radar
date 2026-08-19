@@ -73,8 +73,8 @@
       "short": "Ciklum",
       "aliases": [],
       "linkedin": "https://www.linkedin.com/company/ciklum",
-      "keyword": null,
-      "keyword_note": "any job",
+      "keyword": "IT",
+      "keyword_note": "IT / software only. US / UK / India.",
       "locations": [
         "United States",
         "United Kingdom",
@@ -386,5 +386,7 @@
       "indeed",
       "ziprecruiter"
     ]
-  }
+  },
+  "it_only": true,
+  "role_note": "IT / software / Salesforce / data / cloud / QA only across every company. No sales, marketing, HR, finance, legal, warehouse, or other business roles."
 }
