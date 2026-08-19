@@ -249,6 +249,129 @@
       "careers": "https://www.lloydslistintelligence.com/careers",
       "website": "https://www.lloydslistintelligence.com",
       "key": "lloyds-list-intelligence"
+    },
+    {
+      "name": "Copeland",
+      "short": "Copeland",
+      "aliases": [
+        "Coplan",
+        "Copeland LP"
+      ],
+      "linkedin": "https://www.linkedin.com/company/copeland",
+      "keyword": "Salesforce+other",
+      "locations": [
+        "United States",
+        "India"
+      ],
+      "salesforce": true,
+      "non_salesforce": true,
+      "careers": "https://www.copeland.com/en-us/careers",
+      "website": "https://www.copeland.com",
+      "key": "copeland"
+    },
+    {
+      "name": "ORS Nasco",
+      "short": "ORS Nasco",
+      "aliases": [
+        "Ors Nasco",
+        "ORSNasco"
+      ],
+      "linkedin": "https://www.linkedin.com/company/ors-nasco",
+      "keyword": "Salesforce+other",
+      "location": "United States",
+      "salesforce": true,
+      "non_salesforce": true,
+      "careers": "https://www.orsnasco.com/",
+      "website": "https://www.orsnasco.com",
+      "key": "ors-nasco"
+    },
+    {
+      "name": "Zinnia",
+      "short": "Zinnia",
+      "aliases": [
+        "zinniatm",
+        "SE2",
+        "Zinnia Insurance"
+      ],
+      "linkedin": "https://www.linkedin.com/company/zinniatm",
+      "keyword": "Salesforce+other",
+      "location": "United States",
+      "salesforce": true,
+      "non_salesforce": true,
+      "careers": "https://www.zinnia.com/careers",
+      "website": "https://www.zinnia.com",
+      "key": "zinnia"
+    },
+    {
+      "name": "Syfter",
+      "short": "Syfter",
+      "aliases": [
+        "The Syfter Group"
+      ],
+      "linkedin": "https://www.linkedin.com/company/syfter",
+      "keyword": "Salesforce",
+      "keyword_note": "Staffing firm. Salesforce roles they post.",
+      "location": "United States",
+      "salesforce": true,
+      "non_salesforce": false,
+      "careers": "https://syfter.com/",
+      "website": "https://syfter.com",
+      "key": "syfter"
+    },
+    {
+      "name": "Mouri Tech",
+      "short": "Mouri Tech",
+      "aliases": [
+        "MOURI Tech",
+        "Mouritech"
+      ],
+      "linkedin": "https://www.linkedin.com/company/mouri-tech",
+      "keyword": "Salesforce",
+      "locations": [
+        "United States",
+        "India"
+      ],
+      "salesforce": true,
+      "non_salesforce": false,
+      "careers": "https://www.mouritech.com/careers/",
+      "website": "https://www.mouritech.com",
+      "key": "mouri-tech"
+    },
+    {
+      "name": "Marlabs",
+      "short": "Marlabs",
+      "aliases": [
+        "Marlabs Inc"
+      ],
+      "linkedin": "https://www.linkedin.com/company/marlabs",
+      "keyword": "Salesforce",
+      "locations": [
+        "United States",
+        "India"
+      ],
+      "salesforce": true,
+      "non_salesforce": false,
+      "careers": "https://www.marlabs.com/career",
+      "website": "https://www.marlabs.com",
+      "key": "marlabs"
+    },
+    {
+      "name": "Birlasoft",
+      "short": "Birlasoft",
+      "aliases": [
+        "Birla Soft"
+      ],
+      "linkedin": "https://www.linkedin.com/company/birlasoft",
+      "keyword": "Salesforce",
+      "locations": [
+        "United States",
+        "India"
+      ],
+      "salesforce": true,
+      "non_salesforce": false,
+      "careers": "https://www.birlasoft.com/company/careers",
+      "website": "https://www.birlasoft.com",
+      "key": "birlasoft"
     }
   ],
   "staffing_leads": {
