@@ -15,7 +15,9 @@
       "location": null,
       "salesforce": true,
       "non_salesforce": true,
-      "careers": "https://careers.persistent.com/"
+      "careers": "https://careers.persistent.com/",
+      "website": "https://www.persistent.com",
+      "key": "persistent-systems"
     },
     {
       "name": "Acuity Analytics",
@@ -62,7 +64,9 @@
       "location": "India",
       "salesforce": true,
       "non_salesforce": true,
-      "careers": "https://www.acuitykp.com/careers/"
+      "careers": "https://www.acuitykp.com/careers/",
+      "website": "https://www.acuitykp.com",
+      "key": "acuity-analytics"
     },
     {
       "name": "Ciklum",
@@ -78,7 +82,9 @@
       ],
       "salesforce": true,
       "non_salesforce": true,
-      "careers": "https://www.ciklum.com/careers"
+      "careers": "https://www.ciklum.com/careers",
+      "website": "https://www.ciklum.com",
+      "key": "ciklum"
     },
     {
       "name": "Carrier",
@@ -107,7 +113,9 @@
       "keyword_note": "Salesforce ecosystem including ServiceMax, Service Cloud, CPQ, Agentforce",
       "salesforce": true,
       "non_salesforce": false,
-      "careers": "https://careers.carrier.com/"
+      "careers": "https://careers.carrier.com/",
+      "website": "https://www.carrier.com",
+      "key": "carrier"
     },
     {
       "name": "Randstad",
@@ -124,7 +132,9 @@
       "keyword_note": "Salesforce only",
       "salesforce": true,
       "non_salesforce": false,
-      "careers": "https://www.randstad.in/jobs/"
+      "careers": "https://www.randstad.in/jobs/",
+      "website": "https://www.randstad.in",
+      "key": "randstad"
     },
     {
       "name": "Merkle",
@@ -155,7 +165,9 @@
       "location_note": "India only",
       "salesforce": true,
       "non_salesforce": false,
-      "careers": "https://www.merkle.com/en/careers.html"
+      "careers": "https://www.merkle.com/en/careers.html",
+      "website": "https://www.merkle.com",
+      "key": "merkle"
     }
   ],
   "staffing_leads": {
