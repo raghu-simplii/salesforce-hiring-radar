@@ -417,11 +417,19 @@ footer.foot p { font-size: 12.5px; color: var(--faint); margin: 0 0 6px; line-he
 .matrix-add input[type=text] { background: var(--track); border: 1px solid var(--line); border-radius: 12px; padding: 10px 12px; font: inherit; color: var(--text-2); min-width: 220px; }
 .btn-add { background: var(--hero); color: #fff; border: 0; border-radius: 12px; padding: 10px 16px; font: inherit; font-weight: 650; cursor: pointer; }
 .btn-ghost { background: transparent; border: 1px solid var(--line); border-radius: 999px; padding: 4px 10px; font: inherit; font-size: 12px; color: var(--muted); cursor: pointer; }
-body[data-tab="overview"] [data-view]:not([data-view="overview"]) { display: none; }
-body[data-tab="staffing"] [data-view]:not([data-view="staffing"]) { display: none; }
-body[data-tab="companies"] [data-view]:not([data-view="companies"]) { display: none; }
-body[data-tab="board"] [data-view]:not([data-view="board"]) { display: none; }
+body[data-tab="overview"] [data-view]:not([data-view~="overview"]) { display: none; }
+body[data-tab="staffing"] [data-view]:not([data-view~="staffing"]) { display: none; }
+body[data-tab="companies"] [data-view]:not([data-view~="companies"]) { display: none; }
+body[data-tab="board"] [data-view]:not([data-view~="board"]) { display: none; }
 body[data-tab="staffing"] #configMatrix { display: none; }
+.geo-bar { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px 18px; box-shadow: var(--shadow); margin: 22px 0 0; }
+.geo-bar .row-flex { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.geo-mix { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+.geo-pill { background: var(--track); border-radius: 999px; padding: 5px 10px; font-size: 12.5px; color: var(--text); }
+.geo-pill b { color: var(--coral); font-weight: 700; margin-left: 4px; }
+.geo-mini { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 0; }
+.geo-mini span { font-size: 11.5px; background: var(--track); border-radius: 999px; padding: 2px 8px; color: var(--muted); }
+.geo-mini span b { color: var(--text-2); }
 .lead-grid { display: grid; grid-template-columns: 1fr; gap: 10px; }
 .lead { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 16px; display: grid; grid-template-columns: 52px 1fr auto; gap: 12px; align-items: start; }
 .lead .idx { font-family: "IBM Plex Mono", ui-monospace, monospace; color: var(--faint); font-size: 12px; font-weight: 600; }
@@ -477,6 +485,18 @@ body[data-tab="staffing"] #configMatrix { display: none; }
       <button type="submit" class="btn-add">Add company</button>
     </form>
     <p class="note" id="matrixHint" style="margin:10px 0 0;color:var(--faint);font-size:12.5px"></p>
+  </section>
+
+  <section class="geo-bar" id="geoBar" data-view="overview companies">
+    <p class="kicker">Geography</p>
+    <h2 style="font-size:22px;font-weight:550;margin:0 0 10px">US · India · Rest of world</h2>
+    <div class="row-flex" id="geoChips">
+      <button type="button" class="chip active" data-loc="all">All</button>
+      <button type="button" class="chip" data-loc="US">US</button>
+      <button type="button" class="chip" data-loc="India">India</button>
+      <button type="button" class="chip" data-loc="ROW">Rest of world</button>
+    </div>
+    <div class="geo-mix" id="geoMix"></div>
   </section>
 
   <section class="ask-card" id="ask" data-view="overview">
@@ -550,9 +570,9 @@ body[data-tab="staffing"] #configMatrix { display: none; }
       <p class="filter-label">Location</p>
       <div class="row-flex">
         <button type="button" class="chip active" data-loc="all">All locations</button>
-        <button type="button" class="chip" data-loc="India">India</button>
         <button type="button" class="chip" data-loc="US">US</button>
-        <button type="button" class="chip" data-loc="UK">UK</button>
+        <button type="button" class="chip" data-loc="India">India</button>
+        <button type="button" class="chip" data-loc="ROW">Rest of world</button>
       </div>
     </div>
     <div class="filter-block">
@@ -796,10 +816,25 @@ function hitBlob(h) {
 }
 function locBucket(loc) {
   const s = String(loc || "").toLowerCase();
-  if (/united kingdom|\blondon\b|\bengland\b/.test(s)) return "UK";
-  if (/united states|\bremote united states\b|\bbrentwood\b|, tn\b/.test(s)) return "US";
-  if (/india|bengaluru|bangalore|pune|chennai|gurugram|gurgaon|mumbai|jaipur|nagpur|delhi/.test(s)) return "India";
-  return "other";
+  if (/india|bengaluru|bangalore|hyderabad|pune|chennai|gurugram|gurgaon|mumbai|jaipur|nagpur|new delhi|\bdelhi\b|noida|kolkata|ahmedabad|kochi|coimbatore|indore|vadodara|thiruvananthapuram|trivandrum/.test(s)) return "India";
+  if (/united states|\bu\.?s\.?a\b|\bremote us\b|remote united states|united states of america/.test(s)) return "US";
+  if (/,\s*(al|ak|az|ar|ca|co|ct|dc|de|fl|ga|hi|ia|id|il|ks|ky|la|ma|md|me|mi|mn|mo|ms|mt|nc|nd|ne|nh|nj|nm|nv|ny|oh|ok|or|pa|ri|sc|sd|tn|tx|ut|va|vt|wa|wi|wv|wy)\b/.test(s)) return "US";
+  if (/\b(new york|los angeles|chicago|houston|dallas|austin|atlanta|boston|seattle|denver|phoenix|miami|philadelphia|san francisco|san jose|san diego|minneapolis|detroit|charlotte|nashville|orlando|tampa|raleigh|portland|salt lake|virginia beach|waukee|palmerton|greenville|romeoville)\b/.test(s)) return "US";
+  if (/,\s*in\b/.test(s) && !/india/.test(s)) return "US";
+  return "ROW";
+}
+function geoCounts(hits) {
+  const c = { US: 0, India: 0, ROW: 0 };
+  hits.forEach(h => {
+    const b = locBucket(h.location);
+    if (b === "US") c.US++;
+    else if (b === "India") c.India++;
+    else c.ROW++;
+  });
+  return c;
+}
+function geoLabel(b) {
+  return b === "ROW" ? "Rest of world" : b;
 }
 function isSalesforceHit(h) {
   const blob = hitBlob(h);
@@ -1001,6 +1036,7 @@ function renderScoreboard(hits) {
   const list = companies();
   document.getElementById("scoreboard").innerHTML = list.map((c, i) => {
     const mine = hits.filter(h => h.company_key === c.key);
+    const g = geoCounts(mine);
     const posts = mine.filter(isPost).length;
     const listings = mine.filter(isListing).length;
     const roles = topRoles(mine, 2);
@@ -1016,6 +1052,11 @@ function renderScoreboard(hits) {
           '<div class="m"><div class="n" style="color:' + c.color.accent + '">' + mine.length + '</div><div class="l">hits</div></div>' +
           '<div class="m"><div class="n">' + posts + '</div><div class="l">posts</div></div>' +
           '<div class="m"><div class="n">' + listings + '</div><div class="l">listings</div></div>' +
+        "</div>" +
+        '<div class="geo-mini">' +
+          '<span>US <b>' + g.US + "</b></span>" +
+          '<span>India <b>' + g.India + "</b></span>" +
+          '<span>Rest of world <b>' + g.ROW + "</b></span>" +
         "</div>" +
         '<div class="meta">' +
           (roles.length ? "Top roles: " + esc(roles.join(" · ")) + " · " : "No roles in view · ") +
@@ -1482,10 +1523,23 @@ function renderAsk() {
   });
 })();
 
+
+function renderGeo(hits) {
+  const g = geoCounts(hits);
+  const el = document.getElementById("geoMix");
+  if (!el) return;
+  el.innerHTML =
+    '<span class="geo-pill">US <b>' + g.US + "</b></span>" +
+    '<span class="geo-pill">India <b>' + g.India + "</b></span>" +
+    '<span class="geo-pill">Rest of world <b>' + g.ROW + "</b></span>" +
+    '<span class="geo-pill">In view <b>' + hits.length + "</b></span>";
+}
+
 function render() {
   const hits = filteredHits();
   renderHeader();
   renderMatrix(hits);
+  renderGeo(hits);
   renderKpis(hits);
   renderInsight(hits);
   renderScoreboard(hits);
