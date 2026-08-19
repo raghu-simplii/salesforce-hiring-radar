@@ -243,6 +243,15 @@ header.top {
   padding: 14px 16px 14px;
   border-top: 3px solid var(--line);
 }
+.seq-click { cursor: pointer; }
+.seq-click:hover { border-color: var(--coral); box-shadow: var(--shadow); }
+.seq .m.clicky { cursor: pointer; }
+.seq .m.clicky:hover .n { color: var(--coral); }
+.seq .open-link { margin-top: 10px; font-size: 13px; font-weight: 650; color: var(--coral); }
+.jobs-click { cursor: pointer; }
+.jobs-click:hover { text-decoration: underline; }
+.card { cursor: pointer; }
+.card:hover { border-color: var(--coral); }
 .seq .idx { font-size: 11px; letter-spacing: .14em; color: var(--faint); font-weight: 700; }
 .seq h3 { font-size: 20px; letter-spacing: -0.03em; margin: 4px 0 6px; color: var(--text-2); font-weight: 650; }
 .seq .rule { font-size: 12.5px; color: var(--muted); margin: 0 0 10px; }
@@ -549,7 +558,7 @@ body[data-tab="staffing"] #configMatrix { display: none; }
   <section class="block" data-view="companies">
     <p class="kicker">Companies</p>
     <h2>Company scoreboard</h2>
-    <p class="sub">Filter rule from CONFIG, hit count, employee vs listing split, top roles, newest date.</p>
+    <p class="sub">Click a company — or the listings number — to open every post and official listing for that name.</p>
     <div id="scoreboard" class="scoreboard"></div>
   </section>
 
@@ -610,8 +619,8 @@ body[data-tab="staffing"] #configMatrix { display: none; }
 
   <section class="block" data-view="board">
     <p class="kicker">Hit board</p>
-    <h2>Employee posts, then official listings</h2>
-    <p class="sub">Every remaining real hit. Company color rail. Search and filters apply.</p>
+    <h2 id="boardTitle">Employee posts, then official listings</h2>
+    <p class="sub" id="boardSub">Every remaining real hit. Company color rail. Search and filters apply.</p>
     <div id="board"></div>
   </section>
 
@@ -1058,9 +1067,25 @@ function topRoles(hits, n) {
   return Object.keys(c).sort((a, b) => c[b] - c[a] || a.localeCompare(b)).slice(0, n);
 }
 
+function setTab(tab) {
+  document.body.setAttribute("data-tab", tab);
+  document.querySelectorAll("#tabs button").forEach(b => {
+    b.classList.toggle("active", (b.dataset.tab || "") === tab);
+  });
+}
+function openCompanyBoard(key, source) {
+  companyFilter = key || "all";
+  sourceFilter = source || "all";
+  setTab("board");
+  render();
+  const el = document.getElementById("boardTitle") || document.getElementById("board");
+  if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+}
 function renderScoreboard(hits) {
   const list = companies();
-  document.getElementById("scoreboard").innerHTML = list.map((c, i) => {
+  const box = document.getElementById("scoreboard");
+  if (!box) return;
+  box.innerHTML = list.map((c, i) => {
     const mine = hits.filter(h => h.company_key === c.key);
     const g = geoCounts(mine);
     const posts = mine.filter(isPost).length;
@@ -1070,14 +1095,14 @@ function renderScoreboard(hits) {
     mine.forEach(h => { if ((h.post_date || "") > newest) newest = h.post_date; });
     const rule = companyRule(c);
     return (
-      '<article class="seq" style="border-top-color:' + c.color.accent + '">' +
+      '<article class="seq seq-click" data-open-co="' + esc(c.key) + '">' +
         '<div class="idx">' + pad2(i + 1) + " · " + esc(c.key) + "</div>" +
         "<h3>" + esc(c.name) + "</h3>" +
         '<p class="rule">' + esc(rule.keyword) + " · " + esc(rule.location) + "</p>" +
         '<div class="metrics">' +
-          '<div class="m"><div class="n" style="color:' + c.color.accent + '">' + mine.length + '</div><div class="l">hits</div></div>' +
-          '<div class="m"><div class="n">' + posts + '</div><div class="l">posts</div></div>' +
-          '<div class="m"><div class="n">' + listings + '</div><div class="l">listings</div></div>' +
+          '<div class="m clicky" data-open-co="' + esc(c.key) + '" data-open-src="all"><div class="n" style="color:' + c.color.accent + '">' + mine.length + '</div><div class="l">hits</div></div>' +
+          '<div class="m clicky" data-open-co="' + esc(c.key) + '" data-open-src="employee"><div class="n">' + posts + '</div><div class="l">posts</div></div>' +
+          '<div class="m clicky" data-open-co="' + esc(c.key) + '" data-open-src="listing"><div class="n">' + listings + '</div><div class="l">listings</div></div>' +
         "</div>" +
         '<div class="geo-mini">' +
           '<span>US <b>' + g.US + "</b></span>" +
@@ -1088,9 +1113,16 @@ function renderScoreboard(hits) {
           (roles.length ? "Top roles: " + esc(roles.join(" · ")) + " · " : "No roles in view · ") +
           (newest ? "Newest " + esc(formatDate(newest)) : "No dated hit") +
         "</div>" +
+        '<div class="open-link">View ' + mine.length + " listing" + (mine.length === 1 ? "" : "s") + " and posts →</div>" +
       "</article>"
     );
   }).join("");
+  box.querySelectorAll("[data-open-co]").forEach(el => {
+    el.addEventListener("click", e => {
+      e.stopPropagation();
+      openCompanyBoard(el.getAttribute("data-open-co"), el.getAttribute("data-open-src") || "all");
+    });
+  });
 }
 
 function renderTrends(hits) {
@@ -1295,12 +1327,34 @@ function renderBoard(hits) {
   const posts = hits.filter(isPost).slice().sort((a, b) => (b.post_date || "").localeCompare(a.post_date || ""));
   const listings = hits.filter(isListing).slice().sort((a, b) => (b.post_date || "").localeCompare(a.post_date || ""));
   const w = windowMeta(windowDays);
+  const co = companyFilter === "all" ? null : companyByKey(companyFilter);
+  const titleEl = document.getElementById("boardTitle");
+  const subEl = document.getElementById("boardSub");
+  if (titleEl) titleEl.textContent = co ? (co.name + " — listings and posts") : "Employee posts, then official listings";
+  if (subEl) {
+    subEl.textContent = co
+      ? (hits.length + " live rows for " + co.name + ". Click a card to open the source.")
+      : "Click a company on Companies to open its list. Every remaining real hit is here.";
+  }
   let html = "";
+  if (co) {
+    html += '<p style="margin:0 0 14px"><button type="button" class="btn-ghost" id="clearCoFilter">← All companies</button></p>';
+  }
   html += '<div class="section-head"><h3>Employee &amp; company posts</h3><span class="n">' + posts.length + " · " + esc(w.range_label) + "</span></div>";
   html += posts.length ? '<div class="list">' + posts.map(h => cardHTML(h, false)).join("") + "</div>" : emptyHTML("employee or company posts");
   html += '<div class="section-head"><h3>Official listings</h3><span class="n">' + listings.length + " · " + esc(w.range_label) + "</span></div>";
   html += listings.length ? '<div class="list">' + listings.map(h => cardHTML(h, true)).join("") + "</div>" : emptyHTML("official listings");
   document.getElementById("board").innerHTML = html;
+  const clear = document.getElementById("clearCoFilter");
+  if (clear) clear.addEventListener("click", () => openCompanyBoard("all", "all"));
+  document.querySelectorAll("#board .card").forEach((card, idx) => {
+    const href = card.querySelector("a[href]");
+    if (!href) return;
+    card.addEventListener("click", e => {
+      if (e.target.closest("a")) return;
+      window.open(href.getAttribute("href"), "_blank", "noopener");
+    });
+  });
 }
 
 function focusCards(hits) {
@@ -1619,7 +1673,7 @@ function renderMatrix(hits) {
       "</td>" +
       '<td><label class="ck"><input type="checkbox" data-flag="salesforce" data-key="' + esc(c.key) + '"' + (c.salesforce ? " checked" : "") + " /> Yes</label></td>" +
       '<td><label class="ck"><input type="checkbox" data-flag="non_salesforce" data-key="' + esc(c.key) + '"' + (c.non_salesforce ? " checked" : "") + " /> Yes</label></td>" +
-      '<td class="jobs">' + n + "</td>" +
+      '<td class="jobs jobs-click" data-open-co="' + esc(c.key) + '">' + n + "</td>" +
       '<td><button type="button" class="btn-ghost" data-edit="' + esc(c.key) + '">Edit</button> ' +
         '<button type="button" class="btn-ghost" data-remove="' + esc(c.key) + '">Remove</button></td>' +
     "</tr>";
@@ -1637,6 +1691,9 @@ function renderMatrix(hits) {
     });
     table.querySelectorAll("[data-edit]").forEach(btn => {
       btn.addEventListener("click", () => fillCompanyForm(companies().find(c => c.key === btn.getAttribute("data-edit"))));
+    });
+    table.querySelectorAll("[data-open-co]").forEach(el => {
+      el.addEventListener("click", () => openCompanyBoard(el.getAttribute("data-open-co"), "all"));
     });
     table.querySelectorAll("[data-remove]").forEach(btn => {
       btn.addEventListener("click", () => {
