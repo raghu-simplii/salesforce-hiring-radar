@@ -27,7 +27,7 @@
       ],
       "linkedin": "https://www.linkedin.com/company/acuityanalytics",
       "keyword": "IT",
-      "keyword_note": "IT / software engineering only — full stack, Salesforce, .NET, UI, C/C++, data engineering, QA/SDET, architects. No analyst or business roles.",
+      "keyword_note": "IT / software engineering only \u2014 full stack, Salesforce, .NET, UI, C/C++, data engineering, QA/SDET, architects. No analyst or business roles.",
       "role_include_examples": [
         "full stack",
         "Salesforce",
@@ -168,6 +168,26 @@
       "careers": "https://www.merkle.com/en/careers.html",
       "website": "https://www.merkle.com",
       "key": "merkle"
+    },
+    {
+      "name": "Tachyon Technologies",
+      "short": "Tachyon",
+      "aliases": [
+        "Tachyon"
+      ],
+      "linkedin": "https://www.linkedin.com/company/tachyon-technologies-inc",
+      "keyword": "Salesforce+other",
+      "keyword_note": "Salesforce plus official non-Salesforce careers. Do not invent 404'd WordPress Salesforce slugs; use live /wp-json/wp/v2/job plus employee posts.",
+      "location": null,
+      "locations": [
+        "United States",
+        "India"
+      ],
+      "salesforce": true,
+      "non_salesforce": true,
+      "careers": "https://www.tachyontech.com/careers/",
+      "website": "https://www.tachyontech.com",
+      "key": "tachyon-technologies"
     }
   ],
   "staffing_leads": {
