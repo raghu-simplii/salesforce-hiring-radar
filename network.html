@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>LinkedIn network post radar</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&display=swap" rel="stylesheet" />
+<style>
+:root {
+  --bg:#f3eee6; --panel:#fff; --line:#e4ddd2; --text:#24353b; --muted:#5d6c71;
+  --teal:#1a4a58; --green:#2f7a55; --gold:#c48a1a; --coral:#e8613c; --hero:#123340;
+}
+* { box-sizing:border-box; }
+body { margin:0; font-family:"DM Sans",system-ui,sans-serif; background:var(--bg); color:var(--text); }
+.hero { background:linear-gradient(160deg,#123340,#0f2b38); color:#fffdf8; padding:36px 28px 28px; }
+.hero h1 { margin:0 0 8px; font-size:28px; }
+.hero p { margin:0; color:#c5d4d7; max-width:720px; }
+.wrap { max-width:1120px; margin:0 auto; padding:0 20px 40px; }
+.stats { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin-top:-22px; }
+.stat { background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:16px 18px; box-shadow:0 12px 32px rgba(18,35,40,.07); }
+.stat b { display:block; font-size:26px; color:var(--hero); }
+.stat span { color:var(--muted); font-size:13px; }
+.filters { display:flex; gap:8px; flex-wrap:wrap; margin:22px 0 14px; }
+.filters button { border:1px solid var(--line); background:#fff; border-radius:999px; padding:7px 14px; cursor:pointer; font:inherit; color:var(--text); }
+.filters button.on { background:var(--hero); color:#fff; border-color:var(--hero); }
+.grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(320px,1fr)); gap:14px; }
+.card { background:#fff; border:1px solid var(--line); border-radius:14px; padding:16px 16px 14px; }
+.card-top { display:flex; gap:8px; align-items:center; flex-wrap:wrap; margin-bottom:8px; }
+.pill { font-size:11px; font-weight:700; letter-spacing:.04em; text-transform:uppercase; border-radius:999px; padding:3px 8px; }
+.pill.hiring { background:#e8f6ee; color:var(--green); }
+.pill.salesforce { background:#e8f1f4; color:var(--teal); }
+.pill.other-business { background:#f7efd8; color:#8a6410; }
+.mutual { font-size:11px; color:var(--muted); }
+.mutual.strong { color:var(--green); font-weight:600; }
+.mutual.weak { color:#a35; }
+.date { margin-left:auto; font-size:12px; color:var(--muted); }
+h3 { margin:0 0 4px; font-size:18px; }
+.title,.sum,.why { margin:0 0 8px; }
+.title { color:var(--muted); font-size:13px; }
+.why { font-size:13px; color:#3a4a4e; }
+.links a { color:var(--coral); font-size:13px; text-decoration:none; }
+.note { color:var(--muted); font-size:13px; margin:10px 0 0; }
+@media (max-width:700px) { .stats { grid-template-columns:1fr 1fr; } }
+</style>
+</head>
+<body>
+  <div class="hero">
+    <div class="wrap">
+      <h1>LinkedIn network post radar</h1>
+      <p>1st-degree posts from the last week with a Salesforce, hiring, or business signal. Daily weekday scans keep people with more than 5 mutual connections. Mutual counts on this first board are still being filled in.</p>
+    </div>
+  </div>
+  <div class="wrap">
+    <div class="stats">
+      <div class="stat"><b>29</b><span>opportunities on board</span></div>
+      <div class="stat"><b>11</b><span>hiring / contracting</span></div>
+      <div class="stat"><b>9</b><span>Salesforce / CRM</span></div>
+      <div class="stat"><b>9</b><span>other commercial</span></div>
+    </div>
+    <div class="filters">
+      <button class="on" data-f="all">All</button>
+      <button data-f="hiring">Hiring</button>
+      <button data-f="salesforce">Salesforce</button>
+      <button data-f="other-business">Other</button>
+    </div>
+    <div class="grid" id="grid">
+      
+    <article class="card" data-type="hiring">
+      <div class="card-top">
+        <span class="pill hiring">Hiring</span>
+        <span class='mutual unknown'>mutuals TBD</span>
+        <span class="date">16h ago (2026-08-22)</span>
+      </div>
+      <h3>Paul Anthony</h3>
+      <p class="title">CEO &amp; Founder, Cigres Technologies Private Limited</p>
+      <p class="sum">Cigres is hiring for multiple roles in Bangalore including Salesforce, SAP modules, Oracle Finance and automation testing. Wants immediate joiners, F2F interviews, 3 days WFO.</p>
+      <p class="why">Explicit Salesforce-inclusive multi-role hiring need at a services firm - direct staffing/contracting/partner opportunity.</p>
+      <div class="links"><a href="https://www.linkedin.com/in/paul-anthony-2242495/" target="_blank" rel="noopener">Profile</a></div>
+    </article>
+    <article class="card" data-type="hiring">
+      <div class="card-top">
+        <span class="pill hiring">Hiring</span>
+        <span class='mutual unknown'>mutuals TBD</span>
+        <span class="date">2d ago</span>
+      </div>
+      <h3>Sri Chikka</h3>
+      <p class="title">Data &amp; AI Executive (Perficient)</p>
+      <p class="sum">Announcing continued growth and actively #hiring a Data Management Architect (careers.perficient.com), focused on data foundations for AI.</p>
+      <p class="why">Open req at a consultancy; hiring signal plus data/CRM foundation work Raghu could staff or partner on.</p>
+      <div class="links"><a href="https://www.linkedin.com/in/srichikka/" target="_blank" rel="noopener">Profile</a></div>
+    </article>
+    <article class="card" data-type="hiring">
+      <div class="card-top">
+        <span class="pill hiring">Hiring</span>
+        <span class='mutual unknown'>mutuals TBD</span>
+        <span class="date">1d ago</span>
+      </div>
+      <h3>Samuel Prabhakar Sirivella</h3>
+      <p class="title">Lead BDM / Sr. Account Manager, CyberSpace Technologies LLC</p>
+      <p class="sum">Open requirement for a Sr .NET Engineer in New York (onsite) for client KKR, 8-11 yrs, Investran platform experience; resumes to his email.</p>
+      <p class="why">Active staffing requirement from a connection who buys/sells contract talent - direct contracting/subcontracting opportunity.</p>
+      <div class="links"><a href="https://www.linkedin.com/in/samuelsirivellacyberspace/" target="_blank" rel="noopener">Profile</a></div>
+    </article>
+    <article class="card" data-type="hiring">
+      <div class="card-top">
+        <span class="pill hiring">Hiring</span>
+        <span class='mutual unknown'>mutuals TBD</span>
+        <span class="date">2d ago</span>
+      </div>
+      <h3>Saandeep Kumar Das</h3>
+      <p class="title">Strategic Growth &amp; Executive Search</p>
+      <p class="sum">Confidential mandate: hiring a VP - Talent Acquisition Operations in Mumbai, 15+ yrs, RCM/US Healthcare hiring mandatory.</p>
+      <p class="why">Live leadership search mandate; recruiter connection open to partnering on sourcing.</p>
+      <div class="links"><a href="https://www.linkedin.com/in/saandeepkdas/" target="_blank" rel="noopener">Profile</a></div>
+    </article>
+    <article class="card" data-type="hiring">
+      <div class="card-top">
+        <span class="pill hiring">Hiring</span>
+        <span class='mutual unknown'>mutuals TBD</span>
+        <span class="date">2d ago</span>
+      </div>
+      <h3>Vikram S.</h3>
+      <p class="title">Founder &amp; CEO, Aryan Solutions (IT Staffing, RPO, Payroll, Managed Services)</p>
+      <p class="sum">Hiring an experienced IoT Tester in Kuala Lumpur to join their team; end-to-end device and mobile app testing.</p>
+      <p class="why">Staffing firm actively filling roles across APAC/UAE/India - potential partner for contract talent supply.</p>
+      <div class="links"><a href="https://www.linkedin.com/in/vikramshervani/" target="_blank" rel="noopener">Profile</a></div>
+    </article>
+    <article class="card" data-type="hiring">
+      <div class="card-top">
+        <span class="pill hiring">Hiring</span>
+        <span class='mutual unknown'>mutuals TBD</span>
+        <span class="date">4d ago</span>
+      </div>
+      <h3>Julie Hankins</h3>
+      <p class="title">HR / People &amp; Operations Executive (Epista Life Science)</p>
+      <p class="sum">Hiring a remote Principal Consultant - Commercial Content Governance at Epista Life Science, leading enterprise content-system strategy, DAM governance, Veeva Vault/PromoMats.</p>
+      <p class="why">Open consulting role at a growing US delivery team - enterprise systems consulting need adjacent to Salesforce/Veeva work.</p>
+      <div class="links"><a href="https://www.linkedin.com/in/juliehankins1/" target="_blank" rel="noopener">Profile</a></div>
+    </article>
+    <article class="card" data-type="hiring">
+      <div class="card-top">
+        <span class="pill hiring">Hiring</span>
+        <span class='mutual unknown'>mutuals TBD</span>
+        <span class="date">4d ago</span>
+      </div>
+      <h3>Durgesh Dewangan</h3>
+      <p class="title">Talent Acquisition Business Partner (North America), Capgemini</p>
+      <p class="sum">Capgemini hiring full-time Java/Full Stack/Front End/Back End developers at all levels across Dallas, Durham, NJ, Merrimack, Lake Mary, Chicago and NYC.</p>
+      <p class="why">Large-scale open reqs at a systems integrator - contracting/subcontracting and partner-of-record opportunity.</p>
+      <div class="links"><a href="https://www.linkedin.com/in/durgeshdewangan/" target="_blank" rel="noopener">Profile</a></div>
+    </article>
+    <article class="card" data-type="hiring">
+      <div class="card-top">
+        <span class="pill hiring">Hiring</span>
+        <span class='mutual unknown'>mutuals TBD</span>
+        <span class="date">1d ago</span>
+      </div>
+      <h3>Basava Sankar (posted in SAP People Network)</h3>
+      <p class="title">Cream IT Inc</p>
+      <p class="sum">Looking for an SAP ABAP consultant, 1-year remote engagement, EST time zone, US citizen work authorization; resumes to basava@creamitinc.com.</p>
+      <p class="why">Explicit 1-year contractor requirement - immediate contract-staffing opportunity.</p>
+      <div class="links"></div>
+    </article>
+    <article class="card" data-type="salesforce">
+      <div class="card-top">
+        <span class="pill salesforce">Salesforce</span>
+        <span class='mutual unknown'>mutuals TBD</span>
+        <span class="date">multiple posts 4h-1d ago</span>
+      </div>
+      <h3>David Giller</h3>
+      <p class="title">Business Applications &amp; GTM Systems Director | Salesforce + AI</p>
+      <p class="sum">Series of posts on Salesforce implementation failure causes, RevOps data cleanup at Meltwater, and companies frustrated that &#x27;Salesforce doesn&#x27;t work&#x27; and considering rip-and-replace; he says companies call him about it.</p>
+      <p class="why">Active Salesforce/CRM remediation demand narrative; a well-connected buyer/influencer and potential referral or delivery partner for implementation work.</p>
+      <div class="links"><a href="https://www.linkedin.com/in/davidgiller/" target="_blank" rel="noopener">Profile</a></div>
+    </article>
+    <article class="card" data-type="salesforce">
+      <div class="card-top">
+        <span class="pill salesforce">Salesforce</span>
+        <span class='mutual unknown'>mutuals TBD</span>
+        <span class="date">1h ago</span>
+      </div>
+      <h3>Jelle van Geuns</h3>
+      <p class="title">Founder &amp; CEO, Cirra AI (AI Admin for Salesforce)</p>
+      <p class="sum">Post on the Salesforce &#x27;Builder Gap&#x27; and Cirra AI&#x27;s mission to make AI tooling usable for Salesforce admins without developer skills.</p>
+      <p class="why">Salesforce ISV founder - partner/reseller/implementation-partner opportunity in the Salesforce ecosystem.</p>
+      <div class="links"><a href="https://www.linkedin.com/in/jgeuns/" target="_blank" rel="noopener">Profile</a></div>
+    </article>
+    <article class="card" data-type="salesforce">
+      <div class="card-top">
+        <span class="pill salesforce">Salesforce</span>
+        <span class='mutual unknown'>mutuals TBD</span>
+        <span class="date">1d ago</span>
+      </div>
+      <h3>Paul Higgins</h3>
+      <p class="title">Coach to SaaS partner businesses (Salesforce, Zoho, Monday)</p>
+      <p class="sum">Case study of a Monday.com partner winning nonprofit deals by repositioning CRM as &#x27;Donor Relationship Management&#x27;; argues partners should own a segment rather than sell implementation hours.</p>
+      <p class="why">Works directly with SaaS/Salesforce partner firms - a natural referral/alliance channel for Raghu&#x27;s Salesforce services.</p>
+      <div class="links"><a href="https://www.linkedin.com/in/paulhigginsmentoring/" target="_blank" rel="noopener">Profile</a></div>
+    </article>
+    <article class="card" data-type="salesforce">
+      <div class="card-top">
+        <span class="pill salesforce">Salesforce</span>
+        <span class='mutual unknown'>mutuals TBD</span>
+        <span class="date">12h ago</span>
+      </div>
+      <h3>Siva Devaki</h3>
+      <p class="title">SaaS Founder (Salesforce email tooling)</p>
+      <p class="sum">Pardot vs HubSpot comparison for Salesforce-first B2B teams, promoting their evaluation content.</p>
+      <p class="why">Salesforce ecosystem vendor with buyer audience evaluating marketing automation - co-sell/partner and implementation lead source.</p>
+      <div class="links"><a href="https://www.linkedin.com/in/sivadevaki/" target="_blank" rel="noopener">Profile</a></div>
+    </article>
+    <article class="card" data-type="salesforce">
+      <div class="card-top">
+        <span class="pill salesforce">Salesforce</span>
+        <span class='mutual unknown'>mutuals TBD</span>
+        <span class="date">9h ago</span>
+      </div>
+      <h3>Gaurav Kheterpal</h3>
+      <p class="title">Chief Evangelist Copado | Founder &amp; CEO Vanshiv | Salesforce MVP</p>
+      <p class="sum">Story about building Vanshiv Technologies in Jaipur and Google filming at their office; largely personal-brand content but from a Salesforce/Copado delivery firm owner.</p>
+      <p class="why">Runs a growing Salesforce/Copado services firm - potential delivery partner or subcontracting relationship (soft signal).</p>
+      <div class="links"><a href="https://www.linkedin.com/in/gauravkheterpal/" target="_blank" rel="noopener">Profile</a></div>
+    </article>
+    <article class="card" data-type="salesforce">
+      <div class="card-top">
+        <span class="pill salesforce">Salesforce</span>
+        <span class='mutual unknown'>mutuals TBD</span>
+        <span class="date">1d ago</span>
+      </div>
+      <h3>Janis Zech</h3>
+      <p class="title">CEO, Weflow AI (RevOps)</p>
+      <p class="sum">Advice for RevOps teams pressured by boards to ship AI agents on unready CRM data; recommends auditing data readiness and claiming AI ownership. Invites readers to bring specific problems in comments.</p>
+      <p class="why">Surfacing CRM data-readiness pain across RevOps teams - direct demand signal for Salesforce data/CRM cleanup engagements and a partner audience.</p>
+      <div class="links"><a href="https://www.linkedin.com/in/janiszech/" target="_blank" rel="noopener">Profile</a></div>
+    </article>
+    <article class="card" data-type="other-business">
+      <div class="card-top">
+        <span class="pill other-business">Other</span>
+        <span class='mutual unknown'>mutuals TBD</span>
+        <span class="date">1d ago</span>
+      </div>
+      <h3>Raj Kumar</h3>
+      <p class="title">CXO Advisor | Dynamics 365 ERP, CRM &amp; Power Platform (UAE/GCC, APAC, India)</p>
+      <p class="sum">Promoting Dynamics 365 CRM for real estate: leads, bookings, brokers, payments, plus Copilot/Power BI insights.</p>
+      <p class="why">Active CRM transformation selling in real estate - competitive/partner overlap and possible referral channel for Salesforce-side deals.</p>
+      <div class="links"><a href="https://www.linkedin.com/in/raj-kumar-25383b6/" target="_blank" rel="noopener">Profile</a></div>
+    </article>
+    <article class="card" data-type="other-business">
+      <div class="card-top">
+        <span class="pill other-business">Other</span>
+        <span class='mutual unknown'>mutuals TBD</span>
+        <span class="date">1d ago</span>
+      </div>
+      <h3>Akshay Sakhalkar</h3>
+      <p class="title">Founder, Coavion | Fractional Sales Leadership, RevOps &amp; AI Automation</p>
+      <p class="sum">Argues founders should check contact/data coverage before hiring an SDR; outlines tiering accounts, enrichment and refreshing contact data.</p>
+      <p class="why">RevOps/sales-ops data tooling need he articulates for clients - partnering or CRM/data implementation opportunity.</p>
+      <div class="links"><a href="https://www.linkedin.com/in/akshaysakhalkar/" target="_blank" rel="noopener">Profile</a></div>
+    </article>
+    <article class="card" data-type="other-business">
+      <div class="card-top">
+        <span class="pill other-business">Other</span>
+        <span class='mutual unknown'>mutuals TBD</span>
+        <span class="date">13h ago</span>
+      </div>
+      <h3>Louie Bernstein</h3>
+      <p class="title">Fractional Sales Leader for $1M-$10M ARR founders</p>
+      <p class="sum">On fractional sales leadership: building ICP, qualification standards, pipeline stages that live in the CRM, and board-ready forecasts.</p>
+      <p class="why">Works with founders standing up CRM/sales systems - referral partner for Salesforce implementation work.</p>
+      <div class="links"><a href="https://www.linkedin.com/in/sales-processes/" target="_blank" rel="noopener">Profile</a></div>
+    </article>
+    <article class="card" data-type="other-business">
+      <div class="card-top">
+        <span class="pill other-business">Other</span>
+        <span class='mutual unknown'>mutuals TBD</span>
+        <span class="date">21h ago</span>
+      </div>
+      <h3>Robert Trube</h3>
+      <p class="title">AI, Automation &amp; Growth Advisor | Founder</p>
+      <p class="sum">Post on giving sales reps account context and intent data with AI enablement; explicit &#x27;Contact us to get started&#x27; CTA.</p>
+      <p class="why">Sales enablement/intent-data services with active CTA - possible alliance or co-sell into the same sales-ops buyers.</p>
+      <div class="links"><a href="https://www.linkedin.com/in/robtrube/" target="_blank" rel="noopener">Profile</a></div>
+    </article>
+    <article class="card" data-type="other-business">
+      <div class="card-top">
+        <span class="pill other-business">Other</span>
+        <span class='mutual unknown'>mutuals TBD</span>
+        <span class="date">1d ago</span>
+      </div>
+      <h3>Joshua Kahr</h3>
+      <p class="title">Real estate principal / Professor @ NYU</p>
+      <p class="sum">Seeking families/advisors who professionalized a real estate operation into a family office to interview for class and book material.</p>
+      <p class="why">Explicit ask for outside expertise/introductions - low-grade networking/business-development opening, not a Salesforce buy.</p>
+      <div class="links"><a href="https://www.linkedin.com/in/joshua-kahr-7774511/" target="_blank" rel="noopener">Profile</a></div>
+    </article>
+    <article class="card" data-type="other-business">
+      <div class="card-top">
+        <span class="pill other-business">Other</span>
+        <span class='mutual unknown'>mutuals TBD</span>
+        <span class="date">10h ago</span>
+      </div>
+      <h3>Brian Rothschild</h3>
+      <p class="title">Corporate Real Estate Consultant, Tower Realty Partners</p>
+      <p class="sum">Actively seeking medical office, ER, surgery center properties and sale/leaseback deals; asks doctors and brokers to reach out.</p>
+      <p class="why">Explicit buying/partner ask (real estate) - commercial signal but outside Raghu&#x27;s Salesforce core.</p>
+      <div class="links"><a href="https://www.linkedin.com/in/brian-rothschild-939627/" target="_blank" rel="noopener">Profile</a></div>
+    </article>
+    <article class="card" data-type="salesforce">
+      <div class="card-top">
+        <span class="pill salesforce">Salesforce</span>
+        <span class='mutual unknown'>mutuals TBD</span>
+        <span class="date">4d ago</span>
+      </div>
+      <h3>Samuel Prabhakar Sirivella</h3>
+      <p class="title">Lead BDM/Sr. Account Manager, CyberSpace Technologies LLC</p>
+      <p class="sum">Open requirement for a Salesforce Technical Architect for client Infosys/FPL, Houston TX (hybrid), 10+ yrs IT and 7+ yrs Salesforce; needs Sales/Service/Experience Cloud, Apex, LWC. Rate &#x27;best&#x27;.</p>
+      <p class="why">NEW post (different from his .NET req already captured) - a live Salesforce architect contract role, directly staffable/subcontractable.</p>
+      <div class="links"><a href="https://www.linkedin.com/in/samuelsirivellacyberspace/" target="_blank" rel="noopener">Profile</a></div>
+    </article>
+    <article class="card" data-type="hiring">
+      <div class="card-top">
+        <span class="pill hiring">Hiring</span>
+        <span class='mutual unknown'>mutuals TBD</span>
+        <span class="date">2d ago (reshare of 1w company post)</span>
+      </div>
+      <h3>Chinmay Pradhan</h3>
+      <p class="title">Co-Founder &amp; CEO, Inveris Digital (Enterprise AI for MedTech/regulated industries)</p>
+      <p class="sum">Inveris Digital is building a Demand Generation team for the US market and hiring a Demand Generation Executive for outbound email/LinkedIn prospecting into US decision-makers.</p>
+      <p class="why">Growing enterprise-AI firm staffing US GTM - hiring signal plus a potential partner/buyer for delivery or CRM/GTM systems support.</p>
+      <div class="links"><a href="https://www.linkedin.com/in/chinmaypradhan/" target="_blank" rel="noopener">Profile</a></div>
+    </article>
+    <article class="card" data-type="other-business">
+      <div class="card-top">
+        <span class="pill other-business">Other</span>
+        <span class='mutual unknown'>mutuals TBD</span>
+        <span class="date">5d ago</span>
+      </div>
+      <h3>Ravi Kumar Tirumale Subbaramu</h3>
+      <p class="title">Global Capability Center Leader (Ecolab Digital Center, Bengaluru)</p>
+      <p class="sum">Welcomed 50 campus hires across India into Ecolab Digital Center, Bengaluru; posts about building and scaling world-class GCCs.</p>
+      <p class="why">Active GCC scale-up with fresh headcount - strong target for GCC staffing/delivery partnerships and Salesforce/digital capability build-out.</p>
+      <div class="links"><a href="https://www.linkedin.com/in/ravikumarts/" target="_blank" rel="noopener">Profile</a></div>
+    </article>
+    <article class="card" data-type="other-business">
+      <div class="card-top">
+        <span class="pill other-business">Other</span>
+        <span class='mutual unknown'>mutuals TBD</span>
+        <span class="date">5d ago</span>
+      </div>
+      <h3>Saha Banibrata</h3>
+      <p class="title">Business Leader, GCC - Bajaj Tech.AI</p>
+      <p class="sum">Pitching Bajaj Tech.AI&#x27;s services to help India GCCs move from AI PoCs to production (agentic AI, GenAI copilots, data), arguing intelligence not headcount is the GCC advantage.</p>
+      <p class="why">GCC-focused services leader actively selling into GCCs - a peer/partner or channel for Salesforce+AI delivery work.</p>
+      <div class="links"><a href="https://www.linkedin.com/in/saha-banibrata-109a033/" target="_blank" rel="noopener">Profile</a></div>
+    </article>
+    <article class="card" data-type="salesforce">
+      <div class="card-top">
+        <span class="pill salesforce">Salesforce</span>
+        <span class='mutual unknown'>mutuals TBD</span>
+        <span class="date">3d ago</span>
+      </div>
+      <h3>Bergin Panimayam</h3>
+      <p class="title">Salesforce Architect | Founder &amp; Principal Consultant, Aetrum LLC (OrgGuard)</p>
+      <p class="sum">Part 1 of a four-part series on governing AI agents in Salesforce - access/identity risk with Agentforce and external agents, five questions to answer before an agent goes live.</p>
+      <p class="why">1st-degree Salesforce architect/ISV founder surfacing Agentforce governance demand - partner, subcontract or co-delivery opportunity in the Salesforce ecosystem.</p>
+      <div class="links"></div>
+    </article>
+    <article class="card" data-type="salesforce">
+      <div class="card-top">
+        <span class="pill salesforce">Salesforce</span>
+        <span class='mutual unknown'>mutuals TBD</span>
+        <span class="date">2d ago</span>
+      </div>
+      <h3>Sandeep Jain</h3>
+      <p class="title">Founder &amp; CEO, MonetizeNow (CPQ / quote-to-cash)</p>
+      <p class="sum">Post on why quote-to-cash fails without a contract-centric foundation; positions MonetizeNow against CPQ/billing-only vendors.</p>
+      <p class="why">CPQ/quote-to-cash vendor in the Salesforce revenue stack - implementation-partner / co-sell opportunity around CPQ and Revenue Cloud work.</p>
+      <div class="links"></div>
+    </article>
+    <article class="card" data-type="hiring">
+      <div class="card-top">
+        <span class="pill hiring">Hiring</span>
+        <span class='mutual unknown'>mutuals TBD</span>
+        <span class="date">5h ago</span>
+      </div>
+      <h3>Chris Kent</h3>
+      <p class="title">MD @ Fynity | Building global Salesforce, RevOps &amp; GTM Engineering teams</p>
+      <p class="sum">Hiring a Techno-Functional Senior/Principal Salesforce Consultant for the Salesforce practice of a small global consulting firm. London hybrid, full lifecycle delivery, interviewing now, DM to apply. No sponsorship, UK rights required.</p>
+      <p class="why">Live Salesforce consulting req from a recruiter who staffs Salesforce/RevOps teams globally - strongest new staffing/partnering signal of this pass.</p>
+      <div class="links"></div>
+    </article>
+    <article class="card" data-type="hiring">
+      <div class="card-top">
+        <span class="pill hiring">Hiring</span>
+        <span class='mutual unknown'>mutuals TBD</span>
+        <span class="date">3d ago</span>
+      </div>
+      <h3>Sameer Goyal</h3>
+      <p class="title">Global Head of Banking - AI, Data &amp; Digital Technology, Acuity Analytics</p>
+      <p class="sum">Looking for an experienced Quality Engineering Manager with Capital Markets / Fixed Income and trading workflow experience; explicitly asks the network to share profiles. Also amplifying a Senior Data QA Lead req (Pune hybrid).</p>
+      <p class="why">Explicit &#x27;please share the profile&#x27; ask from a hiring leader at a data/analytics firm - direct contract/permanent staffing supply opportunity.</p>
+      <div class="links"></div>
+    </article>
+    <article class="card" data-type="other-business">
+      <div class="card-top">
+        <span class="pill other-business">Other</span>
+        <span class='mutual unknown'>mutuals TBD</span>
+        <span class="date">5d ago</span>
+      </div>
+      <h3>Mahesh Hegde</h3>
+      <p class="title">Professional Freelancer (Oracle Fusion Cloud SCM)</p>
+      <p class="sum">Argues US companies should hire an independent Oracle Fusion Cloud SCM consultant on their own side, separate from the implementation partner, to close post-go-live readiness gaps.</p>
+      <p class="why">Articulates a live buying pattern (independent advisory alongside SI delivery) that maps directly to Simpliigence-style advisory engagements; also a possible delivery contact.</p>
+      <div class="links"></div>
+    </article>
+    </div>
+    <p class="note">Updated 2026-08-23 17:20 UTC. Filter of 5+ mutuals applies on each weekday scan.</p>
+  </div>
+<script>
+const buttons = document.querySelectorAll('.filters button');
+const cards = document.querySelectorAll('.card');
+buttons.forEach(b => b.onclick = () => {
+  buttons.forEach(x => x.classList.remove('on'));
+  b.classList.add('on');
+  const f = b.dataset.f;
+  cards.forEach(c => c.style.display = (f==='all' || c.dataset.type===f) ? '' : 'none');
+});
+</script>
+</body>
+</html>
