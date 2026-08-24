@@ -13,12 +13,16 @@ body { margin:0; font-family:"DM Sans",system-ui,sans-serif; background:var(--bg
 .hero h1 { margin:0 0 8px; font-size:28px; }
 .hero p { margin:0; color:#c5d4d7; max-width:760px; }
 .wrap { max-width:1120px; margin:0 auto; padding:0 20px 40px; }
-.stats { display:grid; grid-template-columns:repeat(2,1fr); gap:12px; margin-top:-22px; max-width:480px; }
+.stats { display:grid; grid-template-columns:repeat(3,1fr); gap:12px; margin-top:-22px; }
 .stat { background:#fff; border:1px solid var(--line); border-radius:14px; padding:16px 18px; box-shadow:0 12px 32px rgba(18,35,40,.07); }
 .stat b { display:block; font-size:26px; color:var(--hero); }
 .stat span { color:var(--muted); font-size:13px; }
-.grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(320px,1fr)); gap:14px; margin-top:22px; }
+.toolbar { margin:18px 0 0; }
+.toolbar button { border:1px solid var(--line); background:#fff; border-radius:999px; padding:7px 14px; font:inherit; cursor:pointer; color:var(--text); }
+.toolbar button.on { background:var(--hero); color:#fff; border-color:var(--hero); }
+.grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(320px,1fr)); gap:14px; margin-top:16px; }
 .card { background:#fff; border:1px solid var(--line); border-radius:14px; padding:16px; }
+.card.is-done { opacity:.55; }
 .card-top { display:flex; gap:8px; align-items:center; margin-bottom:8px; }
 .pill { font-size:11px; font-weight:700; letter-spacing:.04em; text-transform:uppercase; border-radius:999px; padding:3px 8px; background:#e8f6ee; color:var(--green); }
 .date { margin-left:auto; font-size:12px; color:var(--muted); }
@@ -28,24 +32,33 @@ h3 a.postlink:hover { color:var(--coral); text-decoration:underline; }
 .title,.sum,.why { margin:0 0 8px; }
 .title { color:var(--muted); font-size:13px; }
 .why { font-size:13px; color:#3a4a4e; }
+.links { display:flex; gap:12px; align-items:center; flex-wrap:wrap; }
 .links a { color:var(--coral); font-size:13px; text-decoration:none; font-weight:600; }
+.done,.undo { border:0; background:transparent; color:var(--hero); font:inherit; font-size:13px; font-weight:600; cursor:pointer; padding:0; }
+.done:hover { color:var(--green); }
+.undo { color:var(--muted); }
 .note { color:var(--muted); font-size:13px; margin:16px 0 0; }
+@media (max-width:700px) { .stats { grid-template-columns:1fr; } }
 </style>
 </head>
 <body>
   <div class="hero">
     <div class="wrap">
       <h1>LinkedIn network post radar</h1>
-      <p>Hiring, partner, and looking-for-help posts only. Names and Open post both go to the LinkedIn post, not the profile.</p>
+      <p>Hiring and looking-for-help posts only. Mark Done to hide a card. That sticks on this browser even after the daily refresh.</p>
     </div>
   </div>
   <div class="wrap">
     <div class="stats">
-      <div class="stat"><b>19</b><span>open asks this week</span></div>
-      <div class="stat"><b>7</b><span>new this morning</span></div>
+      <div class="stat"><b id="open-count">19</b><span>still open</span></div>
+      <div class="stat"><b id="done-count">0</b><span>marked done</span></div>
+      <div class="stat"><b>19</b><span>on the board</span></div>
     </div>
-    <div class="grid">
-    <article class="card">
+    <div class="toolbar">
+      <button type="button" id="toggle-done">Show completed</button>
+    </div>
+    <div class="grid" id="grid">
+    <article class="card" data-post="https://www.linkedin.com/feed/update/urn:li:activity:7496845245117157376/">
       <div class="card-top">
         <span class="pill">Hiring / ask</span>
         <span class="date">16h ago (2026-08-22)</span>
@@ -54,9 +67,13 @@ h3 a.postlink:hover { color:var(--coral); text-decoration:underline; }
       <p class="title">CEO &amp; Founder, Cigres Technologies Private Limited</p>
       <p class="sum">Cigres is hiring for multiple roles in Bangalore including Salesforce, SAP modules, Oracle Finance and automation testing. Wants immediate joiners, F2F interviews, 3 days WFO.</p>
       <p class="why">Explicit Salesforce-inclusive multi-role hiring need at a services firm - direct staffing/contracting/partner opportunity.</p>
-      <div class="links"><a href="https://www.linkedin.com/feed/update/urn:li:activity:7496845245117157376/" target="_blank" rel="noopener">Open post</a></div>
+      <div class="links">
+        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7496845245117157376/" target="_blank" rel="noopener">Open post</a>
+        <button type="button" class="done" data-done>Done</button>
+        <button type="button" class="undo" data-undo hidden>Undo</button>
+      </div>
     </article>
-    <article class="card">
+    <article class="card" data-post="https://www.linkedin.com/feed/update/urn:li:activity:7496314082631819265/">
       <div class="card-top">
         <span class="pill">Hiring / ask</span>
         <span class="date">2d ago</span>
@@ -65,9 +82,13 @@ h3 a.postlink:hover { color:var(--coral); text-decoration:underline; }
       <p class="title">Data &amp; AI Executive (Perficient)</p>
       <p class="sum">Announcing continued growth and actively #hiring a Data Management Architect (careers.perficient.com), focused on data foundations for AI.</p>
       <p class="why">Open req at a consultancy; hiring signal plus data/CRM foundation work Raghu could staff or partner on.</p>
-      <div class="links"><a href="https://www.linkedin.com/feed/update/urn:li:activity:7496314082631819265/" target="_blank" rel="noopener">Open post</a></div>
+      <div class="links">
+        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7496314082631819265/" target="_blank" rel="noopener">Open post</a>
+        <button type="button" class="done" data-done>Done</button>
+        <button type="button" class="undo" data-undo hidden>Undo</button>
+      </div>
     </article>
-    <article class="card">
+    <article class="card" data-post="https://www.linkedin.com/feed/update/urn:li:activity:7496574517939662848/">
       <div class="card-top">
         <span class="pill">Hiring / ask</span>
         <span class="date">1d ago</span>
@@ -76,9 +97,13 @@ h3 a.postlink:hover { color:var(--coral); text-decoration:underline; }
       <p class="title">Lead BDM / Sr. Account Manager, CyberSpace Technologies LLC</p>
       <p class="sum">Open requirement for a Sr .NET Engineer in New York (onsite) for client KKR, 8-11 yrs, Investran platform experience; resumes to his email.</p>
       <p class="why">Active staffing requirement from a connection who buys/sells contract talent - direct contracting/subcontracting opportunity.</p>
-      <div class="links"><a href="https://www.linkedin.com/feed/update/urn:li:activity:7496574517939662848/" target="_blank" rel="noopener">Open post</a></div>
+      <div class="links">
+        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7496574517939662848/" target="_blank" rel="noopener">Open post</a>
+        <button type="button" class="done" data-done>Done</button>
+        <button type="button" class="undo" data-undo hidden>Undo</button>
+      </div>
     </article>
-    <article class="card">
+    <article class="card" data-post="https://www.linkedin.com/feed/update/urn:li:activity:7496118757027926016/">
       <div class="card-top">
         <span class="pill">Hiring / ask</span>
         <span class="date">2d ago</span>
@@ -87,9 +112,13 @@ h3 a.postlink:hover { color:var(--coral); text-decoration:underline; }
       <p class="title">Strategic Growth &amp; Executive Search</p>
       <p class="sum">Confidential mandate: hiring a VP - Talent Acquisition Operations in Mumbai, 15+ yrs, RCM/US Healthcare hiring mandatory.</p>
       <p class="why">Live leadership search mandate; recruiter connection open to partnering on sourcing.</p>
-      <div class="links"><a href="https://www.linkedin.com/feed/update/urn:li:activity:7496118757027926016/" target="_blank" rel="noopener">Open post</a></div>
+      <div class="links">
+        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7496118757027926016/" target="_blank" rel="noopener">Open post</a>
+        <button type="button" class="done" data-done>Done</button>
+        <button type="button" class="undo" data-undo hidden>Undo</button>
+      </div>
     </article>
-    <article class="card">
+    <article class="card" data-post="https://www.linkedin.com/feed/update/urn:li:activity:7496076072263012352/">
       <div class="card-top">
         <span class="pill">Hiring / ask</span>
         <span class="date">2d ago</span>
@@ -98,9 +127,13 @@ h3 a.postlink:hover { color:var(--coral); text-decoration:underline; }
       <p class="title">Founder &amp; CEO, Aryan Solutions (IT Staffing, RPO, Payroll, Managed Services)</p>
       <p class="sum">Hiring an experienced IoT Tester in Kuala Lumpur to join their team; end-to-end device and mobile app testing.</p>
       <p class="why">Staffing firm actively filling roles across APAC/UAE/India - potential partner for contract talent supply.</p>
-      <div class="links"><a href="https://www.linkedin.com/feed/update/urn:li:activity:7496076072263012352/" target="_blank" rel="noopener">Open post</a></div>
+      <div class="links">
+        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7496076072263012352/" target="_blank" rel="noopener">Open post</a>
+        <button type="button" class="done" data-done>Done</button>
+        <button type="button" class="undo" data-undo hidden>Undo</button>
+      </div>
     </article>
-    <article class="card">
+    <article class="card" data-post="https://www.linkedin.com/feed/update/urn:li:activity:7495495781471150080/">
       <div class="card-top">
         <span class="pill">Hiring / ask</span>
         <span class="date">4d ago</span>
@@ -109,9 +142,13 @@ h3 a.postlink:hover { color:var(--coral); text-decoration:underline; }
       <p class="title">HR / People &amp; Operations Executive (Epista Life Science)</p>
       <p class="sum">Hiring a remote Principal Consultant - Commercial Content Governance at Epista Life Science, leading enterprise content-system strategy, DAM governance, Veeva Vault/PromoMats.</p>
       <p class="why">Open consulting role at a growing US delivery team - enterprise systems consulting need adjacent to Salesforce/Veeva work.</p>
-      <div class="links"><a href="https://www.linkedin.com/feed/update/urn:li:activity:7495495781471150080/" target="_blank" rel="noopener">Open post</a></div>
+      <div class="links">
+        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7495495781471150080/" target="_blank" rel="noopener">Open post</a>
+        <button type="button" class="done" data-done>Done</button>
+        <button type="button" class="undo" data-undo hidden>Undo</button>
+      </div>
     </article>
-    <article class="card">
+    <article class="card" data-post="https://www.linkedin.com/feed/update/urn:li:activity:7495484561406226434/">
       <div class="card-top">
         <span class="pill">Hiring / ask</span>
         <span class="date">4d ago</span>
@@ -120,9 +157,13 @@ h3 a.postlink:hover { color:var(--coral); text-decoration:underline; }
       <p class="title">Talent Acquisition Business Partner (North America), Capgemini</p>
       <p class="sum">Capgemini hiring full-time Java/Full Stack/Front End/Back End developers at all levels across Dallas, Durham, NJ, Merrimack, Lake Mary, Chicago and NYC.</p>
       <p class="why">Large-scale open reqs at a systems integrator - contracting/subcontracting and partner-of-record opportunity.</p>
-      <div class="links"><a href="https://www.linkedin.com/feed/update/urn:li:activity:7495484561406226434/" target="_blank" rel="noopener">Open post</a></div>
+      <div class="links">
+        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7495484561406226434/" target="_blank" rel="noopener">Open post</a>
+        <button type="button" class="done" data-done>Done</button>
+        <button type="button" class="undo" data-undo hidden>Undo</button>
+      </div>
     </article>
-    <article class="card">
+    <article class="card" data-post="https://www.linkedin.com/feed/update/urn:li:activity:7496716312426131456/">
       <div class="card-top">
         <span class="pill">Hiring / ask</span>
         <span class="date">1d ago</span>
@@ -131,9 +172,13 @@ h3 a.postlink:hover { color:var(--coral); text-decoration:underline; }
       <p class="title">Cream IT Inc</p>
       <p class="sum">Looking for an SAP ABAP consultant, 1-year remote engagement, EST time zone, US citizen work authorization; resumes to basava@creamitinc.com.</p>
       <p class="why">Explicit 1-year contractor requirement - immediate contract-staffing opportunity.</p>
-      <div class="links"><a href="https://www.linkedin.com/feed/update/urn:li:activity:7496716312426131456/" target="_blank" rel="noopener">Open post</a></div>
+      <div class="links">
+        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7496716312426131456/" target="_blank" rel="noopener">Open post</a>
+        <button type="button" class="done" data-done>Done</button>
+        <button type="button" class="undo" data-undo hidden>Undo</button>
+      </div>
     </article>
-    <article class="card">
+    <article class="card" data-post="https://www.linkedin.com/feed/update/urn:li:activity:7495593570918350848/">
       <div class="card-top">
         <span class="pill">Hiring / ask</span>
         <span class="date">4d ago</span>
@@ -142,9 +187,13 @@ h3 a.postlink:hover { color:var(--coral); text-decoration:underline; }
       <p class="title">Lead BDM/Sr. Account Manager, CyberSpace Technologies LLC</p>
       <p class="sum">Open requirement for a Salesforce Technical Architect for client Infosys/FPL, Houston TX (hybrid), 10+ yrs IT and 7+ yrs Salesforce; needs Sales/Service/Experience Cloud, Apex, LWC. Rate &#x27;best&#x27;.</p>
       <p class="why">NEW post (different from his .NET req already captured) - a live Salesforce architect contract role, directly staffable/subcontractable.</p>
-      <div class="links"><a href="https://www.linkedin.com/feed/update/urn:li:activity:7495593570918350848/" target="_blank" rel="noopener">Open post</a></div>
+      <div class="links">
+        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7495593570918350848/" target="_blank" rel="noopener">Open post</a>
+        <button type="button" class="done" data-done>Done</button>
+        <button type="button" class="undo" data-undo hidden>Undo</button>
+      </div>
     </article>
-    <article class="card">
+    <article class="card" data-post="https://www.linkedin.com/feed/update/urn:li:activity:7496090304861704193/">
       <div class="card-top">
         <span class="pill">Hiring / ask</span>
         <span class="date">2d ago (reshare of 1w company post)</span>
@@ -153,9 +202,13 @@ h3 a.postlink:hover { color:var(--coral); text-decoration:underline; }
       <p class="title">Co-Founder &amp; CEO, Inveris Digital (Enterprise AI for MedTech/regulated industries)</p>
       <p class="sum">Inveris Digital is building a Demand Generation team for the US market and hiring a Demand Generation Executive for outbound email/LinkedIn prospecting into US decision-makers.</p>
       <p class="why">Growing enterprise-AI firm staffing US GTM - hiring signal plus a potential partner/buyer for delivery or CRM/GTM systems support.</p>
-      <div class="links"><a href="https://www.linkedin.com/feed/update/urn:li:activity:7496090304861704193/" target="_blank" rel="noopener">Open post</a></div>
+      <div class="links">
+        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7496090304861704193/" target="_blank" rel="noopener">Open post</a>
+        <button type="button" class="done" data-done>Done</button>
+        <button type="button" class="undo" data-undo hidden>Undo</button>
+      </div>
     </article>
-    <article class="card">
+    <article class="card" data-post="https://www.linkedin.com/feed/update/urn:li:activity:7497232667990540288/">
       <div class="card-top">
         <span class="pill">Hiring / ask</span>
         <span class="date">5h ago</span>
@@ -164,9 +217,13 @@ h3 a.postlink:hover { color:var(--coral); text-decoration:underline; }
       <p class="title">MD @ Fynity | Building global Salesforce, RevOps &amp; GTM Engineering teams</p>
       <p class="sum">Hiring a Techno-Functional Senior/Principal Salesforce Consultant for the Salesforce practice of a small global consulting firm. London hybrid, full lifecycle delivery, interviewing now, DM to apply. No sponsorship, UK rights required.</p>
       <p class="why">Live Salesforce consulting req from a recruiter who staffs Salesforce/RevOps teams globally - strongest new staffing/partnering signal of this pass.</p>
-      <div class="links"><a href="https://www.linkedin.com/feed/update/urn:li:activity:7497232667990540288/" target="_blank" rel="noopener">Open post</a></div>
+      <div class="links">
+        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7497232667990540288/" target="_blank" rel="noopener">Open post</a>
+        <button type="button" class="done" data-done>Done</button>
+        <button type="button" class="undo" data-undo hidden>Undo</button>
+      </div>
     </article>
-    <article class="card">
+    <article class="card" data-post="https://www.linkedin.com/feed/update/urn:li:activity:7495876540463726592/">
       <div class="card-top">
         <span class="pill">Hiring / ask</span>
         <span class="date">3d ago</span>
@@ -175,9 +232,13 @@ h3 a.postlink:hover { color:var(--coral); text-decoration:underline; }
       <p class="title">Global Head of Banking - AI, Data &amp; Digital Technology, Acuity Analytics</p>
       <p class="sum">Looking for an experienced Quality Engineering Manager with Capital Markets / Fixed Income and trading workflow experience; explicitly asks the network to share profiles. Also amplifying a Senior Data QA Lead req (Pune hybrid).</p>
       <p class="why">Explicit &#x27;please share the profile&#x27; ask from a hiring leader at a data/analytics firm - direct contract/permanent staffing supply opportunity.</p>
-      <div class="links"><a href="https://www.linkedin.com/feed/update/urn:li:activity:7495876540463726592/" target="_blank" rel="noopener">Open post</a></div>
+      <div class="links">
+        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7495876540463726592/" target="_blank" rel="noopener">Open post</a>
+        <button type="button" class="done" data-done>Done</button>
+        <button type="button" class="undo" data-undo hidden>Undo</button>
+      </div>
     </article>
-    <article class="card">
+    <article class="card" data-post="https://www.linkedin.com/posts/aparnasingh_hiring-salesleadership-businessdevelopment-share-7497480725659701249-lTtc/">
       <div class="card-top">
         <span class="pill">Hiring / ask</span>
         <span class="date">2026-08-23</span>
@@ -186,9 +247,13 @@ h3 a.postlink:hover { color:var(--coral); text-decoration:underline; }
       <p class="title">Executive Search Partner to CEOs, PE Firms &amp; Technology Leaders | Leadership Hiring | GTM, AI, Data &amp; Digital Talent</p>
       <p class="sum">Hiring Alert: active search for a Senior Director - Financial Services. Full-time, remote (Midwest preferred). Wants enterprise IT services sales leader with banking/credit union client relationships, digital transformation/cloud/data/AI/managed services selling, offshore delivery understanding.</p>
       <p class="why">Explicit open req at an IT services buyer/seller in Financial Services - direct staffing/partner-adjacent opportunity and a warm entry to a search partner who places GTM leaders.</p>
-      <div class="links"><a href="https://www.linkedin.com/posts/aparnasingh_hiring-salesleadership-businessdevelopment-share-7497480725659701249-lTtc/" target="_blank" rel="noopener">Open post</a></div>
+      <div class="links">
+        <a href="https://www.linkedin.com/posts/aparnasingh_hiring-salesleadership-businessdevelopment-share-7497480725659701249-lTtc/" target="_blank" rel="noopener">Open post</a>
+        <button type="button" class="done" data-done>Done</button>
+        <button type="button" class="undo" data-undo hidden>Undo</button>
+      </div>
     </article>
-    <article class="card">
+    <article class="card" data-post="https://www.linkedin.com/posts/vikramshervani_hiring-fircosoft-lnrs-share-7497124013660504064-vxiT/">
       <div class="card-top">
         <span class="pill">Hiring / ask</span>
         <span class="date">2026-08-23</span>
@@ -197,9 +262,13 @@ h3 a.postlink:hover { color:var(--coral); text-decoration:underline; }
       <p class="title">Founder &amp; CEO | IT Staffing, RPO, Payroll &amp; Managed Services (APAC, UAE, India, Australia) | Singapore</p>
       <p class="sum">We&#x27;re Hiring: Fircosoft Configuration Manager in Singapore - functional Fircosoft / LNRS WUM-SOC configuration specialist for sanctions list management (watchlist files, mappings, approval workflows, validation rules).</p>
       <p class="why">Explicit open req from a staffing firm founder; direct contract/staffing and subcontracting opportunity.</p>
-      <div class="links"><a href="https://www.linkedin.com/posts/vikramshervani_hiring-fircosoft-lnrs-share-7497124013660504064-vxiT/" target="_blank" rel="noopener">Open post</a></div>
+      <div class="links">
+        <a href="https://www.linkedin.com/posts/vikramshervani_hiring-fircosoft-lnrs-share-7497124013660504064-vxiT/" target="_blank" rel="noopener">Open post</a>
+        <button type="button" class="done" data-done>Done</button>
+        <button type="button" class="undo" data-undo hidden>Undo</button>
+      </div>
     </article>
-    <article class="card">
+    <article class="card" data-post="https://www.linkedin.com/posts/vikramshervani_hiring-hradmin-hrjobs-share-7497126159772614656-nK-q/">
       <div class="card-top">
         <span class="pill">Hiring / ask</span>
         <span class="date">2026-08-23</span>
@@ -208,9 +277,13 @@ h3 a.postlink:hover { color:var(--coral); text-decoration:underline; }
       <p class="title">Founder &amp; CEO | IT Staffing, RPO, Payroll &amp; Managed Services (APAC, UAE, India, Australia) | Singapore</p>
       <p class="sum">We&#x27;re Hiring: HR Admin role in Singapore.</p>
       <p class="why">Distinct explicit open req (separate permalink) from the same staffing partner - signals active req flow to support.</p>
-      <div class="links"><a href="https://www.linkedin.com/posts/vikramshervani_hiring-hradmin-hrjobs-share-7497126159772614656-nK-q/" target="_blank" rel="noopener">Open post</a></div>
+      <div class="links">
+        <a href="https://www.linkedin.com/posts/vikramshervani_hiring-hradmin-hrjobs-share-7497126159772614656-nK-q/" target="_blank" rel="noopener">Open post</a>
+        <button type="button" class="done" data-done>Done</button>
+        <button type="button" class="undo" data-undo hidden>Undo</button>
+      </div>
     </article>
-    <article class="card">
+    <article class="card" data-post="https://www.linkedin.com/posts/vikramshervani_hiring-avaloq-avaloqconsultant-share-7495656553086107649-L5N2/">
       <div class="card-top">
         <span class="pill">Hiring / ask</span>
         <span class="date">2026-08-19</span>
@@ -219,9 +292,13 @@ h3 a.postlink:hover { color:var(--coral); text-decoration:underline; }
       <p class="title">Founder &amp; CEO | IT Staffing, RPO, Payroll &amp; Managed Services (APAC, UAE, India, Australia) | Singapore</p>
       <p class="sum">We are hiring an Avaloq Lead Consultant in the Philippines (banking core platform consulting role).</p>
       <p class="why">Explicit open req for consulting delivery talent - staffing/partner collaboration opportunity.</p>
-      <div class="links"><a href="https://www.linkedin.com/posts/vikramshervani_hiring-avaloq-avaloqconsultant-share-7495656553086107649-L5N2/" target="_blank" rel="noopener">Open post</a></div>
+      <div class="links">
+        <a href="https://www.linkedin.com/posts/vikramshervani_hiring-avaloq-avaloqconsultant-share-7495656553086107649-L5N2/" target="_blank" rel="noopener">Open post</a>
+        <button type="button" class="done" data-done>Done</button>
+        <button type="button" class="undo" data-undo hidden>Undo</button>
+      </div>
     </article>
-    <article class="card">
+    <article class="card" data-post="https://www.linkedin.com/posts/danielcurtin_a-chief-data-officer-at-a-350-person-company-share-7496193248424738816-2BJl/">
       <div class="card-top">
         <span class="pill">Hiring / ask</span>
         <span class="date">2026-08-21</span>
@@ -230,9 +307,13 @@ h3 a.postlink:hover { color:var(--coral); text-decoration:underline; }
       <p class="title">Executive Technology Recruiter | Partnering with CTOs &amp; CDOs to build AI, Data Science, ML and Data Engineering teams</p>
       <p class="sum">Hiring: Director, Data Analytics &amp; AI for a 350-person company in NJ (role brought to him by the CDO; open 3.5 months, repositioning the story to attract candidates).</p>
       <p class="why">Named live open req in data/AI leadership - hiring signal plus a data/analytics program that could need delivery help.</p>
-      <div class="links"><a href="https://www.linkedin.com/posts/danielcurtin_a-chief-data-officer-at-a-350-person-company-share-7496193248424738816-2BJl/" target="_blank" rel="noopener">Open post</a></div>
+      <div class="links">
+        <a href="https://www.linkedin.com/posts/danielcurtin_a-chief-data-officer-at-a-350-person-company-share-7496193248424738816-2BJl/" target="_blank" rel="noopener">Open post</a>
+        <button type="button" class="done" data-done>Done</button>
+        <button type="button" class="undo" data-undo hidden>Undo</button>
+      </div>
     </article>
-    <article class="card">
+    <article class="card" data-post="https://www.linkedin.com/posts/samuelsirivellacyberspace_ai-deployment-engineer-preferred-location-share-7495134204259803136-2m4g/">
       <div class="card-top">
         <span class="pill">Hiring / ask</span>
         <span class="date">2026-08-18</span>
@@ -241,9 +322,13 @@ h3 a.postlink:hover { color:var(--coral); text-decoration:underline; }
       <p class="title">Lead BDM / Sr. Account Manager, CyberSpace Technologies LLC</p>
       <p class="sum">Open requirement: AI Deployment Engineer, Memphis TN, 2 positions, long term; AI data center builds, hardware deployment, cabling validation, site readiness; extensive travel.</p>
       <p class="why">Distinct new open requirement (separate permalink from previously captured Samuel posts) - direct contractor/staffing supply opportunity.</p>
-      <div class="links"><a href="https://www.linkedin.com/posts/samuelsirivellacyberspace_ai-deployment-engineer-preferred-location-share-7495134204259803136-2m4g/" target="_blank" rel="noopener">Open post</a></div>
+      <div class="links">
+        <a href="https://www.linkedin.com/posts/samuelsirivellacyberspace_ai-deployment-engineer-preferred-location-share-7495134204259803136-2m4g/" target="_blank" rel="noopener">Open post</a>
+        <button type="button" class="done" data-done>Done</button>
+        <button type="button" class="undo" data-undo hidden>Undo</button>
+      </div>
     </article>
-    <article class="card">
+    <article class="card" data-post="https://www.linkedin.com/posts/pushpajayabalan-arockiam-7925675_jesperapps-is-hiring-ai-practice-head-focus-share-7497195689836457985-vcKq/">
       <div class="card-top">
         <span class="pill">Hiring / ask</span>
         <span class="date">2026-08-23</span>
@@ -252,9 +337,45 @@ h3 a.postlink:hover { color:var(--coral); text-decoration:underline; }
       <p class="title">Entrepreneur | Technology, Infrastructure, Agriculture &amp; Space (JESPERAPPS)</p>
       <p class="sum">JESPERAPPS is hiring an AI Practice Head (focus areas include DxM, consulting, physical/digital delivery).</p>
       <p class="why">Explicit leadership open req at a services firm building an AI practice - partner/delivery collaboration angle.</p>
-      <div class="links"><a href="https://www.linkedin.com/posts/pushpajayabalan-arockiam-7925675_jesperapps-is-hiring-ai-practice-head-focus-share-7497195689836457985-vcKq/" target="_blank" rel="noopener">Open post</a></div>
+      <div class="links">
+        <a href="https://www.linkedin.com/posts/pushpajayabalan-arockiam-7925675_jesperapps-is-hiring-ai-practice-head-focus-share-7497195689836457985-vcKq/" target="_blank" rel="noopener">Open post</a>
+        <button type="button" class="done" data-done>Done</button>
+        <button type="button" class="undo" data-undo hidden>Undo</button>
+      </div>
     </article></div>
-    <p class="note">Updated 2026-08-24 13:42 UTC.</p>
+    <p class="note">Updated 2026-08-24 14:23 UTC. Done is saved in this browser only.</p>
   </div>
+<script>
+const KEY = "li-radar-done-v1";
+const load = () => { try { return new Set(JSON.parse(localStorage.getItem(KEY) || "[]")); } catch { return new Set(); } };
+const save = (s) => localStorage.setItem(KEY, JSON.stringify([...s]));
+const done = load();
+const showDoneBtn = document.getElementById("toggle-done");
+let showDone = false;
+function paint() {
+  document.querySelectorAll(".card").forEach(card => {
+    const id = card.dataset.post;
+    const isDone = done.has(id);
+    card.classList.toggle("is-done", isDone);
+    card.hidden = isDone && !showDone;
+    card.querySelector("[data-done]").hidden = isDone;
+    card.querySelector("[data-undo]").hidden = !isDone;
+  });
+  const open = document.querySelectorAll(".card:not(.is-done)").length;
+  document.getElementById("open-count").textContent = open;
+  document.getElementById("done-count").textContent = done.size;
+  showDoneBtn.classList.toggle("on", showDone);
+  showDoneBtn.textContent = showDone ? "Hide completed" : "Show completed";
+}
+document.getElementById("grid").addEventListener("click", e => {
+  const card = e.target.closest(".card");
+  if (!card) return;
+  const id = card.dataset.post;
+  if (e.target.closest("[data-done]")) { done.add(id); save(done); paint(); }
+  if (e.target.closest("[data-undo]")) { done.delete(id); save(done); paint(); }
+});
+showDoneBtn.addEventListener("click", () => { showDone = !showDone; paint(); });
+paint();
+</script>
 </body>
 </html>
