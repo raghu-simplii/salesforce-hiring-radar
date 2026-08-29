@@ -622,10 +622,19 @@ body[data-tab="staffing-contacts"] #configMatrix { display: none; }
       </div>
     </div>
     <div class="filter-block">
-      <p class="filter-label">Search &amp; week</p>
+      <p class="filter-label">Posted</p>
+      <div class="row-flex" id="postedChips">
+        <button type="button" class="chip" data-posted="1">1 day</button>
+        <button type="button" class="chip" data-posted="3">3 days</button>
+        <button type="button" class="chip" data-posted="7">1 week</button>
+        <button type="button" class="chip" data-posted="14">2 weeks</button>
+        <button type="button" class="chip active" data-posted="30">30 days</button>
+      </div>
+    </div>
+    <div class="filter-block">
+      <p class="filter-label">Search</p>
       <div class="row-flex">
         <input id="searchBox" class="search" type="search" placeholder="Search role, title, author" />
-        <button type="button" class="toggle" id="weekToggle">This week · Aug 12–18</button>
       </div>
     </div>
   </section>
@@ -640,7 +649,7 @@ body[data-tab="staffing-contacts"] #configMatrix { display: none; }
   <section class="block" data-view="board">
     <p class="kicker">Hit board</p>
     <h2 id="boardTitle">Employee posts, then official listings</h2>
-    <p class="sub" id="boardSub">Every remaining real hit. Company color rail. Search and filters apply.</p>
+    <p class="sub" id="boardSub">Every remaining real hit in the selected posted window. Company color rail. Search and filters apply.</p>
     <div id="board"></div>
   </section>
 
@@ -674,6 +683,10 @@ const CONFIG = {
   "keyword": "Salesforce",
   "end_date": "today",
   "windows_days": [
+    1,
+    3,
+    7,
+    14,
     30
   ],
   "default_window_days": 30,
@@ -16478,7 +16491,10 @@ let companyFilter = "all";
 let sourceFilter = "all";
 let locationFilter = "all";
 let searchQuery = "";
-let thisWeekOnly = false;
+let postedDays = (function () {
+  const n = parseInt(localStorage.getItem("radar-posted-days") || "30", 10);
+  return [1, 3, 7, 14, 30].indexOf(n) >= 0 ? n : 30;
+})();
 let lastAsk = { q: "", para: "", hits: [] };
 
 function filteredHits() {
@@ -16511,9 +16527,12 @@ function filteredHits() {
     if (sourceFilter === "employee" && !isPost(h)) return false;
     if (sourceFilter === "listing" && !isListing(h)) return false;
     if (locationFilter !== "all" && locBucket(h.location) !== locationFilter) return false;
-    if (thisWeekOnly) {
-      const d = h.post_date || "";
-      if (d < THIS_WEEK_START || d > weekEnd) return false;
+    const postedWin = windowMeta(postedDays);
+    const posted = h.post_date || "";
+    if (posted) {
+      if (posted < postedWin.start || posted > postedWin.end) return false;
+    } else if (postedDays < 30) {
+      return false;
     }
     if (searchQuery) {
       const q = searchQuery.toLowerCase().trim();
@@ -16541,7 +16560,8 @@ function renderHeader() {
   document.getElementById("hdrSub").textContent =
     (DATA.scanned_at_display || "") + " · " + w.range_label + " · " + nCo + " companies tracked";
   document.getElementById("scanWhen").textContent = DATA.scanned_at_display || "";
-  document.getElementById("scanWin").textContent = w.range_label + " · " + nCo + " companies";
+  const posted = windowMeta(postedDays);
+  document.getElementById("scanWin").textContent = posted.range_label + " · " + nCo + " companies";
   document.title = (DATA.title || "Salesforce hiring radar") + " · " + w.range_label;
 }
 
@@ -16826,7 +16846,9 @@ function renderFilters() {
   document.querySelectorAll("[data-loc]").forEach(btn => {
     btn.classList.toggle("active", btn.getAttribute("data-loc") === locationFilter);
   });
-  document.getElementById("weekToggle").classList.toggle("on", thisWeekOnly);
+  document.querySelectorAll("[data-posted]").forEach(btn => {
+    btn.classList.toggle("active", Number(btn.getAttribute("data-posted")) === postedDays);
+  });
   const searchEl = document.getElementById("searchBox");
   if (searchEl && searchEl.value !== searchQuery) searchEl.value = searchQuery;
 }
@@ -17307,8 +17329,17 @@ function renderMatrix(hits) {
   if (sum) sum.textContent = list.length + " companies · click to " + (document.getElementById("configMatrix").classList.contains("open") ? "collapse" : "edit");
 }
 
-function renderStaffing() {
+function staffingLeadsInView() {
   const leads = (typeof STAFFING_LEADS !== "undefined" && STAFFING_LEADS) ? STAFFING_LEADS : [];
+  const w = windowMeta(postedDays);
+  return leads.filter(l => {
+    const d = l.posted_date || l.post_date || "";
+    if (!d) return postedDays >= 30;
+    return d >= w.start && d <= w.end;
+  });
+}
+function renderStaffing() {
+  const leads = staffingLeadsInView();
   const kpis = document.getElementById("staffingKpis");
   const box = document.getElementById("staffingLeads");
   if (!kpis || !box) return;
@@ -17434,7 +17465,13 @@ document.querySelectorAll("[data-src]").forEach(btn => {
 document.querySelectorAll("[data-loc]").forEach(btn => {
   btn.addEventListener("click", () => { locationFilter = btn.getAttribute("data-loc"); render(); });
 });
-document.getElementById("weekToggle").addEventListener("click", () => { thisWeekOnly = !thisWeekOnly; render(); });
+document.querySelectorAll("[data-posted]").forEach(btn => {
+  btn.addEventListener("click", () => {
+    postedDays = Number(btn.getAttribute("data-posted")) || 30;
+    try { localStorage.setItem("radar-posted-days", String(postedDays)); } catch (e) {}
+    render();
+  });
+});
 let searchTimer = null;
 document.getElementById("searchBox").addEventListener("input", e => {
   const v = e.target.value;
