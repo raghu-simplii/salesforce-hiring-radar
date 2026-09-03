@@ -649,7 +649,7 @@ body[data-tab="staffing-contacts"] #configMatrix { display: none; }
   <section class="block" data-view="board">
     <p class="kicker">Hit board</p>
     <h2 id="boardTitle">Employee posts, then official listings</h2>
-    <p class="sub" id="boardSub">Every remaining real hit in the selected posted window. Company color rail. Search and filters apply.</p>
+    <p class="sub" id="boardSub">Newest first. Same job on two sites is one card. Search and filters apply.</p>
     <div id="board"></div>
   </section>
 
@@ -663,7 +663,17 @@ body[data-tab="staffing-contacts"] #configMatrix { display: none; }
   <section class="block" data-view="staffing" id="staffing">
     <p class="kicker">Victoria · BDR</p>
     <h2>US Staffing Leads</h2>
-    <p class="sub">Direct Salesforce jobs at US mid-market and smaller companies (prefer under 2,000 employees, cap 5,000). Junior / admin-level. LinkedIn, Indeed, ZipRecruiter. No invented rows.</p>
+    <p class="sub" id="staffingSub">Newest first. Direct Salesforce jobs at US mid-market companies (prefer under 2,000, cap 5,000). Junior / admin-level. No invented rows.</p>
+    <div class="filter-block">
+      <p class="filter-label">Posted</p>
+      <div class="row-flex" id="staffingPostedChips">
+        <button type="button" class="chip" data-posted="1">1 day</button>
+        <button type="button" class="chip" data-posted="3">3 days</button>
+        <button type="button" class="chip" data-posted="7">7 days</button>
+        <button type="button" class="chip" data-posted="14">14 days</button>
+        <button type="button" class="chip active" data-posted="30">30 days</button>
+      </div>
+    </div>
     <div id="staffingKpis" class="kpi-grid"></div>
     <div id="staffingLeads" class="lead-grid" style="margin-top:18px"></div>
   </section>
@@ -14526,16 +14536,22 @@ function windowMeta(days) {
   };
 }
 function jobCityKey(h) {
-  let loc = String(h.location || "").toLowerCase().split("(")[0].split(";")[0];
+  const raw = String(h.location || "").toLowerCase();
+  let loc = raw.split("(")[0].split(";")[0];
   let city = loc.split(",")[0].trim().replace(/\s+/g, " ");
   const alias = { "pune city": "pune", bengaluru: "bangalore", gurugram: "gurgaon", "new york city": "new york", "pune division": "pune", "pimpri-chinchwad area": "pune", "pune/pimpri-chinchwad area": "pune" };
   city = alias[city] || city;
+  if (/^(united states|usa|us|u\.s\.|u s|remote united states|remote us)$/.test(city)) return "us";
+  if (/^(india|remote india|remote or hybrid india)$/.test(city)) return "india";
+  if (!/(chennai|pune|bengal|hyderabad|gurgaon|mumbai|delhi|noida|kolkata)/.test(raw) && /india/.test(raw) && /remote|hybrid|united states|us\b/.test(raw) === false && city === "india") return "india";
   return city;
 }
 function jobTitleKey(h) {
   const roles = h.roles || [];
   let t = (roles[0] || hitTitle(h) || "").toLowerCase();
   t = t.replace(/sfdc/g, "salesforce").replace(/\bsr\.?\b/g, "senior").replace(/\bjr\.?\b/g, "junior");
+  t = t.replace(/artificial intelligence/g, "ai").replace(/machine learning/g, "ml");
+  t = t.replace(/\bai\s*[\/&]\s*ml\b/g, "ai ml");
   t = t.replace(/[^a-z0-9+.# ]+/g, " ").replace(/\s+/g, " ").trim();
   t = t.replace("salesforce development lead", "salesforce dev lead");
   return t;
@@ -14573,24 +14589,8 @@ function dedupeHits(hits) {
   });
   const out = [];
   groups.forEach(rows => {
-    const byReq = new Map();
-    const rest = [];
-    rows.forEach(h => {
-      const id = officialReqId(h.post_url);
-      if (id) {
-        if (!byReq.has(id)) byReq.set(id, []);
-        byReq.get(id).push(h);
-      } else rest.push(h);
-    });
-    if (byReq.size >= 2) {
-      byReq.forEach(hs => {
-        hs.sort((a, b) => urlScore(b) - urlScore(a) || String(b.post_date || "").localeCompare(a.post_date || ""));
-        out.push(hs[0]);
-      });
-    } else {
-      rows.sort((a, b) => urlScore(b) - urlScore(a) || String(b.post_date || "").localeCompare(a.post_date || ""));
-      out.push(rows[0]);
-    }
+    rows.sort((a, b) => urlScore(b) - urlScore(a) || String(b.post_date || "").localeCompare(a.post_date || ""));
+    out.push(rows[0]);
   });
   return out;
 }
@@ -15540,12 +15540,18 @@ function renderMatrix(hits) {
 }
 
 function staffingLeadsInView() {
-  const leads = (typeof STAFFING_LEADS !== "undefined" && STAFFING_LEADS) ? STAFFING_LEADS : [];
-  const w = windowMeta(postedDays);
+  const leads = (typeof STAFFING_LEADS !== "undefined" && STAFFING_LEADS) ? STAFFING_LEADS.slice() : [];
+  const end = resolvedEndDate();
+  const start = addDays(end, -(Math.max(1, postedDays) - 1));
   return leads.filter(l => {
     const d = l.posted_date || l.post_date || "";
     if (!d) return postedDays >= 30;
-    return d >= w.start && d <= w.end;
+    return d >= start && d <= end;
+  }).sort((a, b) => {
+    const da = a.posted_date || a.post_date || "";
+    const db = b.posted_date || b.post_date || "";
+    if (db !== da) return db.localeCompare(da);
+    return String(a.company || "").localeCompare(String(b.company || ""));
   });
 }
 function renderStaffing() {
@@ -15571,13 +15577,16 @@ function renderStaffing() {
     box.innerHTML = '<div class="empty"><p class="t">US Staffing Leads is on the board</p><p class="d">Scanning LinkedIn, Indeed, and ZipRecruiter for junior / admin Salesforce jobs at US companies under 5,000 employees. Nothing invented gets listed.</p></div>';
     return;
   }
+  const sub = document.getElementById("staffingSub");
+  if (sub) sub.textContent = leads.length + " leads · newest first · last " + postedDays + (postedDays === 1 ? " day" : " days");
   box.innerHTML = leads.map((l, i) => {
     const sizeLabel = l.employee_count_estimate ? (l.employee_count_estimate + " employees") : (l.size_band === "lt_2k" ? "Under 2,000" : l.size_band === "2k_5k" ? "2,000–5,000" : "Size unverified");
+    const posted = l.posted_date || l.post_date || "";
     const url = l.url ? '<div><a href="' + esc(l.url) + '" target="_blank" rel="noopener">Open listing</a></div>' : "";
     return '<article class="lead">' +
       '<div class="idx">' + String(i+1).padStart(2,"0") + "</div>" +
       "<div><h3>" + esc(l.title || "Salesforce Administrator") + "</h3>" +
-        '<div class="meta">' + esc(l.company || "") + " · " + esc(l.location || "US") +
+        '<div class="meta">' + (posted ? ("Posted " + esc(formatShort(posted)) + " · ") : "") + esc(l.company || "") + " · " + esc(l.location || "US") +
         ' · <span class="size-pill">' + esc(sizeLabel) + "</span></div>" +
         (l.snippet ? '<div class="meta" style="margin-top:6px">' + esc(l.snippet) + "</div>" : "") +
         url +
