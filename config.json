@@ -1,6 +1,6 @@
 {
   "keyword": "Salesforce",
-  "end_date": "2026-09-04",
+  "end_date": "2026-09-05",
   "windows_days": [
     1,
     3,
@@ -392,5 +392,6 @@
     ]
   },
   "it_only": true,
-  "role_note": "IT / software / Salesforce / data / cloud / QA only across every company. No sales, marketing, HR, finance, legal, warehouse, or other business roles."
+  "role_note": "IT / software / Salesforce / data / cloud / QA only across every company. No sales, marketing, HR, finance, legal, warehouse, or other business roles.",
+  "synced_at": "2026-09-05T10:05:14-04:00"
 }
