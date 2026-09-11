@@ -1,6 +1,6 @@
 {
   "keyword": "Salesforce",
-  "end_date": "2026-09-10",
+  "end_date": "2026-09-11",
   "windows_days": [
     1,
     3,
@@ -94,8 +94,8 @@
       "name": "Carrier",
       "short": "Carrier",
       "aliases": [
-        "Carrier Global",
-        "Carrier Corporation"
+        "Carrier Corporation",
+        "Carrier Global"
       ],
       "linkedin": "https://www.linkedin.com/company/carrier",
       "keyword": "Salesforce ecosystem",
@@ -144,9 +144,9 @@
       "name": "Merkle",
       "short": "Merkle",
       "aliases": [
+        "Merkle Dentsu",
         "Merkle Inc",
         "Merkle India",
-        "Merkle Dentsu",
         "dentsu Merkle"
       ],
       "linkedin": "https://www.linkedin.com/company/merkleinc",
@@ -197,9 +197,9 @@
       "name": "Liberty Personnel Services",
       "short": "Liberty",
       "aliases": [
+        "Liberty Jobs",
         "Liberty Personal Services",
-        "Liberty Personnel",
-        "Liberty Jobs"
+        "Liberty Personnel"
       ],
       "linkedin": "https://www.linkedin.com/company/liberty-personnel-services-inc",
       "keyword": "Salesforce",
@@ -215,8 +215,8 @@
       "name": "InfoVision",
       "short": "InfoVision",
       "aliases": [
-        "Infovision",
-        "InfoVision Inc"
+        "InfoVision Inc",
+        "Infovision"
       ],
       "linkedin": "https://www.linkedin.com/company/infovision",
       "keyword": "Salesforce+other",
@@ -236,9 +236,9 @@
       "short": "Lloyd List",
       "aliases": [
         "Lloyd List",
-        "Lloyds List",
         "Lloyd's List",
-        "Lloyd's List Intelligence"
+        "Lloyd's List Intelligence",
+        "Lloyds List"
       ],
       "linkedin": "https://www.linkedin.com/company/lloyds-list-intelligence",
       "keyword": "Salesforce+other",
@@ -258,8 +258,8 @@
       "name": "Copeland",
       "short": "Copeland",
       "aliases": [
-        "Coplan",
-        "Copeland LP"
+        "Copeland LP",
+        "Coplan"
       ],
       "linkedin": "https://www.linkedin.com/company/copeland",
       "keyword": "Salesforce+other",
@@ -277,8 +277,8 @@
       "name": "ORS Nasco",
       "short": "ORS Nasco",
       "aliases": [
-        "Ors Nasco",
-        "ORSNasco"
+        "ORSNasco",
+        "Ors Nasco"
       ],
       "linkedin": "https://www.linkedin.com/company/ors-nasco",
       "keyword": "Salesforce+other",
@@ -293,9 +293,9 @@
       "name": "Zinnia",
       "short": "Zinnia",
       "aliases": [
-        "zinniatm",
         "SE2",
-        "Zinnia Insurance"
+        "Zinnia Insurance",
+        "zinniatm"
       ],
       "linkedin": "https://www.linkedin.com/company/zinniatm",
       "keyword": "Salesforce+other",
