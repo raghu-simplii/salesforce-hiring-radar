@@ -1,0 +1,995 @@
+persistent-IN-1|4486009649|Salesforce Developer|Persistent Systems|Pune Division (On-site)|1 week
+persistent-IN-1|4491078789|Salesforce Developer|Persistent Systems|Pune Division (On-site)|1 day
+persistent-IN-1|4485163840|Salesforce Developer|Persistent Systems|Pune Division (On-site)|2 weeks
+persistent-IN-1|4485141855|Salesforce Developer|Persistent Systems|Pune Division (On-site)|2 weeks
+persistent-IN-1|4485773869|Salesforce Data Engineer|Persistent Systems|Pune Division (On-site)|1 week
+persistent-IN-1|4479632242|Salesforce Architect - Health Cloud|Persistent Systems|Pune Division (On-site)|1 month
+persistent-IN-1|4480612812|Diversity Opportunities|Persistent Systems|Pune City (On-site)|3 weeks
+persistent-IN-1|4486219679|Salesforce Experience Cloud Developer|Persistent Systems|Bengaluru (On-site)|1 week
+persistent-IN-1|4486229334|Salesforce Data 360 Developer|Persistent Systems|Pune City (On-site)|1 week
+persistent-IN-1|4480623257|Diversity Opportunities|Persistent Systems|Pune City (On-site)|3 weeks
+persistent-IN-1|4487657964|Salesforce Copado Automation Engineer|Persistent Systems|Pune Division (On-site)|6 days
+persistent-IN-1|4480629053|Diversity Opportunities|Persistent Systems|Pune City (On-site)|3 weeks
+persistent-IN-1|4488694003|Salesforce Copado DevOps Engineer|Persistent Systems|Pune Division (On-site)|4 days
+persistent-IN-1|4486224615|Salesforce FSL Developer|Persistent Systems|Pune City (On-site)|1 week
+persistent-IN-1|4480629043|Diversity Opportunities|Persistent Systems|Pune City (On-site)|3 weeks
+persistent-IN-1|4478267294|Salesforce Life Sciences Cloud Technical Lead|Persistent Systems|Pune City (On-site)|3 weeks
+persistent-IN-1|4486229236|Salesforce Sales Cloud Developer|Persistent Systems|Pune City (On-site)|1 week
+persistent-IN-1|4478252831|Senior Salesforce CPQ Developer|Persistent Systems|Pune City (On-site)|3 weeks
+persistent-IN-1|4486236079|Salesforce Copado DevOps Engineer|Persistent Systems|Pune City (On-site)|1 week
+persistent-IN-1|4486226352|Salesforce Health Cloud Technical Lead|Persistent Systems|Pune City (On-site)|1 week
+persistent-IN-1|4480627100|Diversity Opportunities|Persistent Systems|Pune City (On-site)|3 weeks
+persistent-IN-1|4486232242|Salesforce Copado Automation Engineer|Persistent Systems|Pune City (On-site)|1 week
+persistent-IN-1|4486234074|Salesforce QA Automation Engineer|Persistent Systems|Pune City (On-site)|1 week
+persistent-US-1|4478296544|Salesforce Delivery Leader (Healthcare/Pharma)|Persistent Systems|Chicago, IL (Hybrid)|3 weeks
+birlasoft-IN-1|4477518793|Sr Architect|Birlasoft|Pune/Pimpri-Chinchwad Area|
+birlasoft-IN-1|4477525475|Sr Architect|Birlasoft|Pune/Pimpri-Chinchwad Area|1 week
+birlasoft-IN-1|4428050968|Salesforce CRM Analytics Specialist|Birlasoft|Pune/Pimpri-Chinchwad Area|1 day
+birlasoft-IN-1|4483282190|Specialist - Salesforce Sales   Service Cloud Developer|Birlasoft|Pune/Pimpri-Chinchwad Area|2 weeks
+birlasoft-IN-1|4476284569|Lead - Salesforce Marketing Cloud Support Consultant (MC Next)|Birlasoft|Greater Bengaluru Area|2 weeks
+birlasoft-IN-1|4484554092|SFDC CRMA   PM with experience in manufacturing / automotive domain|Birlasoft|Pune/Pimpri-Chinchwad Area|2 weeks
+birlasoft-IN-1|4476275846|Lead - Salesforce Data 360   Agentforce|Birlasoft|Pune/Pimpri-Chinchwad Area|2 weeks
+birlasoft-IN-1|4476291348|Specialist - Salesforce Data 360   Agentforce|Birlasoft|Pune/Pimpri-Chinchwad Area|2 weeks
+birlasoft-IN-1|4477594760|Architect|Birlasoft|Greater Hyderabad Area|1 week
+birlasoft-IN-1|4485076174|Salesforce Data Engineering (Data Cloud)|Birlasoft|Noida (Hybrid)|1 week
+birlasoft-IN-1|4457912818|Sr Technical Lead-Data Engg|Birlasoft|Greater Hyderabad Area|2 weeks
+birlasoft-IN-1|4472532790|CPQ Functional Lead Consultant - Enterprise Apps|Birlasoft|Pune/Pimpri-Chinchwad Area|2 days
+birlasoft-IN-1|4456204663|Sr Technical Lead-Data Engg|Birlasoft|Greater Hyderabad Area|2 days
+birlasoft-IN-1|4476833140|Lead - Salesforce CPQ / Revenue Cloud|Birlasoft|Noida|2 weeks
+birlasoft-IN-1|4469488242|Oracle Sales Cloud (PRM )Sr Technical Lead-Enterprise Apps|Birlasoft|Pune/Pimpri-Chinchwad Area|1 week
+birlasoft-IN-1|4476833146|Sr Lead - Salesforce Financial Services Cloud|Birlasoft|Noida|2 weeks
+birlasoft-IN-1|4481105427|Technical Specialist-Enterprise Apps|Birlasoft|Greater Hyderabad Area|4 days
+birlasoft-IN-1|4474256838|Specialist - Salesforce Marketing Cloud|Birlasoft|Noida|2 weeks
+birlasoft-IN-1|4470099514|Program Manager - D365 ,F O and Presales|Birlasoft|Pune/Pimpri-Chinchwad Area|1 week
+birlasoft-IN-1|4410481813|Oracle Cloud CX PRM Lead Consultant - Enterprise Apps|Birlasoft|Pune/Pimpri-Chinchwad Area|3 days
+birlasoft-IN-1|4486518335|Oracle Cloud Practice Director|Birlasoft|Pune/Pimpri-Chinchwad Area|1 week
+birlasoft-IN-1|4477276394|Technical Specialist-Enterprise Apps|Birlasoft|Greater Hyderabad Area|1 week
+birlasoft-IN-1|4486372762|CRM Dot Net Functional Specialist-Enterprise Apps|Birlasoft|Greater Bengaluru Area|1 week
+acuity-IN-1|4475212794|Delivery Lead-Salesforce Business Partner|Acuity Analytics|Gurugram|2 weeks
+acuity-IN-1|4485474633|Senior Professional - Business operations analyst|Acuity Analytics|Gurugram (On-site)|1 week
+acuity-IN-1|4475226261|Senior Professional- Business Operations|Acuity Analytics|Gurugram|2 weeks
+acuity-IN-1|4485091413|Senior Associate-Dealcloud|Acuity Analytics|Bengaluru|1 week
+acuity-IN-1|4480786715|Cvent Expert - Asset Management - Analyst/Associate|Acuity Analytics|Pune District (Hybrid)|3 weeks
+carrier-IN-1|4489048836|Senior Analyst MDM Operations|Carrier|Hyderabad (On-site)|3 days
+carrier-IN-1|4487355648|Specialist|Carrier|Hyderabad (Hybrid)|2 days
+carrier-IN-1|4485540191|Senior Manager, Inside Sales|Carrier|Indus|1 week
+carrier-IN-1|4489060077|Senior Analyst MDM|Carrier|Hyderabad (On-site)|3 days
+carrier-IN-1|4486519288|Analyst MDM|Carrier|Hyderabad (On-site)|5 days
+tachyon-US-1|4488202976|Senior Data Analyst / Production Support|Tachyon Technologies|New York Mills, NY|4 days
+tachyon-IN-1|4484021580|Salesforce Developer|Tachyon Technologies|Hyderabad (Hybrid)|2 weeks
+infovision-IN-1|4354393529|Functional Analyst|InfoVision Inc.|Bengaluru (Hybrid)|2 weeks
+copeland-US-1|4485832997|Commercial Enablement   CRM Partner|Copeland|Sidney, OH|1 week
+copeland-US-1|4475294647|Revenue Operations Analytics Lead, Americas|Copeland|St Louis, MO|2 weeks
+copeland-US-1|4475603257|Revenue Operations Analytics Lead, Americas|Copeland|Sidney, OH|2 weeks
+marlabs-US-1|4482999267|Salesforce Solution Architect - Lending Domain|Marlabs|Irvine, CA (Remote)|1 week
+ALL-persistent-IN-1|4481446000|Principal Consultant – Data, Analytics   AI|Persistent Systems|Pune City (On-site)|2 weeks
+ALL-persistent-IN-1|4485895955|Senior Business Analyst|Persistent Systems|Bengaluru (On-site)|1 week
+ALL-persistent-IN-1|4486205543|Technical Customer Support Lead|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-1|4482294492|Lead - Learning Partner |Lead - Learning Partner|Persistent Systems|2 weeks
+ALL-persistent-IN-1|4485073361|Technical Product Manager|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-1|4484645135|Technical Program Manager|Persistent Systems|Hyderabad (On-site)|1 week
+ALL-persistent-IN-1|4487134240|Senior Technical Project Manager|Persistent Systems|Pune City (On-site)|6 days
+ALL-persistent-IN-1|4479653669|Principal   Offerings   Solutions, Data, Analytics   AI|Persistent Systems|Pune Division (On-site)|1 month
+ALL-persistent-IN-1|4489067741|AI Chief Architect|Persistent Systems|Pune Division (On-site)|3 days
+ALL-persistent-IN-1|4481427203|Project Lead – AI   Cloud Transformation|Persistent Systems|Pune City (On-site)|2 weeks
+ALL-persistent-IN-1|4484325001|Project Management Academy Lead|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-1|4485792078|Senior Consultant Data, Analytics and AI|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-1|4480021020|Diversity Opportunities|Persistent Systems|Pune City (On-site)|3 weeks
+ALL-persistent-IN-1|4481176633|Tech Project Manager|Persistent Systems|Bengaluru (On-site)|3 weeks
+ALL-persistent-IN-1|4487134108|Technical Project Manager|Persistent Systems|Pune City (On-site)|6 days
+ALL-persistent-IN-1|4488316177|Program Manager|Persistent Systems|Bengaluru (On-site)|5 days
+ALL-persistent-IN-1|4485586846|AI Developer|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-1|4489889028|Generative AI Engineer|Persistent Systems|Bengaluru (On-site)|1 day
+ALL-persistent-IN-1|4485178349|Project Lead   AI   Cloud Transformation|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-1|4487609937|AI Developer|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-1|4487691573|Solution Architect|Persistent Systems|Bengaluru (On-site)|6 days
+ALL-persistent-IN-1|4486225333|AI   RPA CoE Lead|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-1|4486204540|PMO Analyst|Persistent Systems|Noida (On-site)|1 week
+ALL-persistent-IN-1|4479629331|FDE Lead|Persistent Systems|Bengaluru (On-site)|1 month
+ALL-persistent-IN-1|4488399093|Technical Project Manager|Persistent Systems|Pune Division (On-site)|5 days
+ALL-persistent-IN-2|4479618880|FDE Lead|Persistent Systems|Hyderabad (On-site)|1 month
+ALL-persistent-IN-2|4488308417|Technical Product Manager|Persistent Systems|Pune Division (On-site)|5 days
+ALL-persistent-IN-2|4479617813|GenAI - Agentic AI Engineer|Persistent Systems|Pune Division (On-site)|1 month
+ALL-persistent-IN-2|4484842119|GenAI - Agentic AI Engineer|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-2|4484845028|Technical Project Manager|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-2|4484308689|Sales Manager – Training   L D Services|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-2|4484625987|Application Support Engineer|Persistent Systems|Hyderabad (On-site)|1 week
+ALL-persistent-IN-2|4487618503|GenAI Architect|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-2|4482908924|Agentic AI Engineer|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-2|4489817934|Agentic AI Engineer|Persistent Systems|Pune Division (On-site)|1 day
+ALL-persistent-IN-2|4486056643|Functional Consultant|Persistent Systems|Bengaluru (On-site)|1 week
+ALL-persistent-IN-2|4485443458|Program Manager|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-2|4486937822|GenAI   Agentic AI Engineer|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-2|4479620761|Software Architect|Persistent Systems|Pune Division (On-site)|1 month
+ALL-persistent-IN-2|4479628380|FDE Lead|Persistent Systems|Noida (On-site)|1 month
+ALL-persistent-IN-2|4485781297|Generative AI Full Stack Developer|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-2|4486056647|Generative AI Full Stack Developer|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-2|4487697455|AI/ML Engineer|Persistent Systems|Pune Division (On-site)|6 days
+ALL-persistent-IN-2|4484864593|Senior Project Manager|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-2|4486021399|Senior Enterprise Architect|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-2|4486016477|Software Architect|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-2|4489003799|Automation Engineer|Persistent Systems|Pune Division (On-site)|4 days
+ALL-persistent-IN-2|4479633176|FDE Lead|Persistent Systems|Pune Division (On-site)|1 month
+ALL-persistent-IN-2|4479632240|Full Stack Developer|Persistent Systems|Pune Division (On-site)|1 month
+ALL-persistent-IN-2|4484823890|Full Stack Developer|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-3|4484826744|Full Stack Developer|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-3|4487643890|AI/ML Engineer|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-3|4486582863|Python+ Gen AI Engineer|Persistent Systems|Hyderabad (On-site)|1 week
+ALL-persistent-IN-3|4487648077|Senior Full Stack Developer|Persistent Systems|Hyderabad (On-site)|1 week
+ALL-persistent-IN-3|4479627415|Senior Python AI Engineer|Persistent Systems|Hyderabad (On-site)|1 month
+ALL-persistent-IN-3|4485444446|Senior Python AI Engineer|Persistent Systems|Hyderabad (On-site)|1 week
+ALL-persistent-IN-3|4484850567|Python+ Gen AI Engineer|Persistent Systems|Bengaluru (On-site)|2 weeks
+ALL-persistent-IN-3|4484853634|Senior Scrum Master|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-3|4486015503|Python+ Gen AI Engineer|Persistent Systems|Hyderabad (On-site)|1 week
+ALL-persistent-IN-3|4480612812|Diversity Opportunities|Persistent Systems|Pune City (On-site)|3 weeks
+ALL-persistent-IN-3|4486015504|Senior Software Engineer|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-3|4484853639|Senior Data Engineer|Persistent Systems|Hyderabad (On-site)|2 weeks
+ALL-persistent-IN-3|4486959940|Senior Software Developer|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-3|4484830653|Senior Product Manager|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-3|4487646760|Data Engineer|Persistent Systems|Hyderabad (On-site)|1 week
+ALL-persistent-IN-3|4489200522|Senior Python AI Engineer|Persistent Systems|Bengaluru (On-site)|3 days
+ALL-persistent-IN-3|4485146276|Data Engineer|Persistent Systems|Hyderabad (On-site)|2 weeks
+ALL-persistent-IN-3|4485130355|Forward Deployment Engineer - GenAI   Agentic AI|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-3|4482914558|Gen AI QA|Persistent Systems|Bengaluru (On-site)|2 weeks
+ALL-persistent-IN-3|4482907930|Gen AI QA|Persistent Systems|Bengaluru (On-site)|2 weeks
+ALL-persistent-IN-3|4487976095|AI/ML Engineer|Persistent Systems|Hyderabad (On-site)|5 days
+ALL-persistent-IN-3|4479624448|Full Stack Technical Lead|Persistent Systems|Pune Division (On-site)|1 month
+ALL-persistent-IN-3|4485454814|Senior Engineering Lead|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-3|4487640885|Technical Customer Support Lead|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-3|4490225351|Senior Software Engineer|Persistent Systems|Pune Division (On-site)|7 hours
+ALL-persistent-IN-4|4478771539|Peoplesoft Project Manager|Persistent Systems|Bengaluru (On-site)|3 weeks
+ALL-persistent-IN-4|4486073216|Architect|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-4|4489098691|Data Engineer|Persistent Systems|Bengaluru (On-site)|3 days
+ALL-persistent-IN-4|4485138959|Senior Data Engineer|Persistent Systems|Hyderabad (On-site)|2 weeks
+ALL-persistent-IN-4|4481417616|Diversity Opportunities|Persistent Systems|Bengaluru (On-site)|2 weeks
+ALL-persistent-IN-4|4479627418|FDE Lead|Persistent Systems|Nagpur (On-site)|1 month
+ALL-persistent-IN-4|4489893879|Project Lead – Data Engineering   AI|Persistent Systems|Pune Division (On-site)|19 hours
+ALL-persistent-IN-4|4479626433|RPA Developer|Persistent Systems|Pune Division (On-site)|1 month
+ALL-persistent-IN-4|4485193167|Support Lead|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-4|4487314119|Forward Deployed Engineer|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-4|4487997654|RPA Developer|Persistent Systems|Pune Division (On-site)|5 days
+ALL-persistent-IN-4|4483283918|Python Developer|Persistent Systems|Hyderabad (On-site)|2 weeks
+ALL-persistent-IN-4|4485141856|Principal Forward Deployed Engineer|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-4|4479686234|Senior Full Stack Engineer|Persistent Systems|Pune Division (On-site)|1 month
+ALL-persistent-IN-4|4481184299|Data Architect|Persistent Systems|Bengaluru (On-site)|3 weeks
+ALL-persistent-IN-4|4479675493|Senior Data Engineer|Persistent Systems|Pune Division (On-site)|1 month
+ALL-persistent-IN-4|4482686062|Java Gen AI Engineer|Persistent Systems|Pune Division (On-site)|3 weeks
+ALL-persistent-IN-4|4489857396|Senior AI Agent Orchestration Engineer|Persistent Systems|Pune Division (On-site)|1 day
+ALL-persistent-IN-4|4485116263|Senior Power Platform Developer|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-4|4487641538|Senior Power Platform Developer|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-4|4486054642|Senior Data Engineer|Persistent Systems|Bengaluru (On-site)|1 week
+ALL-persistent-IN-4|4488381561|Senior Software Engineer|Persistent Systems|Pune Division (On-site)|5 days
+ALL-persistent-IN-4|4484153989|Data Engineer|Persistent Systems|Indore (On-site)|2 weeks
+ALL-persistent-IN-4|4484637610|Forward Deployed Engineer|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-4|4480018095|Diversity Opportunities|Persistent Systems|Pune City (On-site)|3 weeks
+ALL-persistent-IN-5|4484830656|NICE CXone Engineer|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-5|4484030106|Lead ML Engineer|Persistent Systems|Bangalore Urban (Hybrid)|2 weeks
+ALL-persistent-IN-5|4484829696|Lead RPA Developer|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-5|4483289695|Senior Software Engineer|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-5|4489066774|Architect|Persistent Systems|Pune Division (On-site)|3 days
+ALL-persistent-IN-5|4486398559|Senior Software Engineer|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-5|4487636615|Java AI Lead|Persistent Systems|Hyderabad (On-site)|1 week
+ALL-persistent-IN-5|4485135984|Java AI Lead|Persistent Systems|Hyderabad (On-site)|2 weeks
+ALL-persistent-IN-5|4490229566|Lead Data Engineer|Persistent Systems|Pune Division (On-site)|1 hour
+ALL-persistent-IN-5|4485457716|Senior Frontend Developer|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-5|4485440480|Senior Power Platform Developer|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-5|4486058589|Scrum Master|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-5|4486761741|Python Developer|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-5|4485796001|Senior AI/ML Engineer|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-5|4489548948|Senior Data Engineer|Persistent Systems|Pune Division (On-site)|2 days
+ALL-persistent-IN-5|4486036291|Production Support Engineer|Persistent Systems|Hyderabad (On-site)|1 week
+ALL-persistent-IN-5|4480411365|Copilot Studio Developer|Persistent Systems|Pune Division (On-site)|3 weeks
+ALL-persistent-IN-5|4486005718|ML+GEN AI|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-5|4486027541|Architect - India|Persistent Systems|Mumbai (On-site)|1 week
+ALL-persistent-IN-5|4479695350|Sr. Data Scientist|Persistent Systems|Pune Division (On-site)|1 month
+ALL-persistent-IN-5|4487307192|Production Support Engineer|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-5|4485187224|Production Support Engineer|Persistent Systems|Bengaluru (On-site)|2 weeks
+ALL-persistent-IN-5|4480643496|Senior Power Platform Engineer|Persistent Systems|Pune City (On-site)|3 weeks
+ALL-persistent-IN-5|4485159005|Senior React Developer|Persistent Systems|Hyderabad (On-site)|2 weeks
+ALL-persistent-IN-5|4487634358|Senior Full Stack Integration Developer|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-6|4482501538|Senior Scrum Master|Persistent Systems|Pune City (On-site)|2 weeks
+ALL-persistent-IN-6|4486567514|Consultant   Digital Trust|Persistent Systems|Mumbai (On-site)|1 week
+ALL-persistent-IN-6|4479977159|Senior Automation Engineer-Generative AI   Platform Engineering|Persistent Systems|Pune Division (On-site)|3 weeks
+ALL-persistent-IN-6|4487621712|Senior Automation Engineer-Generative AI   Platform Engineering|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-6|4485192974|Senior DevOps Engineer|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-6|4487655996|Python Developer|Persistent Systems|Pune Division (On-site)|6 days
+ALL-persistent-IN-6|4484820005|Principal Data Scientist|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-6|4486020462|Python Full Stack Developer|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-6|4487993797|Senior Backend Developer|Persistent Systems|Pune Division (On-site)|5 days
+ALL-persistent-IN-6|4485117279|COE Lead - GenAI for Security and Security of GenAI|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-6|4485742480|Senior Database Developer|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-6|4485144941|Appian Developer|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-6|4489069739|Python Full Stack Developer|Persistent Systems|Pune Division (On-site)|3 days
+ALL-persistent-IN-6|4487634356|Senior Automation Engineer-Generative AI   Platform Engineering|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-6|4485469545|Senior Appian Developer|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-6|4480629053|Diversity Opportunities|Persistent Systems|Pune City (On-site)|3 weeks
+ALL-persistent-IN-6|4485595353|Databricks AI Architect|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-6|4487964423|Senior Data Architect|Persistent Systems|Pune Division (On-site)|5 days
+ALL-persistent-IN-6|4488626770|Senior Data Architect|Persistent Systems|Pune Division (On-site)|4 days
+ALL-persistent-IN-6|4481832940|Senior Program Manager|Persistent Systems|Gurugram (On-site)|2 weeks
+ALL-persistent-IN-6|4484825758|Senior Appian Developer|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-6|4484860591|QA Lead Engineer|Persistent Systems|Hyderabad (On-site)|2 weeks
+ALL-persistent-IN-6|4480623257|Diversity Opportunities|Persistent Systems|Pune City (On-site)|3 weeks
+ALL-persistent-IN-6|4487607634|UiPath Lead Developer|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-6|4491078789|Salesforce Developer|Persistent Systems|Pune Division (On-site)|1 day
+ALL-persistent-IN-7|4481432029|DOTNET Application Development Lead|Persistent Systems|Hyderabad (On-site)|2 weeks
+ALL-persistent-IN-7|4486010613|DevOps Engineer|Persistent Systems|Hyderabad (On-site)|1 week
+ALL-persistent-IN-7|4488637216|DevOps Engineer|Persistent Systems|Bengaluru (On-site)|4 days
+ALL-persistent-IN-7|4486026067|DevOps Engineer|Persistent Systems|Bengaluru (On-site)|1 week
+ALL-persistent-IN-7|4485796002|Senior DevOps Engineer|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-7|4486059542|Senior Scrum Master|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-7|4488644047|Senior Automation Engineer|Persistent Systems|Pune Division (On-site)|4 days
+ALL-persistent-IN-7|4487648076|Data Quality Engineer|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-7|4485163840|Salesforce Developer|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-7|4479628381|Java Full stack developer|Persistent Systems|Pune Division (On-site)|1 month
+ALL-persistent-IN-7|4484153992|ServiceNow Developer|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-7|4486009649|Salesforce Developer|Persistent Systems|Pune Division (On-site)|
+ALL-persistent-IN-7|4487658004|Senior Power Platform Consultant|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-7|4490202605|Customer Support Executive|Persistent Systems|Pune Division (On-site)|19 hours
+ALL-persistent-IN-7|4489097695|Java Full Stack Developer|Persistent Systems|Pune Division (On-site)|3 days
+ALL-persistent-IN-7|4489006610|Network Architect|Persistent Systems|Pune Division (On-site)|4 days
+ALL-persistent-IN-7|4486010618|Full Stack Engineer (React, FastAPI   Cloud)|Persistent Systems|Bengaluru (On-site)|1 week
+ALL-persistent-IN-7|4485110296|Azure Data Engineer|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-7|4485785260|Azure Data Engineer|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-7|4484861582|Databricks Developer|Persistent Systems|Bengaluru (On-site)|2 weeks
+ALL-persistent-IN-7|4480754145|Senior Java AI Engineer|Persistent Systems|Pune Division (On-site)|3 weeks
+ALL-persistent-IN-7|4485410994|Azure Data Engineer|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-7|4485157031|Azure Data Engineer|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-7|4482907931|Senior Java Full Stack Developer|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-7|4485453823|IGA Business Analyst|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-8|4486976460|DevOps Engineer|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-8|4486968734|DevOps Engineer|Persistent Systems|Bengaluru (On-site)|1 week
+ALL-persistent-IN-8|4488671993|Senior Java Full Stack Developer|Persistent Systems|Hyderabad (On-site)|4 days
+ALL-persistent-IN-8|4486052837|Full Stack Java Developer|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-8|4486031393|Senior React Frontend Developer|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-8|4486558758|Java Full stack developer|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-8|4484872596|SailPoint Developer|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-8|4486527803|.Net Developer|Persistent Systems|Hyderabad (On-site)|1 week
+ALL-persistent-IN-8|4484593967|Azure Data Engineer|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-8|4486061532|Azure Data Engineer|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-8|4487656010|Azure Data Engineer|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-8|4487380460|Senior Azure Data Engineer|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-8|4485118257|Senior Java Full Stack Developer|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-8|4487639910|Java Full Stack Architect|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-8|4484869645|Senior Network Engineer|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-8|4485432062|IAM Engineer|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-8|4486073215|Training Specialist|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-8|4491081690|Azure Data Engineer|Persistent Systems|Pune Division (On-site)|1 day
+ALL-persistent-IN-8|4485433029|SAP Basis Engineer|Persistent Systems|Bengaluru (On-site)|1 week
+ALL-persistent-IN-8|4489200519|SAP Basis Engineer|Persistent Systems|Bengaluru (On-site)|3 days
+ALL-persistent-IN-8|4484823888|SAP Basis Engineer|Persistent Systems|Bengaluru (On-site)|2 weeks
+ALL-persistent-IN-8|4484866591|Java Lead Engineer|Persistent Systems|Hyderabad (On-site)|2 weeks
+ALL-persistent-IN-8|4486028493|SRE Production Support Engineer|Persistent Systems|Hyderabad (On-site)|1 week
+ALL-persistent-IN-8|4485729730|Power BI Architect|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-8|4486022397|Appian Solution Architect|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-9|4484466286|PeopleSoft System Administrators|Persistent Systems|India (Remote)|2 weeks
+ALL-persistent-IN-9|4485141855|Salesforce Developer|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-9|4485145266|SailPoint Developer|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-9|4487379495|Java Full Stack Developer|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-9|4484826745|.Net Developer|Persistent Systems|Hyderabad (On-site)|2 weeks
+ALL-persistent-IN-9|4487656938|Senior Java Full Stack Developer|Persistent Systems|Pune Division (On-site)|6 days
+ALL-persistent-IN-9|4491081693|Snowflake Data Engineer|Persistent Systems|Pune Division (On-site)|1 day
+ALL-persistent-IN-9|4488628545|Full Stack Python Engineer - GCP|Persistent Systems|Bengaluru (On-site)|4 days
+ALL-persistent-IN-9|4485455844|Golang Full Stack Developer|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-9|4485773869|Salesforce Data Engineer|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-9|4486233608|Java Gen AI Engineer|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-9|4482325633|Data Center Architect|Persistent Systems|Pune Division (On-site)|3 weeks
+ALL-persistent-IN-9|4479964643|Snowflake Data Engineer|Persistent Systems|Pune Division (On-site)|3 weeks
+ALL-persistent-IN-9|4487648718|PMO Analyst|Persistent Systems|Gurgaon (On-site)|1 week
+ALL-persistent-IN-9|4479657560|Observability Engineer|Persistent Systems|Bengaluru (On-site)|1 month
+ALL-persistent-IN-9|4487392337|Senior AWS Full Stack Engineer|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-9|4481629652|Programmer (Dev)-AI Security Engineer|Persistent Systems|Pune Division (On-site)|3 weeks
+ALL-persistent-IN-9|4485077294|Senior Java Full Stack Engineer|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-9|4481172776|Appian Solution Architect|Persistent Systems|Chennai (On-site)|3 weeks
+ALL-persistent-IN-9|4486046130|Java Gen AI Engineer|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-9|4487883828|Java Gen AI Engineer|Persistent Systems|Pune City (On-site)|4 days
+ALL-persistent-IN-9|4488693016|Infor Lawson Technical Lead|Persistent Systems|Pune Division (On-site)|4 days
+ALL-persistent-IN-9|4485743497|Application Security Penetration Tester|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-9|4484837452|Sailpoint Developer|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-9|4486766708|Golang Full Stack Developer|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-10|4487637644|Java Full Stack Developer|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-10|4483280986|Senior Full Stack Java Developer|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-10|4487642253|Senior Python Developer|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-10|4487656939|Java Full Stack Developer|Persistent Systems|Pune Division (On-site)|6 days
+ALL-persistent-IN-10|4485595231|SRE Devops Engineer|Persistent Systems|Hyderabad (On-site)|1 week
+ALL-persistent-IN-10|4488314198|Senior Java Full Stack Developer|Persistent Systems|Pune Division (On-site)|5 days
+ALL-persistent-IN-10|4482667596|Senior Java Full Stack Developer|Persistent Systems|Pune Division (On-site)|3 weeks
+ALL-persistent-IN-10|4484826746|Observability Engineer|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-10|4486536368|Golang Full Stack Developer|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-10|4488306433|Senior Azure Data Engineer|Persistent Systems|Pune Division (On-site)|5 days
+ALL-persistent-IN-10|4491091357|Senior .NET Developer|Persistent Systems|Pune Division (On-site)|1 day
+ALL-persistent-IN-10|4489547935|Senior Java Full Stack Developer|Persistent Systems|Pune Division (On-site)|2 days
+ALL-persistent-IN-10|4484801734|Devops GCP Engineer|Persistent Systems|Hyderabad (On-site)|2 weeks
+ALL-persistent-IN-10|4487665817|GCP Python Developer|Persistent Systems|Pune Division (On-site)|6 days
+ALL-persistent-IN-10|4486219679|Salesforce Experience Cloud Developer|Persistent Systems|Bengaluru (On-site)|1 week
+ALL-persistent-IN-10|4486771589|SailPoint Lead|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-10|4483292350|Data Modeler|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-10|4484839317|AEP AJO Developer|Persistent Systems|Bengaluru (On-site)|2 weeks
+ALL-persistent-IN-10|4479619834|AEP AJO Developer|Persistent Systems|Bengaluru (On-site)|1 month
+ALL-persistent-IN-10|4479691493|AEP AJO Developer|Persistent Systems|Bengaluru (On-site)|1 month
+ALL-persistent-IN-10|4488658146|Senior Azure Data Engineer|Persistent Systems|Pune Division (On-site)|4 days
+ALL-persistent-IN-10|4489013323|Senior Azure Data Engineer|Persistent Systems|Pune Division (On-site)|4 days
+ALL-persistent-IN-10|4489546961|Senior Azure Data Engineer|Persistent Systems|Pune Division (On-site)|2 days
+ALL-persistent-IN-10|4479615953|MDM Lead Data Engineer|Persistent Systems|Bengaluru (On-site)|1 month
+ALL-persistent-IN-10|4486383873|Senior OutSystems Developer|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-11|4485458705|C++ Application Developer|Persistent Systems|Hyderabad (On-site)|1 week
+ALL-persistent-IN-11|4487657965|.NET Full Stack Developer|Persistent Systems|Hyderabad (On-site)|6 days
+ALL-persistent-IN-11|4482906984|Senior Java Full Stack Developer|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-11|4490237405|Senior Azure Data Engineer|Persistent Systems|Pune Division (On-site)|1 hour
+ALL-persistent-IN-11|4489557279|Senior Azure Data Engineer|Persistent Systems|Pune Division (On-site)|2 days
+ALL-persistent-IN-11|4489567135|Senior Azure Data Engineer|Persistent Systems|Pune Division (On-site)|2 days
+ALL-persistent-IN-11|4487308203|Ui Path Architect|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-11|4485156034|Databricks Architect|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-11|4491080723|Senior Azure Data Engineer|Persistent Systems|Pune Division (On-site)|1 day
+ALL-persistent-IN-11|4489078264|Senior Azure Data Engineer|Persistent Systems|Pune Division (On-site)|3 days
+ALL-persistent-IN-11|4489861301|Payments Business Analyst|Persistent Systems|Mumbai (On-site)|1 day
+ALL-persistent-IN-11|4483827758|GCP Data Engineer|Persistent Systems|Chennai (On-site)|2 weeks
+ALL-persistent-IN-11|4485073280|Murex Developer|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-11|4488309325|Senior Test Automation Engineer|Persistent Systems|Pune Division (On-site)|5 days
+ALL-persistent-IN-11|4488126245|Workato Developer|Persistent Systems|India (Remote)|1 week
+ALL-persistent-IN-11|4485404664|Java Angular Full Stack Lead|Persistent Systems|Hyderabad (On-site)|2 weeks
+ALL-persistent-IN-11|4482286884|Principal Forward Deployed Engineer|Persistent Systems|Pune City (On-site)|2 weeks
+ALL-persistent-IN-11|4483835590|Murex Developer|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-11|4488652444|Dev Lead - Kronos Application Analyst|Persistent Systems|Pune Division (On-site)|4 days
+ALL-persistent-IN-11|4485134979|Microsoft 365 Migration Consultant|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-11|4485109304|Senior Python GCP Engineer|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-11|4486765711|Senior Golang Developer|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-11|4482672313|SAP ABAP Technical lead|Persistent Systems|Pune Division (On-site)|3 weeks
+ALL-persistent-IN-11|4479974198|.NET Architect|Persistent Systems|Pune Division (On-site)|3 weeks
+ALL-persistent-IN-11|4491080725|.NET Architect|Persistent Systems|Pune Division (On-site)|1 day
+ALL-persistent-IN-12|4485405122|.NET Full Stack Developer|Persistent Systems|Hyderabad (On-site)|2 weeks
+ALL-persistent-IN-12|4487654129|.NET Full Stack Developer|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-12|4488688152|.NET Full Stack Developer|Persistent Systems|Pune Division (On-site)|4 days
+ALL-persistent-IN-12|4484825761|.NET Full Stack Developer|Persistent Systems|Hyderabad (On-site)|2 weeks
+ALL-persistent-IN-12|4484874613|Senior .NET Full Stack Developer|Persistent Systems|Hyderabad (On-site)|2 weeks
+ALL-persistent-IN-12|4487674606|Java Full Stack Java Developer|Persistent Systems|Pune Division (On-site)|6 days
+ALL-persistent-IN-12|4488640960|Junior Material Planner|Persistent Systems|Pune Division (On-site)|4 days
+ALL-persistent-IN-12|4489851886|Senior Python Automation Engineer|Persistent Systems|Pune Division (On-site)|1 day
+ALL-persistent-IN-12|4490246134|Business Analyst - Islamic Banking|Persistent Systems|Pune Division (On-site)|1 hour
+ALL-persistent-IN-12|4484153990|Lead Azure Data Engineer|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-12|4485153622|Senior Python GCP Developer|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-12|4484869647|Senior Azure Solutions Architect|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-12|4485189213|Senior AI/ML   MLOps Architect|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-12|4486003796|Senior .NET Backend Developer|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-12|4485439493|Full Stack .NET   Angular Developer|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-12|4485743501|Senior Java Developer   AI/ML|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-12|4479634155|Technical Product Manager - ServiceNow SPM   AI|Persistent Systems|Pune Division (On-site)|1 month
+ALL-persistent-IN-12|4489562296|Senior Professional Services Engineer|Persistent Systems|Pune Division (On-site)|2 days
+ALL-persistent-IN-12|4479614965|Senior Professional Services Engineer|Persistent Systems|Pune Division (On-site)|1 month
+ALL-persistent-IN-12|4485184958|CyberArk Architect|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-12|4485132378|CyberArk Architect|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-12|4485583583|Senior Automation Engineer|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-12|4489269387|Golang Software Engineer|Persistent Systems|Pune Division (On-site)|3 days
+ALL-persistent-IN-12|4479923087|ITSM Process and Reporting Consultan|Persistent Systems|Pune Division (On-site)|1 month
+ALL-persistent-IN-12|4488322101|Senior AWS DevOps Engineer|Persistent Systems|Pune Division (On-site)|5 days
+ALL-persistent-IN-13|4491093240|Software Developer|Persistent Systems|Pune Division (On-site)|1 day
+ALL-persistent-IN-13|4491090351|Senior Azure Data Engineer|Persistent Systems|Pune Division (On-site)|1 day
+ALL-persistent-IN-13|4489025044|Lead Application Security   DevSecOps Architect|Persistent Systems|Pune Division (On-site)|4 days
+ALL-persistent-IN-13|4488640107|Senior Dotnet Fullstack Engineer|Persistent Systems|Pune Division (On-site)|4 days
+ALL-persistent-IN-13|4489068703|Senior AWS DevOps Engineer|Persistent Systems|Pune Division (On-site)|3 days
+ALL-persistent-IN-13|4488686193|Senior OnBase Administrator|Persistent Systems|Pune Division (On-site)|4 days
+ALL-persistent-IN-13|4485469548|ISIM Engineer|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-13|4488301521|Master Data Management Analyst|Persistent Systems|Pune Division (On-site)|5 days
+ALL-persistent-IN-13|4487691572|Master Data Management Analyst|Persistent Systems|Pune Division (On-site)|6 days
+ALL-persistent-IN-13|4485187223|Security Service Manager|Persistent Systems|Bengaluru (On-site)|2 weeks
+ALL-persistent-IN-13|4483000324|Senior CIAM Engineer|Persistent Systems|Bengaluru (On-site)|2 weeks
+ALL-persistent-IN-13|4487312177|ISIM Engineer|Persistent Systems|Hyderabad (On-site)|1 week
+ALL-persistent-IN-13|4487911974|Data Privacy   GRC Consultant|Persistent Systems|Mumbai (On-site)|6 days
+ALL-persistent-IN-13|4485103356|Senior ServiceNow Architect|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-13|4484596975|DFIR Specialist|Persistent Systems|Mumbai (On-site)|2 weeks
+ALL-persistent-IN-13|4489200521|Senior Ab Initio Developer|Persistent Systems|Pune Division (On-site)|3 days
+ALL-persistent-IN-13|4484866598|Sectigo Architect|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-13|4487677145|PLM Data Management Specialist|Persistent Systems|Pune Division (On-site)|6 days
+ALL-persistent-IN-13|4479679878|T T - IGA|Persistent Systems|Pune Division (On-site)|1 month
+ALL-persistent-IN-13|4490209818|Ansible  Terraform Architect|Persistent Systems|Pune Division (On-site)|7 hours
+ALL-persistent-IN-13|4489826687|VDI Citrix Architect|Persistent Systems|Pune Division (On-site)|1 day
+ALL-persistent-IN-13|4482668476|Vulnerability Management Analyst|Persistent Systems|Pune Division (On-site)|3 weeks
+ALL-persistent-IN-13|4485105304|Java Azure Technical Lead|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-13|4489064833|Java Data Engineering Architect|Persistent Systems|Pune Division (On-site)|3 days
+ALL-persistent-IN-13|4488318138|ISIM Engineer|Persistent Systems|Pune Division (On-site)|5 days
+ALL-persistent-IN-14|4486362523|Data Engineer|Persistent Systems|Hyderabad (On-site)|1 week
+ALL-persistent-IN-14|4484870568|Senior Data Engineer|Persistent Systems|Hyderabad (On-site)|2 weeks
+ALL-persistent-IN-14|4488643089|Python Developer – Agentic AI   GenAI / AI-Ops|Persistent Systems|Bengaluru (On-site)|4 days
+ALL-persistent-IN-14|4488631310|ISIM Engineer|Persistent Systems|Pune Division (On-site)|4 days
+ALL-persistent-IN-14|4486007678|Senior ISIM Engineer|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-14|4486961938|MuleSoft API Management Architect|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-14|4481639338|GCP Solutions Architect|Persistent Systems|Pune Division (On-site)|3 weeks
+ALL-persistent-IN-14|4485169486|Sail Point Architect|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-14|4483422869|IBM FTM Developer|Persistent Systems|Pune City (On-site)|2 weeks
+ALL-persistent-IN-14|4487645810|CAD Design Engineer|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-14|4486024197|Senior GCP AI Security Engineer|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-14|4485150957|Senior PostgreSQL Database Administrator|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-14|4485444445|GCP DevOps|Persistent Systems|Navi Mumbai (On-site)|1 week
+ALL-persistent-IN-14|4479922167|Senior Linux   Cloud Platform Engineer|Persistent Systems|Pune Division (On-site)|1 month
+ALL-persistent-IN-14|4486002819|WMS Techno Functional Consultant|Persistent Systems|Hyderabad (On-site)|1 week
+ALL-persistent-IN-14|4484828694|.NET SDET|Persistent Systems|Hyderabad (On-site)|2 weeks
+ALL-persistent-IN-14|4484840307|Java Azure Technical Lead|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-14|4481420414|Senior Frontend Developer|Persistent Systems|Pune City (On-site)|2 weeks
+ALL-persistent-IN-14|4485157616|Java Azure Technical Lead|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-14|4489856463|SailPoint NERM Engineer|Persistent Systems|Pune Division (On-site)|1 day
+ALL-persistent-IN-14|4486377004|Java Full Stack Developer - Spring Boot   Cursor AI|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-14|4485427224|WMS Techno Functional Consultant|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-14|4485142990|Oracle HCM Functional Consultant|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-14|4479632242|Salesforce Architect - Health Cloud|Persistent Systems|Pune Division (On-site)|1 month
+ALL-persistent-IN-14|4486229334|Salesforce Data 360 Developer|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-15|4488292290|Senior Data Engineer|Persistent Systems|Pune City (On-site)|3 days
+ALL-persistent-IN-15|4481841865|Data Governance Analyst|Persistent Systems|Mumbai (On-site)|2 weeks
+ALL-persistent-IN-15|4487639286|Senior OpenShift Administrator|Persistent Systems|Bengaluru (On-site)|1 week
+ALL-persistent-IN-15|4488631336|.Net SDET|Persistent Systems|Hyderabad (On-site)|4 days
+ALL-persistent-IN-15|4485150391|.NET SDET (Software Development Engineer in Test)|Persistent Systems|Hyderabad (On-site)|2 weeks
+ALL-persistent-IN-15|4482680193|IAM Vulnerability Engineer|Persistent Systems|Pune Division (On-site)|3 weeks
+ALL-persistent-IN-15|4487960495|Azure Data Engineer – Snowflake   Databricks|Persistent Systems|Pune Division (On-site)|5 days
+ALL-persistent-IN-15|4485195144|Programmer (Dev) SOC Analyst|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-15|4488694003|Salesforce Copado DevOps Engineer|Persistent Systems|Pune Division (On-site)|4 days
+ALL-persistent-IN-15|4484823887|Principal Database Refactoring   Performance Architect|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-15|4486399523|Microsoft Dynamics 365 Field Service Consultant|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-15|4487647111|SharePoint Online Migration   Governance Consultant|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-15|4485152929|Senior Professional Services Engineer (NTRX)|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-15|4488300665|IBM FTM Developer|Persistent Systems|Pune Division (On-site)|5 days
+ALL-persistent-IN-15|4488692045|Senior Telecom Protocol Developer|Persistent Systems|Pune Division (On-site)|4 days
+ALL-persistent-IN-15|4480629043|Diversity Opportunities|Persistent Systems|Pune City (On-site)|3 weeks
+ALL-persistent-IN-15|4485153624|Senior Workday HCM Consultant|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-15|4483831694|SAP SD Lead Consultant|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-15|4487672698|Junior Executive - Accounts Receivable   Payable|Persistent Systems|Pune Division (On-site)|6 days
+ALL-persistent-IN-15|4485427833|Senior SQL Server Database Administrator (DBA)|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-15|4485190950|T T - Endpoint, Email Security|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-15|4487657964|Salesforce Copado Automation Engineer|Persistent Systems|Pune Division (On-site)|6 days
+ALL-persistent-IN-15|4482325634|Security Operations SME (L3)|Persistent Systems|Mumbai (On-site)|3 weeks
+ALL-persistent-IN-15|4485739582|Senior Saviynt IAM Engineer|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-15|4485122251|ServiceNow Developer-SecOps|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-16|4484865647|Senior Cloud Security   DevSecOps Engineer|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-16|4484828693|Senior Azure Data Engineer   Databricks, Kafka   Spark|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-16|4485454813|Senior Azure Data Engineer – Snowflake   Databricks|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-16|4484166533|GCP DevOps Support Engineer|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-16|4485189212|Business Analyst- Regulatory Capital Reporting Change Specialist|Persistent Systems|Mumbai (On-site)|2 weeks
+ALL-persistent-IN-16|4490249018|Splunk SOAR Specialist|Persistent Systems|Pune Division (On-site)|1 hour
+ALL-persistent-IN-16|4486212344|OTT Full Stack Developer |OTT Full Stack Developer|Persistent Systems|1 week
+ALL-persistent-IN-16|4487645491|Senior Executive - Accounts Receivable   Payable|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-16|4485139313|Senior Wireless Core Network Operations Engineer|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-16|4489203281|Senior Wireless Core Network Operations Engineer|Persistent Systems|Pune Division (On-site)|3 days
+ALL-persistent-IN-16|4485193166|.Net Selenium SDET QA|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-16|4489085973|Apache Cassandra Architect|Persistent Systems|Pune Division (On-site)|3 days
+ALL-persistent-IN-16|4482326546|Cloud Security   VM Lead|Persistent Systems|Pune Division (On-site)|3 weeks
+ALL-persistent-IN-16|4480741659|Cortex XSOAR Automation Engineer|Persistent Systems|Mumbai (On-site)|3 weeks
+ALL-persistent-IN-16|4484169323|SailPoint IdentityIQ API Lead|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-16|4484835519|Senior SOC   Vulnerability Management Engineer|Persistent Systems|Bengaluru (On-site)|2 weeks
+ALL-persistent-IN-16|4479494902|Diversity Opportunities|Persistent Systems|Pune City (On-site)|3 weeks
+ALL-persistent-IN-16|4485150041|PeopleSoft HCM Functional SME|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-16|4479615954|T T + COE - IAM Tower Lead|Persistent Systems|Pune Division (On-site)|1 month
+ALL-persistent-IN-16|4485133364|Oracle EBS Financials Consultant|Persistent Systems|Hyderabad (On-site)|2 weeks
+ALL-persistent-IN-16|4486368403|Oracle Fusion SCM Functional Consultant|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-16|4482320784|SAP PPM Consultant (Implementation   Support)|Persistent Systems|Pune Division (On-site)|3 weeks
+ALL-persistent-IN-16|4481179574|Senior Oracle Fusion Security Consultant|Persistent Systems|Pune Division (On-site)|3 weeks
+ALL-persistent-IN-16|4486355663|SAP Security   GRC Consultant|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-16|4479979098|Senior QA Automation Engineer - Playwright   AI|Persistent Systems|Gurugram (On-site)|3 weeks
+ALL-persistent-IN-17|4485410993|COE Lead - Sec Engg, Prod Engg, Prod Dev, IAM|Persistent Systems|Pune Division (On-site)|1 week
+ALL-persistent-IN-17|4486576235|Oracle Fusion HCM Techno-Functional Consultant|Persistent Systems|Bengaluru (On-site)|1 week
+ALL-persistent-IN-17|4487672696|LaTeX   Adobe InDesign Developer|Persistent Systems|Pune Division (On-site)|6 days
+ALL-persistent-IN-17|4482329530|PeopleSoft FSCM Functional Consultant|Persistent Systems|Pune Division (On-site)|3 weeks
+ALL-persistent-IN-17|4479960931|T T - IT / IS GRC, TPRM, RCSA|Persistent Systems|Pune Division (On-site)|3 weeks
+ALL-persistent-IN-17|4485173662|T T - VA, PT, Red Teaming, BAS, RBVM|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-17|4480654337|AWS Solution Architect|Persistent Systems|Pune Division (On-site)|3 weeks
+ALL-persistent-IN-17|4485403117|Performance Testing Engineer (NeoLoad   Dynatrace)|Persistent Systems|Salcette (On-site)|2 weeks
+ALL-persistent-IN-17|4479687695|T T - Encryption, HSM, CLM|Persistent Systems|Pune Division (On-site)|1 month
+ALL-persistent-IN-17|4485136964|IBM DB2 Database Administrator - Maximo|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-17|4479693424|T T - DLP, DRM, DSPM, Data Discovery|Persistent Systems|Pune Division (On-site)|1 month
+ALL-persistent-IN-17|4485158858|COE Lead - vCISO, IT Risk   compliance assessments, TPRM|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-17|4485157032|T T - Cloud Security – Google|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-17|4489257641|T T + CoE - Security Assurance + GRC Tower Lead|Persistent Systems|Pune Division (On-site)|3 days
+ALL-persistent-IN-17|4485159007|T T - DFIR + TH + Content Engg|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-17|4480641750|Non-IT Indirect Procurement|Persistent Systems|Pune City (On-site)|3 weeks
+ALL-persistent-IN-17|4484816244|T T - IOMD Testing, PT, VM, Appsec|Persistent Systems|Pune Division (On-site)|2 weeks
+ALL-persistent-IN-17|4487128910|Senior Software Engineer|Persistent Systems|Pune City (On-site)|6 days
+ALL-persistent-IN-17|4486227185|Senior Master Data Management Analyst|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-17|4486224615|Salesforce FSL Developer|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-17|4485060635|Senior Scrum Master|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-17|4482283817|Senior Python Automation Engineer|Persistent Systems|Pune City (On-site)|2 weeks
+ALL-persistent-IN-17|4482299072|Python Full Stack Developer|Persistent Systems|Pune City (On-site)|2 weeks
+ALL-persistent-IN-17|4481853355|Data Privacy Analyst|Persistent Systems|Mumbai (On-site)|2 weeks
+ALL-persistent-IN-17|4478240839|EMS QA Automation Engineer|Persistent Systems|Bengaluru (On-site)|3 weeks
+ALL-persistent-IN-18|4485599155|Senior Python Data Engineer|Persistent Systems|Bengaluru (On-site)|1 week
+ALL-persistent-IN-18|4487128891|Senior Software Engineer|Persistent Systems|Pune City (On-site)|6 days
+ALL-persistent-IN-18|4478245608|Java Full Stack Developer|Persistent Systems|Bengaluru (On-site)|3 weeks
+ALL-persistent-IN-18|4486229236|Salesforce Sales Cloud Developer|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-18|4486217614|Junior Material Planner|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-18|4485062419|Production Support Engineer|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-18|4484638471|Senior Full Stack Developer|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-18|4482292175|Senior React Developer|Persistent Systems|Pune City (On-site)|2 weeks
+ALL-persistent-IN-18|4480634877|SQL Server Database Architect|Persistent Systems|Pune City (On-site)|3 weeks
+ALL-persistent-IN-18|4480042376|Diversity Opportunities|Persistent Systems|Bengaluru (On-site)|3 weeks
+ALL-persistent-IN-18|4482596717|Application Security Penetration Tester|Persistent Systems|Pune City (On-site)|2 weeks
+ALL-persistent-IN-18|4478267294|Salesforce Life Sciences Cloud Technical Lead|Persistent Systems|Pune City (On-site)|3 weeks
+ALL-persistent-IN-18|4481846587|Senior Enterprise Architect|Persistent Systems|Pune City (On-site)|2 weeks
+ALL-persistent-IN-18|4487145000|API Developer|Persistent Systems|Gurugram (On-site)|6 days
+ALL-persistent-IN-18|4484017704|Murex Risk Module|Persistent Systems|Bangalore Rural (On-site)|2 weeks
+ALL-persistent-IN-18|4487139550|Privacy Consultant|Persistent Systems|Mumbai (On-site)|6 days
+ALL-persistent-IN-18|4488295157|Site Reliability Engineer - GCP|Persistent Systems|Hyderabad (On-site)|3 days
+ALL-persistent-IN-18|4480035889|Diversity Opportunities|Persistent Systems|Bengaluru (On-site)|3 weeks
+ALL-persistent-IN-18|4478245672|Senior QA Automation Engineer|Persistent Systems|Pune City (On-site)|3 weeks
+ALL-persistent-IN-18|4482595861|Senior PAM Analyst|Persistent Systems|Bengaluru (On-site)|2 weeks
+ALL-persistent-IN-18|4485800565|GenAI Architect|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-18|4487134213|Microsoft Fabric Data Engineer|Persistent Systems|Pune City (On-site)|6 days
+ALL-persistent-IN-18|4487159268|Mainframe Developer|Persistent Systems|Bengaluru (On-site)|6 days
+ALL-persistent-IN-18|4485592418|GCP Data Engineer|Persistent Systems|Bengaluru (On-site)|1 week
+ALL-persistent-IN-18|4486212316|Senior Java Full Stack Developer|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-19|4485071100|Senior Dotnet Developer|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-19|4485586632|Senior Data Migration Architect|Persistent Systems|Bengaluru (On-site)|1 week
+ALL-persistent-IN-19|4485052934|AI/ML Engineer|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-19|4478252831|Senior Salesforce CPQ Developer|Persistent Systems|Pune City (On-site)|3 weeks
+ALL-persistent-IN-19|4478242840|Senior DotNET SDET|Persistent Systems|Hyderabad (On-site)|3 weeks
+ALL-persistent-IN-19|4482596445|Principal Gen AI Architect|Persistent Systems|Pune City (On-site)|2 weeks
+ALL-persistent-IN-19|4485074254|Python AI Architect|Persistent Systems|Hyderabad (On-site)|1 week
+ALL-persistent-IN-19|4480052014|Diversity Opportunities|Persistent Systems|Bengaluru (On-site)|3 weeks
+ALL-persistent-IN-19|4482501769|Senior DotNeT SDET|Persistent Systems|Hyderabad (On-site)|2 weeks
+ALL-persistent-IN-19|4488280819|Senior Data Platform Engineer|Persistent Systems|Pune City (On-site)|3 days
+ALL-persistent-IN-19|4481425286|Diversity Opportunities|Persistent Systems|Bengaluru (On-site)|2 weeks
+ALL-persistent-IN-19|4486209862|PLM Data Management Specialist|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-19|4480630527|Diversity Opportunities|Persistent Systems|Pune City (On-site)|3 weeks
+ALL-persistent-IN-19|4486204143|Python Developer|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-19|4488278963|Senior AI Agent Orchestration Engineer|Persistent Systems|Pune City (On-site)|3 days
+ALL-persistent-IN-19|4483417509|Senior Ab Initio Developer|Persistent Systems|Pune City (On-site)|2 weeks
+ALL-persistent-IN-19|4484644334|Golang Full Stack Developer|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-19|4481851947|Data Privacy Consultant|Persistent Systems|Mumbai (On-site)|2 weeks
+ALL-persistent-IN-19|4478244697|Senior Java Backend Developer|Persistent Systems|Bengaluru (On-site)|3 weeks
+ALL-persistent-IN-19|4488288593|Staff Data Platform Engineer|Persistent Systems|Pune City (On-site)|3 days
+ALL-persistent-IN-19|4481872336|Senior AI/LLM Inference Engineer|Persistent Systems|Bengaluru (On-site)|2 weeks
+ALL-persistent-IN-19|4478249572|Senior AI/ML Engineer|Persistent Systems|Pune City (On-site)|3 weeks
+ALL-persistent-IN-19|4480627100|Diversity Opportunities|Persistent Systems|Pune City (On-site)|3 weeks
+ALL-persistent-IN-19|4486202272|NOC Engineer|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-19|4482589939|GenAI Lead|Persistent Systems|Pune City (On-site)|2 weeks
+ALL-persistent-IN-20|4486236079|Salesforce Copado DevOps Engineer|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-20|4481414752|Diversity Opportunities|Persistent Systems|Bengaluru (On-site)|2 weeks
+ALL-persistent-IN-20|4481409913|Project Lead – Data Engineering   AI|Persistent Systems|Pune City (On-site)|2 weeks
+ALL-persistent-IN-20|4487138143|SQL Server Database Administrator|Persistent Systems|Pune City (On-site)|6 days
+ALL-persistent-IN-20|4487130372|Senior Data Architect|Persistent Systems|Pune City (On-site)|6 days
+ALL-persistent-IN-20|4485814040|Senior Data Scientist|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-20|4483003713|SailPoint NERM Engineer|Persistent Systems|Pune City (On-site)|2 weeks
+ALL-persistent-IN-20|4485898634|Senior Java Backend Developer|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-20|4484636630|Automation Test Engineer|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-20|4487137020|Senior React Developer|Persistent Systems|Pune City (On-site)|6 days
+ALL-persistent-IN-20|4480622211|Diversity Opportunities|Persistent Systems|Pune City (On-site)|3 weeks
+ALL-persistent-IN-20|4484448722|Oracle OIC HCM Integration Consultant|Persistent Systems|Bengaluru (On-site)|2 weeks
+ALL-persistent-IN-20|4487883780|Dot Net Fullstack Developer|Persistent Systems|Hyderabad (On-site)|4 days
+ALL-persistent-IN-20|4481866547|Associate Consultant|Persistent Systems|Mumbai (On-site)|2 weeks
+ALL-persistent-IN-20|4481839879|AI Governance Analyst|Persistent Systems|Mumbai (On-site)|2 weeks
+ALL-persistent-IN-20|4484642454|Java Full Stack Technical Lead|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-20|4486226352|Salesforce Health Cloud Technical Lead|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-20|4487134050|Java React Fullstack Developer|Persistent Systems|Pune City (On-site)|6 days
+ALL-persistent-IN-20|4482500743|Java Developer|Persistent Systems|Hyderabad (On-site)|2 weeks
+ALL-persistent-IN-20|4483002396|Senior BeyondTrust PAM Engineer|Persistent Systems|Bengaluru (On-site)|2 weeks
+ALL-persistent-IN-20|4482299612|Java Full Stack Developer|Persistent Systems|Hyderabad (On-site)|2 weeks
+ALL-persistent-IN-20|4485814097|Generative AI Engineer|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-20|4486232242|Salesforce Copado Automation Engineer|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-20|4485055822|Dot Net Fullstack Developer|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-20|4487888528|DotNet SDET|Persistent Systems|Hyderabad (On-site)|4 days
+ALL-persistent-IN-21|4486210271|LaTeX   Adobe InDesign Developer|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-21|4487160284|Senior Dotnet Developer|Persistent Systems|Pune City (On-site)|6 days
+ALL-persistent-IN-21|4480651156|Senior Forward Deployment Engineer|Persistent Systems|Pune City (On-site)|3 weeks
+ALL-persistent-IN-21|4485583820|Generative AI Engineer|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-21|4485065611|Java Full Stack Developer|Persistent Systems|Hyderabad (On-site)|1 week
+ALL-persistent-IN-21|4487145101|Data Privacy Consultant|Persistent Systems|Gurugram (On-site)|6 days
+ALL-persistent-IN-21|4484649190|Java Full stack developer|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-21|4482285941|Lead AI Full Stack Engineer|Persistent Systems|Pune City (On-site)|2 weeks
+ALL-persistent-IN-21|4482273921|Senior Python Developer|Persistent Systems|Pune City (On-site)|2 weeks
+ALL-persistent-IN-21|4485890911|Golang Software Engineer|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-21|4484639445|Senior AWS Full Stack Engineer|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-21|4481442143|Engineering Architect|Persistent Systems|Pune City (On-site)|2 weeks
+ALL-persistent-IN-21|4485586817|Senior GenAI   Agentic AI Engineer|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-21|4486214792|Accounts Receivable Executive|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-21|4481428194|Diversity Opportunities|Persistent Systems|Bengaluru (On-site)|2 weeks
+ALL-persistent-IN-21|4481854921|Senior Full Stack GenAI Developer|Persistent Systems|Pune City (On-site)|2 weeks
+ALL-persistent-IN-21|4487117923|AWS Databricks Architect|Persistent Systems|Pune City (On-site)|6 days
+ALL-persistent-IN-21|4487125661|Senior Azure Data Engineer|Persistent Systems|Pune City (On-site)|6 days
+ALL-persistent-IN-21|4487137511|ISIM Engineer|Persistent Systems|Pune City (On-site)|6 days
+ALL-persistent-IN-21|4482279894|Senior DotNet Full Stack Developer|Persistent Systems|Pune City (On-site)|2 weeks
+ALL-persistent-IN-21|4486222602|Senior Executive - Accounts Receivable   Payable|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-21|4485597150|Full Stack Python Engineer - GCP|Persistent Systems|Hyderabad (On-site)|1 week
+ALL-persistent-IN-21|4487137087|Senior AWS DevOps Engineer|Persistent Systems|Pune City (On-site)|6 days
+ALL-persistent-IN-21|4486224240|Senior Dotnet Full Stack Developer|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-21|4478242938|Domain Test Engineer|Persistent Systems|Gurugram (On-site)|3 weeks
+ALL-persistent-IN-22|4478255290|Senior VMware NSX-T Engineer|Persistent Systems|Pune City (On-site)|3 weeks
+ALL-persistent-IN-22|4486200967|Senior Dotnet SDET Engineer|Persistent Systems|Hyderabad (On-site)|1 week
+ALL-persistent-IN-22|4483007292|Senior Saviynt IAM Engineer|Persistent Systems|Pune City (On-site)|2 weeks
+ALL-persistent-IN-22|4485594772|AI Architect|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-22|4481857920|AI Architect|Persistent Systems|Pune City (On-site)|2 weeks
+ALL-persistent-IN-22|4481420484|Diversity Opportunities|Persistent Systems|Bengaluru (On-site)|2 weeks
+ALL-persistent-IN-22|4485596268|Senior AI/ML Engineer |Senior AI/ML Engineer|Persistent Systems|1 week
+ALL-persistent-IN-22|4485894903|AI/ML Engineer|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-22|4481875110|Data   AI Governance Lead|Persistent Systems|Mumbai (On-site)|2 weeks
+ALL-persistent-IN-22|4485812008|Senior Full Stack GenAI Developer|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-22|4488200213|Python AI Architect|Persistent Systems|Bengaluru (On-site)|4 days
+ALL-persistent-IN-22|4485802320|Senior Python Developer|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-22|4485058748|Golang Full Stack Developer|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-22|4482593689|Identity Protection Engineer|Persistent Systems|Bengaluru (On-site)|2 weeks
+ALL-persistent-IN-22|4483414591|Azure Data Engineer|Persistent Systems|Mumbai (On-site)|2 weeks
+ALL-persistent-IN-22|4483001201|Senior PAM Engineer|Persistent Systems|Bengaluru (On-site)|2 weeks
+ALL-persistent-IN-22|4483003209|Senior Identity Security Engineer|Persistent Systems|Bengaluru (On-site)|2 weeks
+ALL-persistent-IN-22|4484644216|Full Stack Java Developer|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-22|4486207385|CAD Design Engineer|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-22|4484632739|Full Stack Java Developer|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-22|4486234074|Salesforce QA Automation Engineer|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-22|4487141993|Senior Java Full Stack Developer|Persistent Systems|Bengaluru (On-site)|6 days
+ALL-persistent-IN-22|4482506290|Senior DevOps Engineer|Persistent Systems|Pune City (On-site)|2 weeks
+ALL-persistent-IN-22|4485071373|Java Full Stack Developer|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-22|4486209374|Senior Python QA Automation Engineer|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-23|4483003460|Senior Active Directory   IAM Security Engineer|Persistent Systems|Bengaluru (On-site)|2 weeks
+ALL-persistent-IN-23|4487896194|Senior Java Developer|Persistent Systems|Hyderabad (On-site)|4 days
+ALL-persistent-IN-23|4481834950|Senior Cloud Security   DevSecOps Engineer|Persistent Systems|Pune City (On-site)|2 weeks
+ALL-persistent-IN-23|4486213307|Senior Telecom Protocol Developer|Persistent Systems|Pune City (On-site)|1 week
+ALL-persistent-IN-23|4487736708|Microfocus COBOL migration|Persistent Systems|Greater Bengaluru Area (Remote)|1 week
+ALL-persistent-IN-23|4487901202|Senior Data Engineer|Persistent Systems|Hyderabad (On-site)|6 days
+ALL-persistent-IN-23|4486010617|Senior Data Engineer|Persistent Systems|Hyderabad (On-site)|1 week
+ALL-persistent-US-1|4479415373|Principal Consultant|Persistent Systems|New Jersey, United States (On-site)|3 weeks
+ALL-persistent-US-1|4478691751|Vice President of Sales|Persistent Systems|Nashville, TN (On-site)|3 weeks
+ALL-persistent-US-1|4488518748|Sales Leader - Intelligent Automation Sales|Persistent Systems|New Jersey, United States (On-site)|3 days
+ALL-persistent-US-1|4478902220|HiTech - Sales- New Logo|Persistent Systems|New Jersey, United States (On-site)|3 weeks
+ALL-persistent-US-1|4479417283|Delivery Head|Persistent Systems|San Francisco Bay Area (On-site)|3 weeks
+ALL-persistent-US-1|4479441703|Enterprise Architect (Application   Infrastructure)|Persistent Systems|New Jersey, United States (On-site)|3 weeks
+ALL-persistent-US-1|4478296544|Salesforce Delivery Leader (Healthcare/Pharma)|Persistent Systems|Chicago, IL (Hybrid)|
+ALL-persistent-US-1|4473675003|AVP Sales- AWS Sell With|Persistent Systems|Seattle, WA (On-site)|1 week
+ALL-persistent-US-1|4486240232|Alteryx Lead|Persistent Systems|Charlotte, NC (On-site)|1 week
+ALL-persistent-US-1|4487884847|Senior IBM i Technical Architect|Persistent Systems|Philadelphia, PA (On-site)|4 days
+ALL-persistent-US-1|4480684071|AVP Sales (Data/ Analytics - BFSI)|Persistent Systems|Charlotte, NC (On-site)|3 weeks
+ALL-persistent-US-1|4484645186|Databrick Architect|Persistent Systems|Tarrytown, NY (On-site)|1 week
+ALL-persistent-US-1|4481002448|GCP Architect|Persistent Systems|Austin, TX (On-site)|3 weeks
+ALL-persistent-US-1|4485804641|Senior GCP Data Engineer|Persistent Systems|Charlotte, NC (On-site)|1 week
+ALL-persistent-US-1|4484695172|Senior DB2 SQL Developer|Persistent Systems|United States (Remote)|1 week
+ALL-persistent-US-1|4482247182|MDM Reltio Architect|Persistent Systems|Richardson, TX (Hybrid)|2 weeks
+ALL-persistent-US-1|4486238296|AI Architect|Persistent Systems|Charlotte, NC (On-site)|1 week
+ALL-persistent-US-1|4481894470|AI Architect|Persistent Systems|Charlotte, NC (On-site)|2 weeks
+ALL-persistent-US-1|4483077089|AI Prompt Engineer|Persistent Systems|Whippany, NJ (Hybrid)|2 weeks
+ALL-persistent-US-1|4483050378|AI Architect|Persistent Systems|Charlotte, NC (Hybrid)|2 weeks
+ALL-persistent-US-1|4483061014|Data Engineer|Persistent Systems|Whippany, NJ (Hybrid)|2 weeks
+ALL-persistent-US-1|4481457998|Lead - Contracts Review|Persistent Systems|United States (Remote)|2 weeks
+ALL-persistent-US-1|4485862375|PostgreSQL Database Administrator (DBA)|Persistent Systems|Basking Ridge, NJ (On-site)|1 week
+ALL-persistent-US-1|4482511963|MDM Data Analyst - Reltio|Persistent Systems|Richardson, TX (Hybrid)|2 weeks
+ALL-ciklum-US-1|4489445858|Senior Account Director|Ciklum|United States (Remote)|5 days
+ALL-ciklum-US-1|4490314816|Business Development Director (Healthcare)|Ciklum|United States (Remote)|3 days
+ALL-ciklum-US-1|4489605928|Business Development Director (RCG)|Ciklum|United States (Remote)|5 days
+ALL-ciklum-US-1|4485083255|Senior Account Director|Ciklum|Los Angeles, CA (Hybrid)|1 week
+ALL-ciklum-US-1|4489620037|Enterprise Microsoft Fabric Architect|Ciklum|United States (Remote)|5 days
+ALL-ciklum-US-1|4480507515|Senior Business Analyst|Ciklum|United States (Remote)|1 week
+ALL-ciklum-US-1|4487511154|Senior Data Engineer|Ciklum|United States (Remote)|1 week
+ALL-ciklum-US-1|4468236197|Senior Payment Business/System Analyst|Ciklum|United States (Remote)|2 weeks
+ALL-ciklum-US-1|4479852678|Expert Payment Business Analyst|Ciklum|United States (Remote)|1 week
+ALL-tachyon-US-1|4488202976|Senior Data Analyst / Production Support|Tachyon Technologies|New York Mills, NY|
+ALL-tachyon-US-1|4488215435|Azure Network Engineer|Tachyon Technologies|Chicago, IL|4 days
+ALL-tachyon-US-1|4488215440|Org Transform Architect|Tachyon Technologies|Atlanta, GA|4 days
+ALL-tachyon-US-1|4489323946|Observability Engineer|Tachyon Technologies|Alpharetta, GA|1 day
+ALL-tachyon-US-1|4488205871|Platform Architect with Java Full Stack/Python|Tachyon Technologies|Alpharetta, GA|4 days
+ALL-tachyon-US-1|4489324909|Senior Guidewire Developer - Claim Center|Tachyon Technologies|Edison, NJ|1 day
+ALL-tachyon-US-1|4480650494|Optimizely Front End CMS resource|Tachyon Technologies|New York, NY|3 weeks
+ALL-tachyon-IN-1|4487235534|Senior AI Engineer|Tachyon Technologies|Hyderabad (Hybrid)|1 week
+ALL-tachyon-IN-1|4487718420|Principal Architect - Agentic AI Platform|Tachyon Technologies|Greater Hyderabad Area (On-site)|1 week
+ALL-tachyon-IN-1|4487703812|Full Stack AI Engineers|Tachyon Technologies|Greater Hyderabad Area (On-site)|1 week
+ALL-tachyon-IN-1|4483368781|AI/ML delivery Lead – Azure AI and Gen AI|Tachyon Technologies|Hyderabad (On-site)|3 weeks
+ALL-tachyon-IN-1|4487434803|Full Stack Engineer|Tachyon Technologies|Hyderabad (Hybrid)|5 days
+ALL-tachyon-IN-1|4488833350|Lead Agentic AI Engineer|Tachyon Technologies|Hyderabad (On-site)|6 days
+ALL-tachyon-IN-1|4487426960|Senior Full Stack Engineer|Tachyon Technologies|Hyderabad (Hybrid)|5 days
+ALL-tachyon-IN-1|4488825623|Senior Agentic AI Engineer|Tachyon Technologies|Hyderabad (On-site)|6 days
+ALL-tachyon-IN-1|4484021580|Salesforce Developer|Tachyon Technologies|Hyderabad (Hybrid)|
+ALL-tachyon-IN-1|4483384350|Lead Data Architect|Tachyon Technologies|Hyderabad (Hybrid)|3 weeks
+ALL-tachyon-IN-1|4487443287|SAP Delivery Manager|Tachyon Technologies|Hyderabad (Hybrid)|5 days
+ALL-tachyon-IN-1|4485227756|SAP S/4HANA Presales   Functional Solution Architect|Tachyon Technologies|Hyderabad|2 weeks
+ALL-tachyon-IN-1|4484018424|Sage ERP   Warehouse Management (WMS) Implementation Consultant|Tachyon Technologies|India (Remote)|2 weeks
+ALL-infovision-US-1|4487359377|Tech Program Manager - Networking|InfoVision Inc.|Basking Ridge, NJ (Hybrid)|5 days
+ALL-infovision-US-1|4487369455|Strategy Lead / TPM|InfoVision Inc.|Basking Ridge, NJ (Hybrid)|5 days
+ALL-infovision-US-1|4405034624|Deployment Specialist - Palantir|InfoVision Inc.|Dallas-Fort Worth Metroplex (Remote)|1 week
+ALL-infovision-US-1|4479608788|Project / Program Manager – Supply Chain|InfoVision Inc.|Atlanta, GA (On-site)|1 month
+ALL-infovision-US-1|4474954868|Technical Project Manager|InfoVision Inc.|Addison, TX (On-site)|3 weeks
+ALL-infovision-US-1|4486789983|Solutions Architect|InfoVision Inc.|Irving, TX (On-site)|1 week
+ALL-infovision-US-1|4486768864|Sr Solutions Architect (post-quantum cryptography,, AGENTIC AI, AWS)|InfoVision Inc.|Irving, TX (Hybrid)|1 week
+ALL-infovision-US-1|4487365231|SAP Finance Consultant|InfoVision Inc.|Irving, TX (Hybrid)|5 days
+ALL-infovision-US-1|4483218516|Sr BI Solutions Developer (Tableau, Looker)|InfoVision Inc.|Dallas, TX (On-site)|2 weeks
+ALL-infovision-US-1|4483895294|Technical Project Manager|InfoVision Inc.|Dallas, TX (On-site)|2 weeks
+ALL-infovision-US-1|4483651460|Sr BI Solutions Developer (Tableau, Looker)|InfoVision Inc.|Dallas, TX (Remote)|2 weeks
+ALL-infovision-US-1|4486074126|Senior Solution Architect - AI|InfoVision Inc.|Irving, TX (Hybrid)|5 days
+ALL-infovision-US-1|4486753588|Sr Solution Architect (AI / Cybersecurity)|InfoVision Inc.|Irving, TX (Hybrid)|1 week
+ALL-infovision-US-1|4486755613|Sr Solution Architect (AI +AWS+ Cybersecurity)|InfoVision Inc.|Irving, TX (On-site)|3 days
+ALL-infovision-US-1|4486769533|Technical Project Manager|InfoVision Inc.|Addison, TX (On-site)|1 week
+ALL-infovision-US-1|4487909922|Technical Project Manager|InfoVision Inc.|Dallas, TX (On-site)|6 days
+ALL-infovision-US-1|4484518241|Java Backend Developer|InfoVision Inc.|Dallas, TX (On-site)|2 weeks
+ALL-infovision-US-1|4487348995|Analytics Lead - AI|InfoVision Inc.|Irving, TX (Hybrid)|5 days
+ALL-infovision-US-1|4487350897|Data Analyst - Looker|InfoVision Inc.|Irving, TX (Hybrid)|5 days
+ALL-infovision-US-1|4485747689|Sr QA Automation Engineer|InfoVision Inc.|Austin, TX (On-site)|1 week
+ALL-infovision-US-1|4474623698|Palantir Data Engineer|InfoVision Inc.|Dallas-Fort Worth Metroplex (Remote)|5 days
+ALL-infovision-US-1|4489278171|Drupal Architect / SME|InfoVision Inc.|Dallas, TX (Hybrid)|3 days
+ALL-infovision-US-1|4489008482|Application Architect|InfoVision Inc.|Irving, TX (Hybrid)|4 days
+ALL-infovision-US-1|4481397998|C++ Developer|InfoVision Inc.|Dallas, TX (Hybrid)|3 weeks
+ALL-infovision-US-1|4476202364|Reports   Visualization Developer - Looker|InfoVision Inc.|Dallas-Fort Worth Metroplex (Hybrid)|5 days
+ALL-infovision-IN-1|4354393529|Functional Analyst|InfoVision Inc.|Bengaluru (Hybrid)|
+ALL-infovision-IN-1|4469854804|FullStack Developer|InfoVision Inc.|Pune Division|1 week
+ALL-infovision-IN-1|4486822341|Azure Integration Developer|InfoVision Inc.|Bengaluru|1 week
+ALL-infovision-IN-1|4487745858|Azure Cloud DevOps Engineer|InfoVision Inc.|Pune Division|1 week
+ALL-infovision-IN-1|4486122217|Java AIML Solution Architect|InfoVision Inc.|Bengaluru|5 days
+ALL-infovision-IN-1|4485230088|QA Architect|InfoVision Inc.|Pune Division|3 days
+ALL-infovision-IN-1|4487733145|BizTalk Technical Integration Developer|InfoVision Inc.|Bengaluru|1 week
+ALL-infovision-IN-1|4487445529|Executive Research and Analytics|InfoVision Inc.|Bengaluru|2 days
+ALL-infovision-IN-1|4484907787|Scrum Master Project Manager Oracle Apps Technical|InfoVision Inc.|Pune Division|2 weeks
+ALL-infovision-IN-1|4480825682|QA COE Program Lead|InfoVision Inc.|Bengaluru|1 month
+ALL-infovision-IN-1|4486834049|QA COE Coach|InfoVision Inc.|Bengaluru|1 week
+ALL-infovision-IN-1|4345927141|BI Lead|InfoVision Inc.|Bengaluru|1 day
+ALL-infovision-IN-1|4487750406|Data Engineer|InfoVision Inc.|Bengaluru|1 week
+ALL-infovision-IN-1|4484917346|Scrum Master Project Manager Oracle Apps Technical|InfoVision Inc.|Bengaluru|2 weeks
+ALL-infovision-IN-1|4484639581|Senior Developer Go|InfoVision Inc.|Bengaluru|1 week
+ALL-infovision-IN-1|4486830243|Data Science Engineer|InfoVision Inc.|Bengaluru|1 week
+ALL-infovision-IN-1|4480836240|Lead DevOps Engineer|InfoVision Inc.|Pune Division|1 month
+ALL-infovision-IN-1|4484427772|Sr API Tester|InfoVision Inc.|Hyderabad|2 weeks
+ALL-infovision-IN-1|4484440550|Sr API Tester|InfoVision Inc.|Bengaluru|2 weeks
+ALL-infovision-IN-1|4335121223|QA Engineer|InfoVision Inc.|Pune Division (On-site)|2 days
+ALL-infovision-IN-1|4335462020|Senior GCP Data Engineer|InfoVision Inc.|Bengaluru (Hybrid)|5 days
+ALL-infovision-IN-1|4335392138|Senior GCP Data Engineer|InfoVision Inc.|Pune Division (Hybrid)|4 days
+ALL-infovision-IN-1|4485455825|Data Engineer|InfoVision Inc.|Pune District (On-site)|1 week
+ALL-infovision-IN-1|4471273008|DevOps Engineer|InfoVision Inc.|Bengaluru|5 days
+ALL-infovision-IN-1|4487447075|Full Stack Engineer|InfoVision Inc.|Pune District (Hybrid)|5 days
+ALL-infovision-US-2|4487368519|Data Analyst (looker)|InfoVision Inc.|Basking Ridge, NJ (Hybrid)|5 days
+ALL-infovision-US-2|4448534049|C++ Developer|InfoVision Inc.|Dallas, TX (On-site)|3 weeks
+ALL-infovision-US-2|4478164169|Sr. C++ Developer (Media Domain)|InfoVision Inc.|Dallas, TX (On-site)|5 days
+ALL-infovision-US-2|4483894095|C++ Developer( with Media Domain)|InfoVision Inc.|Dallas, TX (On-site)|4 days
+ALL-infovision-US-2|4487849501|Application Architect  (CyberSecurity, Agentic AI,, AWS)|InfoVision Inc.|Irving, TX (Hybrid)|4 days
+ALL-infovision-US-2|4483889559|Embedded Systems Engineer-Media/Video Streaming|InfoVision Inc.|Dallas, TX (On-site)|4 days
+ALL-infovision-US-2|4487907842|Sr Solutions Architect|InfoVision Inc.|Irving, TX (Hybrid)|6 days
+ALL-infovision-US-2|4478498913|Sr Frontend Application Developer (React, Angular, Gen AI, Agentic AI)|InfoVision Inc.|Newport Beach, CA (On-site)|3 weeks
+ALL-infovision-US-2|4487356613|Analytics Lead (Looker)|InfoVision Inc.|Basking Ridge, NJ (Hybrid)|5 days
+ALL-infovision-US-2|4488613565|Senior AI / Agentic Python Engineer|InfoVision Inc.|Irving, TX (Hybrid)|2 days
+ALL-infovision-US-2|4484886852|Data Modeler|InfoVision Inc.|Irving, TX (Hybrid)|5 days
+ALL-infovision-US-2|4486996743|Senior Solution Architect (AWS   Generative AI)|InfoVision Inc.|Irving, TX (Hybrid)|5 days
+ALL-infovision-US-2|4470026540|Senior Web application developer(ASP.NET Core, Angular)|InfoVision Inc.|Dallas, TX (On-site)|2 weeks
+ALL-infovision-US-2|4484873239|CyberSecurity Specialist|InfoVision Inc.|Irving, TX (On-site)|2 days
+ALL-infovision-US-2|4487312445|Sr. Solution Architect (AWS   Generative AI)|InfoVision Inc.|Irving, TX (Hybrid)|1 week
+ALL-infovision-US-2|4486902350|Cyber Security Consultant|InfoVision Inc.|Irving, TX (Hybrid)|1 week
+ALL-infovision-US-2|4456299470|Media Framework Developer (C, C++/C++11)|InfoVision Inc.|Dallas, TX (On-site)|3 weeks
+ALL-infovision-US-2|4486921561|Sr Cybersecurity SME   Data Analyst (Cryptography) - Irving TX (3 days onsite – Hybrid role)|InfoVision Inc.|Irving, TX (Hybrid)|1 week
+ALL-infovision-US-2|4456276837|Embedded Systems Engineer-Media/Video Streaming|InfoVision Inc.|Dallas, TX (On-site)|3 weeks
+ALL-infovision-US-2|4481138817|C++ Developer|InfoVision Inc.|Addison, TX (On-site)|3 weeks
+ALL-infovision-US-2|4489026924|Senior Solution Architect - Cryptographic Risk Remediation with Agentic AI (AWS)|InfoVision Inc.|Irving, TX (Hybrid)|3 days
+ALL-infovision-US-2|4486536969|Senior Infrastructure Engineer (Citrix, VDI   End User Services)|InfoVision Inc.|Austin, TX (On-site)|1 week
+ALL-infovision-US-2|4489573618|Senior Cybersecurity SME (Cryptography   PQC)|InfoVision Inc.|Irving, TX (Hybrid)|2 days
+ALL-infovision-US-2|4486917023|Senior Cybersecurity SME   Data Analyst (Cryptography)|InfoVision Inc.|Dallas-Fort Worth Metroplex (Hybrid)|5 days
+ALL-infovision-US-2|4456277559|C++ Developer( Media Domain)/Embedded Media Engineer|InfoVision Inc.|Dallas, TX (On-site)|3 weeks
+ALL-infovision-US-3|4486532361|Senior Infrastructure Engineer (Citrix, VDI   End User Services)|InfoVision Inc.|Austin, TX (On-site)|1 week
+ALL-infovision-US-3|4484856267|Sr Cybersecurity SME (Cryptography   PQC)|InfoVision Inc.|Dallas, TX (On-site)|2 weeks
+ALL-infovision-US-3|4478167139|Sr. C++/Linux Developer (Firmware/Memory Management/Kernel)|InfoVision Inc.|Dallas, TX (On-site)|1 week
+ALL-infovision-US-3|4481917242|Sr. C++/Linux Developer (Firmware/Memory Management/Kernel)|InfoVision Inc.|Dallas, TX (On-site)|3 weeks
+ALL-infovision-US-3|4487306465|Cybersecurity SME   Data Analyst (Cryptography|InfoVision Inc.|Irving, TX (On-site)|1 week
+ALL-infovision-US-3|4487312014|Senior Cybersecurity SME   Data Analyst (Cryptography)|InfoVision Inc.|Irving, TX (Hybrid)|5 days
+ALL-infovision-US-3|4487955814|Principle AI Architect|InfoVision Inc.|Dallas, TX (Remote)|5 days
+ALL-infovision-US-3|4483876920|AI / Python Architect|InfoVision Inc.|Dallas, TX (Hybrid)|2 weeks
+ALL-infovision-US-3|4485414807|AI Architect ( Microsoft Copilot Studio, Power Platform )|InfoVision Inc.|Dallas, TX (Remote)|1 week
+ALL-infovision-US-3|4484522373|Digital Marketing Analyst|InfoVision Inc.|United States (Remote)|2 weeks
+ALL-infovision-US-3|4488642403|AI Enterprise Architect ( GCP , AWS , LLM integration )|InfoVision Inc.|Irving, TX (Hybrid)|4 days
+ALL-infovision-IN-2|4334039223|Data Governance Specialist|InfoVision Inc.|Pune Division (On-site)|1 week
+ALL-infovision-IN-2|4335382130|Senior GCP Data Engineer|InfoVision Inc.|Hyderabad (Hybrid)|5 days
+ALL-infovision-IN-2|4341519472|Sr MernStack Developer|InfoVision Inc.|Hyderabad (Hybrid)|4 days
+ALL-infovision-IN-2|4305961859|Microsoft M365 Administrator|InfoVision Inc.|Bengaluru (Hybrid)|1 week
+ALL-infovision-IN-2|4480827576|AEM Lead|InfoVision Inc.|Pune Division|1 month
+ALL-infovision-IN-2|4484192805|AEM Lead|InfoVision Inc.|Pune District (Hybrid)|2 weeks
+ALL-infovision-IN-2|4490321088|AI Architect Microsoft Copilot Studio Power Platform|InfoVision Inc.|Bengaluru|3 days
+ALL-infovision-IN-2|4480823734|AEM Developer|InfoVision Inc.|Pune Division|1 month
+ALL-infovision-IN-2|4310842363|SrFullstack Developer|InfoVision Inc.|Hyderabad|2 weeks
+ALL-infovision-IN-2|4458707598|Embedded Software Engineer|InfoVision Inc.|Bengaluru|2 weeks
+ALL-infovision-IN-2|4341089765|Sr MernStack Developer|InfoVision Inc.|Chennai (Hybrid)|1 day
+ALL-infovision-IN-2|4318251501|Sr Full Stack Developer Java React|InfoVision Inc.|Pune Division|3 days
+ALL-acuity-IN-1|4480769610|Associate/Assistant Director - AI Adoption   Governance|Acuity Analytics|Gurugram (On-site)|3 weeks
+ALL-acuity-IN-1|4486584970|RFP Writer- Asset Management - Associate/ Sr Associate|Acuity Analytics|Bengaluru (On-site)|1 week
+ALL-acuity-IN-1|4488204116|Associate Director -Delivery Operations|Acuity Analytics|Gurugram|4 days
+ALL-acuity-IN-1|4475212794|Delivery Lead-Salesforce Business Partner|Acuity Analytics|Gurugram|
+ALL-acuity-IN-1|4475695083|Associate Director|Acuity Analytics|Gurugram|1 week
+ALL-acuity-IN-1|4477382956|Assitant Director-BFSI Technology Program Manager|Acuity Analytics|Bengaluru|1 week
+ALL-acuity-IN-1|4486653133|Assistant Director- Head of Revenue Operations|Acuity Analytics|Gurugram|1 week
+ALL-acuity-IN-1|4485474633|Senior Professional - Business operations analyst|Acuity Analytics|Gurugram (On-site)|1 week
+ALL-acuity-IN-1|4482923781|Fund Finance|Acuity Analytics|Gurugram (On-site)|2 weeks
+ALL-acuity-IN-1|4482951400|Associate/Senior Associate-Spreading|Acuity Analytics|Pune District (Hybrid)|2 weeks
+ALL-acuity-IN-1|4475226261|Senior Professional- Business Operations|Acuity Analytics|Gurugram|2 weeks
+ALL-acuity-IN-1|4463833317|Delivery Lead/ Manager ( Client Onboarding )|Acuity Analytics|Gurugram (On-site)|2 weeks
+ALL-acuity-IN-1|4465985600|Delivery Manager|Acuity Analytics|Gurugram|2 weeks
+ALL-acuity-IN-1|4478442028|Financial Spreading/ Covenant Monitoring - Pune|Acuity Analytics|Pune District (On-site)|2 weeks
+ALL-acuity-IN-1|4488541687|Delivery lead-Python Developer|Acuity Analytics|Bengaluru|2 days
+ALL-acuity-IN-1|4479411534|Senior Associate - PMO Analyst|Acuity Analytics|Pune Division|4 days
+ALL-acuity-IN-1|4484908854|Associate- New role- Lending Compliance|Acuity Analytics|Bengaluru|2 weeks
+ALL-acuity-IN-1|4480786715|Cvent Expert - Asset Management - Analyst/Associate|Acuity Analytics|Pune District (Hybrid)|3 weeks
+ALL-acuity-IN-1|4477994068|Commercial Real Estate_CRE (Delivery Manager/Assistant Director), GGN|Acuity Analytics|Gurugram (On-site)|2 weeks
+ALL-acuity-IN-1|4458807010|Financial Spreading (/Delivery Lead/Delivery Manager)|Acuity Analytics|Gurugram|3 days
+ALL-acuity-IN-1|4464797649|Investment Banking Client Onboarding Delivery Lead/ Delivery Manager_GGN|Acuity Analytics|Gurugram|2 weeks
+ALL-acuity-IN-1|4483624005|FIG Credit Analysis|Acuity Analytics|Bangalore Urban (On-site)|2 weeks
+ALL-acuity-IN-1|4485720885|FIG Credit Analysis|Acuity Analytics|Bangalore Urban (On-site)|1 week
+ALL-acuity-IN-1|4485091413|Senior Associate-Dealcloud|Acuity Analytics|Bengaluru|1 week
+ALL-acuity-IN-1|3815677236|Credit Analysis (Associate/ Sr. Associate/ Delivery Lead/ Manager)|Acuity Analytics|Gurugram (On-site)|2 weeks
+ALL-acuity-IN-2|4446647139|Fund Accounting/Portfolio Monitoring (Real Estate) – Senior Associate/Delivery Lead|Acuity Analytics|Gurugram|2 weeks
+ALL-acuity-IN-2|4489285506|Director - Private Markets|Acuity Analytics|Gurugram (On-site)|2 days
+ALL-acuity-IN-2|4485468181|Associate- Lending Compliance Specialist |Associate- Lending Compliance Specialist|Acuity Analytics|1 week
+ALL-acuity-IN-2|4481677318|Delivery Lead- Ratings|Acuity Analytics|Pune City (Hybrid)|3 weeks
+ALL-acuity-IN-2|4486595420|Associate - Credit review|Acuity Analytics|Gurugram (On-site)|1 week
+ALL-acuity-IN-2|4481452432|Credit Review_Fund/Franchise Finance ( Senior Associate/Delivery Lead)|Acuity Analytics|Gurugram|2 weeks
+ALL-acuity-IN-2|4479482906|Delivery Manager-Snowflake Data Engineer|Acuity Analytics|Gurugram|3 days
+ALL-acuity-IN-2|4475212795|Qualitative   Quantitative Research-Investment Banking   Private Markets (Empowering Talent: Job Opportunities for Persons with Disabilities)|Acuity Analytics|Gurugram|2 weeks
+ALL-acuity-IN-2|4481323217|Financial Spreading (Delivery Lead/ Manager)|Acuity Analytics|Gurugram (On-site)|3 weeks
+ALL-acuity-IN-2|4480655588|Associate|Acuity Analytics|Gurugram|2 days
+ALL-acuity-IN-2|4485730091|Senior Associate|Acuity Analytics|Gurugram (Hybrid)|1 week
+ALL-acuity-IN-2|4485053729|Associate - Loan Syndication / UK Shift / Immediate Joiners only|Acuity Analytics|Pune Division|1 week
+ALL-acuity-IN-2|4414098876|Delivery Manager - Fund Accounting (Private Markets)|Acuity Analytics|Gurugram|5 days
+ALL-acuity-IN-2|4484913475|Associate- Fund Accounting|Acuity Analytics|Gurugram|2 weeks
+ALL-acuity-IN-2|4481093852|Delivery Lead|Acuity Analytics|Gurugram|2 weeks
+ALL-acuity-IN-2|4480033723|Credit Research - Banking Analyst|Acuity Analytics|Pune Division|3 days
+ALL-acuity-IN-2|4483040625|Credit Research - Banking Analyst|Acuity Analytics|Pune Division|2 weeks
+ALL-acuity-IN-2|4482944278|Delivery Lead/Delivery Manager-Assest Based Lending (ABL)|Acuity Analytics|Pune District (On-site)|2 weeks
+ALL-acuity-IN-2|4485342265|Associate|Acuity Analytics|Gurugram|2 weeks
+ALL-acuity-IN-2|4485487001|Associate/ Sr. Associate- WSO|Acuity Analytics|Gurugram (On-site)|1 week
+ALL-acuity-IN-2|4481438871|Credit Review_Project Finance (Sr Associate/ Delivery Lead/ Manager)|Acuity Analytics|Gurugram|2 weeks
+ALL-acuity-IN-2|4484317470|Delivery Lead- Financial Modelling|Acuity Analytics|Gurugram|1 week
+ALL-acuity-IN-2|4474468481|Credit Research - Corporate Sector|Acuity Analytics|Bengaluru|2 weeks
+ALL-acuity-IN-2|4482946292|Delivery Manager - Real Estate Fund Accounting|Acuity Analytics|Gurugram (Hybrid)|2 weeks
+ALL-acuity-IN-2|4489278838|Associate Director - Private Markets|Acuity Analytics|Gurugram (Hybrid)|2 days
+ALL-copeland-US-1|4485832997|Commercial Enablement   CRM Partner|Copeland|Sidney, OH|
+ALL-copeland-US-1|4444135883|Product Manager|Copeland|Sidney, OH|23 hours
+ALL-copeland-US-1|4477327635|Business Development Manager, SaaS Solutions|Copeland|United States (Remote)|1 week
+ALL-copeland-US-1|4485556645|Project Manager|Copeland|Kennesaw, GA (Hybrid)|1 week
+ALL-copeland-US-1|4448074397|Strategic Account Executive|Copeland|United States (Remote)|2 weeks
+ALL-copeland-US-1|4440486306|Operations Manager|Copeland|Rushville, IN|1 week
+ALL-copeland-US-1|4485554797|Project Manager|Copeland|Bentonville, AR (Hybrid)|1 week
+ALL-copeland-US-1|4479452583|Product Manager|Copeland|Sidney, OH (Hybrid)|3 days
+ALL-copeland-US-1|4485869695|Product Manager|Copeland|St Louis, MO (Hybrid)|1 week
+ALL-copeland-US-1|4411199454|Account Executive|Copeland|United States (Remote)|1 week
+ALL-copeland-US-1|4476075447|Sr. Program Manager|Copeland|Sidney, OH|1 week
+ALL-copeland-US-1|4463919263|Manager, Product Management - Control Electronics|Copeland|United States (Remote)|1 day
+ALL-copeland-US-1|4485559472|Project Manager|Copeland|St Louis, MO (Hybrid)|1 week
+ALL-copeland-US-1|4411505175|Strategic Marketing   Business Development Manager|Copeland|Sidney, OH|1 week
+ALL-copeland-US-1|4485553820|Project Manager|Copeland|Sidney, OH (Hybrid)|1 week
+ALL-copeland-US-1|4476068605|Senior Software Engineer (Cloud Native, React/Node.js)|Copeland|Hartford, CT (Hybrid)|1 week
+ALL-copeland-US-1|4486298288|Program Manager- Power Electronics|Copeland|Sidney, OH|1 week
+ALL-copeland-US-1|4488266422|Account Executive|Copeland|Sidney, OH (Hybrid)|3 days
+ALL-copeland-US-1|4486600201|Portfolio Marketer|Copeland|Kennesaw, GA|1 week
+ALL-copeland-US-1|4476495406|Inside Sales Manager|Copeland|Sidney, OH|1 week
+ALL-copeland-US-1|4457273327|Lead Financial Systems Analyst|Copeland|Sidney, OH|2 weeks
+ALL-copeland-US-1|4444144284|Portfolio Marketer|Copeland|Sidney, OH|1 day
+ALL-copeland-US-1|4481811721|Production Supervisor|Copeland|Kennesaw, GA|2 weeks
+ALL-copeland-US-1|4482254322|Healthcare Market Manager|Copeland|United States (Remote)|2 weeks
+ALL-copeland-US-1|4435925047|Research Project Manager|Copeland|Sidney, OH|7 minutes
+ALL-copeland-IN-1|4485059491|Engineer Application Support|Copeland|Bengaluru East (Remote)|1 week
+ALL-copeland-IN-1|4436615040|Product Manager|Copeland|Bengaluru East (Remote)|2 weeks
+ALL-copeland-IN-1|4485067173|Engineer Application Support|Copeland|Itanagar (Remote)|1 week
+ALL-copeland-IN-1|4481079144|Product Manager|Copeland|Pune Division|18 minutes
+ALL-copeland-IN-1|4382855899|Senior Technical Analyst|Copeland|Pune Division|1 week
+ALL-copeland-IN-1|4382874041|Senior Technical Analyst|Copeland|Sahibzada Ajit Singh Nagar|1 week
+ALL-copeland-IN-1|4470153327|Engineer II Product Design|Copeland|Pune Division|1 week
+ALL-copeland-IN-1|4472949336|General Manager of Manufacturing Atit India|Copeland|Khandala|1 day
+ALL-copeland-IN-1|4471452199|Senior FP A Analyst|Copeland|Pune Division|1 week
+ALL-copeland-IN-1|4459297738|Engineer Application Support|Copeland|Pune Division|1 week
+ALL-copeland-IN-1|4434549893|Section Manager – Channel Sales|Copeland|Gurgaon|2 days
+ALL-copeland-IN-1|4441814686|Territory Sales Executive|Copeland|New Delhi|6 days
+ALL-copeland-IN-1|4447389499|System Engineer|Copeland|Pune Division|2 weeks
+ALL-copeland-IN-1|4459506172|Engineer Application Support|Copeland|Gurgaon|1 week
+ALL-copeland-IN-1|4382858721|Manager / Sr. Manager – Business Development (Heating – Outside Sales)|Copeland|Mumbai Metropolitan Region|1 week
+ALL-copeland-IN-1|4382852979|Manager / Sr. Manager – Business Development (Heating – Outside Sales)|Copeland|Pune Division|1 week
+ALL-copeland-IN-1|4411502336|Manager Engineering Power Electronics|Copeland|Pune Division|1 week
+ALL-copeland-IN-1|4463976254|Product Engineer Technology Development|Copeland|Pune Division|2 hours
+ALL-copeland-IN-1|4473217774|Senior IT Risk and Compliance Analyst|Copeland|Pune Division|4 days
+ALL-copeland-IN-1|4468598759|Director Channel Sales|Copeland|New Delhi|1 week
+ALL-copeland-IN-1|4470821890|FEA Engineer|Copeland|Pune Division|5 days
+ALL-copeland-IN-1|4468905665|Director Channel Sales|Copeland|Pune Division|1 week
+ALL-copeland-IN-1|4468595937|Director Channel Sales|Copeland|Itanagar (Remote)|1 week
+ALL-copeland-IN-1|4417923955|Controls Engineer|Copeland|Pune Division|3 weeks
+ALL-copeland-IN-1|4481870833|Supervisor Shell Shop|Copeland|Khandala|2 weeks
+ALL-zinnia-US-1|4448599444|Senior Director, Strategic Account Management|Zinnia|New York, NY (Hybrid)|2 weeks
+ALL-zinnia-US-1|4459400046|Sales Director, Carrier Solutions|Zinnia|United States (Remote)|2 weeks
+ALL-zinnia-US-1|4475972862|Senior Product Manager (Technical)|Zinnia|New York, NY (Hybrid)|2 weeks
+ALL-zinnia-US-1|4478180492|Paid Social Media Manager|Zinnia|New York City Metropolitan Area (Hybrid)|1 week
+ALL-zinnia-US-1|4471310027|Associate II, Life Sales (Policygenius)|Zinnia|United States (Remote)|6 days
+ALL-zinnia-US-1|4449764817|Counsel|Zinnia|New York, NY (Hybrid)|2 weeks
+ALL-zinnia-US-1|4468403418|Staff Software Engineer|Zinnia|Alpharetta, GA (Hybrid)|2 weeks
+ALL-zinnia-US-1|4489674480|Software Engineer III|Zinnia|Alpharetta, GA (Hybrid)|4 days
+ALL-zinnia-US-1|4485113742|Senior Software Engineer I|Zinnia|Alpharetta, GA (Hybrid)|2 weeks
+ALL-acuity-IN-3|4486972136|Credit Analysis-FIG (Sr. Associate/ Delivery Lead)|Acuity Analytics|Gurugram (On-site)|1 week
+ALL-acuity-IN-3|4486022993|Credit Research Analyst (Corporate Sector) - Pune / Bangalore / Gurgaon |Credit Research Analyst (Corporate Sector) - Pune / Bangalore / Gurgaon|Acuity Analytics|1 week
+ALL-acuity-IN-3|4486024677|Credit Research Analyst (Corporate Sector) - Pune / Bangalore / Gurgaon|Acuity Analytics|Bengaluru (On-site)|1 week
+ALL-acuity-IN-3|4483878110|Credit Analysis- Project Finance (Sr. Associate/ Delivery Lead/Manager)|Acuity Analytics|Gurugram (On-site)|2 weeks
+ALL-acuity-IN-3|4477080627|Delivery Lead-Full stack developer|Acuity Analytics|Gurugram|1 week
+ALL-acuity-IN-3|4485832066|Delivery Lead-Data Engineer|Acuity Analytics|Bengaluru|1 week
+ALL-acuity-IN-3|4484321206|Senior Associate-Production support|Acuity Analytics|Gurugram|1 week
+ALL-acuity-IN-3|4486277031|Delivery Lead-Data Engineer|Acuity Analytics|Gurugram|1 week
+ALL-acuity-IN-3|4477383896|Senior Associate-Sharepoint developer|Acuity Analytics|Bengaluru|1 week
+ALL-acuity-IN-3|4465535475|Secondaries Market (Associate/Sr Associate), GGN|Acuity Analytics|Gurugram|2 weeks
+ALL-acuity-IN-3|4474463663|Credit Research - Banking Analyst|Acuity Analytics|Bengaluru|2 weeks
+ALL-acuity-IN-3|4489432242|Sr.Associate_Trade Ops_ Pune|Acuity Analytics|Pune Division|5 days
+ALL-acuity-IN-3|4486348225|Professional- Revenue accounting   Contract Management|Acuity Analytics|Gurugram (Hybrid)|1 week
+ALL-acuity-IN-3|4475226262|Credit Review-Lending Services (Empowering Talent: Job Opportunities for Persons with Disabilities)|Acuity Analytics|Gurugram|2 weeks
+ALL-acuity-IN-3|4477527339|Credit Manager - Asset Based Lending/ Factoring|Acuity Analytics|Pune District (On-site)|2 weeks
+ALL-acuity-IN-3|4486329744|Senior Professional- Controllership|Acuity Analytics|Gurugram (On-site)|1 week
+ALL-acuity-IN-3|4488526279|Professional- Revenue Accounting   Contract management(Ascent group of entities)|Acuity Analytics|Gurugram|3 days
+ALL-acuity-IN-3|4480064619|Associate-Front Automation QA|Acuity Analytics|Pune Division|2 days
+ALL-acuity-IN-3|4473762793|Associate_Management Company Accounting / US Shift|Acuity Analytics|Bengaluru|3 days
+ALL-acuity-IN-3|4486249012|Senior Professional- Controllership (Ascent group of entities)|Acuity Analytics|Gurugram|1 week
+ALL-acuity-IN-3|4481401505|Delivery Lead|Acuity Analytics|Gurugram|2 weeks
+ALL-acuity-IN-3|4485453788|Investment Compliance - Post Trade Monitoring (Aladdin/CRD/Sentinel) - Sr Associate|Acuity Analytics|Bengaluru (On-site)|1 week
+ALL-acuity-IN-3|4459503877|Delivery Lead-PE Fund|Acuity Analytics|Gurugram|1 week
+ALL-acuity-IN-3|4480035703|Senior Associate - PE_Fund Accounting / EMEA|Acuity Analytics|Pune Division|3 days
+ALL-acuity-IN-3|4476019239|Senior Associate-Fund Accounting|Acuity Analytics|Gurugram|1 week
+ALL-acuity-IN-4|4478675760|Senior Associate / Delivery Lead- Sovereign Ratings|Acuity Analytics|Gurugram|5 days
+ALL-acuity-IN-4|4488218571|Assistant Director-Databricks Platform and Data Engineer|Acuity Analytics|Bengaluru|4 days
+ALL-acuity-IN-4|4479492454|Delivery Manager-Snowflake Data Engineer|Acuity Analytics|Gurugram|3 days
+ALL-acuity-IN-4|4483611848|Python Developer|Acuity Analytics|Gurugram (Hybrid)|2 weeks
+ALL-acuity-IN-4|4485014235|Associate|Acuity Analytics|Gurugram|1 week
+ALL-acuity-IN-4|4486950985|Credit Analysis/ Review (Associate/ Sr. Associate/ Delivery Lead/Manager)|Acuity Analytics|Gurugram (On-site)|1 week
+ALL-acuity-IN-4|4446640368|Security Master (Private Market/Private Debt) – Associate/Senior Associate|Acuity Analytics|Gurugram|2 weeks
+ALL-acuity-IN-4|4475214817|Python Developer_Data Test Engineer/ Back office(Empowering Talent: Job Opportunities for Persons with Disabilities)|Acuity Analytics|Gurugram|2 weeks
+ALL-acuity-IN-4|4482956001|Senior Associate|Acuity Analytics|Gurugram (Hybrid)|2 weeks
+ALL-acuity-IN-4|4484799978|Associate- Portfolio Monitoring|Acuity Analytics|Gurugram|2 weeks
+ALL-acuity-IN-4|4489534889|QA Data Engineer|Acuity Analytics|Pune District (Hybrid)|2 days
+ALL-copeland-IN-2|4475782920|Engineer I Process|Copeland|Pune Division|2 weeks
+ALL-copeland-IN-2|4437276131|Sr. Automation Operations Engineer|Copeland|Sahibzada Ajit Singh Nagar|2 weeks
+ALL-copeland-IN-2|4480035364|Technical Lead Power Electronics|Copeland|Pune Division|3 days
+ALL-copeland-IN-2|4451215757|Section Manager Quality|Copeland|Khandala|6 days
+ALL-copeland-IN-2|4484637403|Oracle IT Analyst Lead I|Copeland|Pune Division|1 week
+ALL-copeland-IN-2|4483419247|Sr. Motor Control Engineer|Copeland|Pune Division|2 weeks
+ALL-copeland-IN-2|4481892020|Engineer I Software Development|Copeland|Pune Division|2 weeks
+ALL-copeland-IN-2|4465955238|Engineer L1|Copeland|Pune Division|2 weeks
+ALL-copeland-IN-2|4449564193|Oracle Support Analyst|Copeland|Sahibzada Ajit Singh Nagar|1 week
+ALL-copeland-IN-2|4449547873|Oracle Support Analyst|Copeland|Pune Division|1 week
+ALL-copeland-IN-2|4486252798|Security Engineer|Copeland|Pune Division|1 week
+ALL-copeland-IN-2|4486259564|Security Engineer|Copeland|Pune Division|1 week
+ALL-copeland-IN-2|4474054231|Software Engineer - Industrial Applications|Copeland|Pune Division|2 weeks
+ALL-copeland-IN-2|4427807295|Sr. Manager-HR|Copeland|Khandala|2 weeks
+ALL-copeland-IN-2|4411189589|Lead Firmware Quality Assurance Engineer|Copeland|Pune Division|1 week
+ALL-copeland-IN-2|4484909416|Oracle Apps DBA|Copeland|Sahibzada Ajit Singh Nagar|2 weeks
+ALL-copeland-IN-2|4484793969|Oracle Apps DBA|Copeland|Pune Division|2 weeks
+ALL-copeland-IN-2|4445435949|Section Manager- System Engineering|Copeland|Karad|2 days
+ALL-copeland-IN-2|4445437955|Section Manager- System Engineering|Copeland|Pune Division|3 days
+ALL-copeland-IN-2|4484312540|Senior Engineer Quality Assurance|Copeland|Khandala|1 week
+ALL-copeland-IN-2|4477391008|Associate Developer – Oracle Transportation Management (OTM)|Copeland|Sahibzada Ajit Singh Nagar|1 week
+ALL-copeland-IN-2|4473708384|Senior Engineer PCB Design|Copeland|Pune Division|3 days
+ALL-copeland-IN-2|4451656519|Senior Engineer I PCB Design|Copeland|Pune Division|1 week
+ALL-copeland-IN-2|4411194533|Senior Power Electronics EMC Engineer|Copeland|Pune Division|1 week
+ALL-copeland-USIT-1|4476068605|Senior Software Engineer (Cloud Native, React/Node.js)|Copeland|Hartford, CT (Hybrid)|1 week
+ALL-copeland-USIT-1|4476061889|Senior Software Engineer (Cloud Native, React/Node.js)|Copeland|Natchitoches, LA (Hybrid)|1 week
+ALL-copeland-USIT-1|4476079226|Senior Software Engineer (Cloud Native, React/Node.js)|Copeland|Cudahy, WI (Hybrid)|1 week
+ALL-copeland-USIT-1|4476065736|Senior Software Engineer (Cloud Native, React/Node.js)|Copeland|Rushville, IN (Hybrid)|1 week
+ALL-copeland-USIT-1|4476065738|Senior Software Engineer (Cloud Native, React/Node.js)|Copeland|Bentonville, AR (Hybrid)|1 week
+ALL-copeland-USIT-1|4476079225|Senior Software Engineer (Cloud Native, React/Node.js)|Copeland|Hartselle, AL (Hybrid)|1 week
+ALL-copeland-USIT-1|4476080137|Senior Software Engineer (Cloud Native, React/Node.js)|Copeland|Virginia, MN (Hybrid)|1 week
+ALL-copeland-USIT-1|4476070561|Senior Software Engineer (Cloud Native, React/Node.js)|Copeland|Kansas City, KS (Hybrid)|1 week
+ALL-copeland-USIT-1|4476062880|Senior Software Engineer (Cloud Native, React/Node.js)|Copeland|Tennessee, IL (Hybrid)|1 week
+ALL-copeland-USIT-1|4476070562|Senior Software Engineer (Cloud Native, React/Node.js)|Copeland|Dayton, OH (Hybrid)|1 week
+ALL-copeland-USIT-1|4476081111|Senior Software Engineer (Cloud Native, React/Node.js)|Copeland|Palm Beach Gardens, FL (Hybrid)|1 week
+ALL-copeland-USIT-1|4476074511|Senior Software Engineer (Cloud Native, React/Node.js)|Copeland|Kennesaw, GA (Hybrid)|1 week
+ALL-copeland-USIT-1|4476072550|Senior Software Engineer (Cloud Native, React/Node.js)|Copeland|Frankfort, KY (Hybrid)|1 week
+ALL-copeland-USIT-1|4476062881|Senior Software Engineer (Cloud Native, React/Node.js)|Copeland|Virginia, United States (Hybrid)|1 week
+ALL-copeland-USIT-1|4476060966|Controls Engineer (HMI Programming)|Copeland|Sidney, OH (Hybrid)|1 week
+ALL-copeland-USIT-1|4445025279|Lead Software Engineer, Power Electronics|Copeland|Sidney, OH (Hybrid)|2 weeks
+ALL-copeland-USIT-1|4474410584|Controls Engineer (Application Programming)|Copeland|Sidney, OH (Hybrid)|2 weeks
+ALL-copeland-USIT-1|4473690683|Teamcenter Developer|Copeland|Sidney, OH (Hybrid)|2 weeks
+ALL-copeland-USIT-1|4480079795|Full Stack eCommerce Developer (.NET/C#)|Copeland|Sidney, OH (Hybrid)|1 day
+ALL-copeland-USIT-1|4480081859|Full Stack eCommerce Developer (.NET/C#)|Copeland|St Louis, MO (Hybrid)|2 days
+ALL-copeland-USIT-1|4480093327|Full Stack eCommerce Developer (.NET/C#)|Copeland|Kennesaw, GA (Hybrid)|2 days
+ALL-copeland-USIT-1|4464139243|Sr. Firmware Developer|Copeland|Palm Beach Gardens, FL (Hybrid)|1 day
+ALL-copeland-USIT-1|4464146194|Sr. Firmware Engineer|Copeland|Palm Beach Gardens, FL (Hybrid)|1 day
+ALL-copeland-USIT-1|4457273327|Lead Financial Systems Analyst|Copeland|Sidney, OH|2 weeks
+ALL-copeland-USIT-1|4411505159|Controls Engineer|Copeland|Rushville, IN|1 week
+ALL-lloyds-UK-1|4484186004|Account Manager|Lloyd's List Intelligence|London (Hybrid)|2 weeks
+ALL-lloyds-UK-1|4481373584|Senior Account Executive|Lloyd's List Intelligence|London (Hybrid)|3 weeks
+ALL-orsnasco-US-1|4457634264|Business Development Manager|ORS Nasco|Los Angeles, CA|2 weeks
+ALL-orsnasco-US-1|4470051536|Territory Sales Manager|ORS Nasco|Atlanta, GA (Remote)|1 week
+ALL-orsnasco-US-1|4418837650|Territory Sales Manager|ORS Nasco|Phoenix, AZ (Remote)|5 days
+ALL-orsnasco-US-1|4487952733|IT Support Technician|ORS Nasco|Cincinnati, OH|5 days
+ALL-orsnasco-US-1|4488387271|Sourcing Specialist|ORS Nasco|Atlanta, GA (On-site)|5 days
+ALL-orsnasco-US-1|4489824619|People Operations Generalist|ORS Nasco|Houston, TX (On-site)|1 day
+ALL-orsnasco-US-1|4380444731|Category Manager - Bearings and Power Transmission|ORS Nasco|Houston, TX (Remote)|2 weeks
+ALL-orsnasco-US-1|4323242333|Territory Sales Manager|ORS Nasco|Greater Houston (Remote)|5 days
+ALL-orsnasco-US-1|4482333052|Territory Sales Manager|ORS Nasco|Tulsa, OK (Remote)|3 weeks
+ALL-orsnasco-US-1|4489828340|Warehouse Worker II|ORS Nasco|Greater Houston|1 day
+ALL-orsnasco-US-1|4481927987|Treasury Manager|ORS Nasco|Elk Grove Village, IL|2 weeks
+ALL-marlabs-US-1|4486390820|Technical Delivery Manager|Marlabs|Miami, FL (On-site)|1 day
+ALL-marlabs-US-1|4489814741|Front-end Software Engineer|Marlabs|Plano, TX (On-site)|1 day
+ALL-marlabs-US-1|4487053147|Implementation Project Manager – Payments   PCI |Implementation Project Manager – Payments   PCI|Marlabs|1 week
+ALL-marlabs-US-1|4482999267|Salesforce Solution Architect - Lending Domain|Marlabs|Irvine, CA (Remote)|
+ALL-marlabs-US-1|4484203979|Technical Product Owner (Strategy   Execution)|Marlabs|Indianapolis, IN (Hybrid)|2 weeks
+ALL-marlabs-US-1|4477842814|Profisee Architect|Marlabs|Indianapolis, IN (Hybrid)|1 week
+ALL-marlabs-US-1|4489582811|Google Cloud Engineer|Marlabs|Roseland, NJ (On-site)|2 days
+ALL-marlabs-US-1|4485759263|Sap Sales Distribution Consultant|Marlabs|Plano, TX (On-site)|1 week
+ALL-marlabs-US-1|4482996355|Artificial Intelligence Engineer|Marlabs|Englewood, NJ (On-site)|1 week
+ALL-marlabs-US-1|4489807821|Artificial Intelligence Engineer|Marlabs|Alpharetta, GA (On-site)|1 day
+ALL-marlabs-US-1|4486439284|Snowflake Data Engineer|Marlabs|United States (Remote)|1 week
+ALL-marlabs-US-1|4489827237|Java Developer- Full time, NO C2C|Marlabs|Plano, TX (On-site)|1 day
+ALL-marlabs-US-1|4481765228|GenAI Fullstack Engineer|Marlabs|Englewood Cliffs, NJ (On-site)|3 weeks
+ALL-marlabs-US-1|4477838941|MLOps Engineer|Marlabs|San Diego, CA (Hybrid)|1 week
+ALL-marlabs-US-1|4489112340|AI Scientist – Molecular Machine Learning|Marlabs|United States (Remote)|5 days
+ALL-marlabs-US-1|4489800681|Java Software Engineer (W2 only)|Marlabs|Plano, TX (On-site)|1 day
