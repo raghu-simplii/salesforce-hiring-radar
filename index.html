@@ -118,6 +118,25 @@ a:hover { text-decoration: underline; }
 }
 .readfirst .k { font-size: 11px; letter-spacing: .16em; text-transform: uppercase; font-weight: 700; margin: 0 0 6px; }
 
+/* Data freshness banner — warns when the scan has stopped running. */
+.stale {
+  display: flex; gap: 12px; align-items: flex-start;
+  border-radius: 14px; padding: 14px 18px; margin: 22px 0 0;
+  font-size: 14.5px; line-height: 1.55;
+  background: var(--gold); color: #1c1403;
+}
+.stale[data-level="critical"] { background: #b3261e; color: #fff6f4; }
+.stale .dot {
+  flex: 0 0 auto; width: 9px; height: 9px; border-radius: 50%;
+  background: currentColor; margin-top: 7px; opacity: .85;
+}
+.stale .k {
+  font-size: 11px; letter-spacing: .16em; text-transform: uppercase;
+  font-weight: 700; margin: 0 0 4px;
+}
+.stale .msg { margin: 0; }
+.stale .msg b { font-weight: 700; }
+
 .page { max-width: 1180px; margin: 0 auto; padding: 28px 22px 80px; }
 
 .kicker {
@@ -505,6 +524,13 @@ body[data-tab="staffing-contacts"] #configMatrix { display: none; }
 </div>
 </div>
 <div class="page">
+  <div class="stale" id="staleBanner" role="status" hidden>
+    <span class="dot"></span>
+    <div>
+      <div class="k" id="staleKicker">Data is out of date</div>
+      <p class="msg" id="staleMsg"></p>
+    </div>
+  </div>
   <div class="readfirst" id="readFirst"><div class="k">Read this first</div><div id="readFirstBody"></div></div>
 
   <section class="matrix-card" id="configMatrix">
@@ -17014,6 +17040,39 @@ function renderHeader() {
   const posted = windowMeta(postedDays);
   document.getElementById("scanWin").textContent = posted.range_label + " · " + nCo + " companies";
   document.title = (DATA.title || "Salesforce hiring radar") + " · " + w.range_label;
+  renderStaleBanner();
+}
+
+// Shows a banner when the underlying scan has not run recently. A silently
+// stopped scan previously left the page serving weeks-old roles with no warning.
+function STALE_DAYS() {
+  const d = String(DATA.end_date || "").slice(0, 10);
+  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(d);
+  if (!m) return null;
+  const scanned = Date.UTC(+m[1], +m[2] - 1, +m[3]);
+  const now = new Date();
+  const today = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate());
+  return Math.floor((today - scanned) / 86400000);
+}
+
+function renderStaleBanner() {
+  const el = document.getElementById("staleBanner");
+  if (!el) return;
+  const days = STALE_DAYS();
+  if (days === null || days <= 3) { el.hidden = true; return; }
+
+  const critical = days >= 14;
+  const when = DATA.end_date_display || DATA.end_date || "an earlier date";
+  el.hidden = false;
+  el.setAttribute("data-level", critical ? "critical" : "warning");
+  document.getElementById("staleKicker").textContent =
+    critical ? "Do not work this list as current" : "Data is ageing";
+  document.getElementById("staleMsg").innerHTML =
+    "Last scan was <b>" + esc(when) + "</b> — <b>" + days + " days ago</b>. " +
+    (critical
+      ? "The daily scan is not running. Roles below have had " + days +
+        " days to be filled or closed, so verify any posting before acting on it."
+      : "The scan may have stopped. Check before relying on the newest entries.");
 }
 
 function renderKpis(hits) {
