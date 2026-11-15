@@ -145,6 +145,21 @@ Recorded so the next run can repeat it instead of rediscovering it.
   `date_confidence`.
 - **Zero results on LinkedIn in the last 30 days:** Randstad (India), Merkle
   (India), Liberty Personnel, Lloyd's List (IT roles), Ciklum India/UK.
-- **Not refreshed:** `STAFFING_LEADS` and `STAFFING_CONTACTS` — still the
-  2026-09-16 scan. `DATA.staffing_end_date` drives a banner saying so; update
-  it when those tabs are rescanned.
+- **Staffing leads (Tab 2), same day:** LinkedIn US searches for
+  `"salesforce administrator"`, `junior salesforce administrator`,
+  `associate salesforce administrator` and `"salesforce admin"` (last 30 days,
+  newest first), plus ZipRecruiter `jobs-search?search=…&days=30` read through
+  the same Chrome. Raw rows: `scans/staffing-linkedin-2026-11-15.txt` and
+  `scans/staffing-ziprecruiter-2026-11-15.txt`.
+- **Staffing filters:** title must name Salesforce/CRM at admin, analyst,
+  specialist or support level; senior, lead, developer, architect and manager
+  titles dropped; staffing agencies dropped by name; company size checked with
+  ZoomInfo's free company search (cap 5,000). Leads whose size ZoomInfo could
+  not confirm are kept and marked "Size unverified".
+- **Indeed is not in the scan.** It showed a human-verification check in Chrome
+  and refused direct fetches the same day. Do not try to get past the check.
+- **ZipRecruiter cards carry no posting date**, so those leads have a blank
+  `posted_date` and only appear in the 30-day view.
+- **Not refreshed:** `STAFFING_CONTACTS` — still the 2026-09-16 ZoomInfo pull
+  for the earlier leads. `DATA.contacts_end_date` drives an amber banner
+  saying so; `DATA.staffing_end_date` does the same for the leads.
