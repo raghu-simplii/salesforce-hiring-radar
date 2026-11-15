@@ -114,3 +114,37 @@ depending on someone noticing a date. Do not remove it, and do not set
 - `~/work/refresh-2026-10-07-pm` on the laptop suggests an Oct 7 refresh was
   started and never committed. Worth a look before the next run.
 - `data.json` should be deleted or regenerated; right now it is a trap.
+
+## What the 2026-11-15 refresh actually did
+
+Recorded so the next run can repeat it instead of rediscovering it.
+
+- **Source:** LinkedIn only, through the signed-in Chrome on Raghu's laptop.
+  Careers pages, ATS pages and employee/company posts were not rescanned.
+- **Search:** `linkedin.com/jobs/search/?f_C=<company id>&f_TPR=r2592000&sortBy=DD&geoId=<geo>`,
+  paged with `&start=25,50,…` until a page comes back empty. Add
+  `keywords=Salesforce` for the Salesforce-only pass. Geo ids: India
+  `102713980`, United States `103644278`, United Kingdom `101165590`. A
+  search with no location silently defaults to the viewer's home metro.
+- **Company ids (`f_C`):** Persistent 5034, Birlasoft 4661, Acuity 30242966,
+  Ciklum 9183, Carrier 12991711, Randstad 2327, Merkle 7947, Tachyon 2604933,
+  Liberty 40956, InfoVision 282692, Lloyd's List 1565913, Copeland 92634982,
+  ORS Nasco 861425, Zinnia 87226390, Marlabs 11350. Syfter and Mouri Tech
+  exposed no id on their jobs page and were not scanned.
+- **Reading results:** each card is `[role="button"][componentkey^="job-card-component-ref-<jobId>"]`;
+  the job URL is `linkedin.com/jobs/view/<jobId>`. Only the card was read
+  (title, location, posting age) — job pages were not opened.
+- **Raw output:** `scans/linkedin-2026-11-15.txt`, one row per card.
+- **Filtering:** "Diversity Opportunities" placeholders dropped; business
+  roles dropped by title; for non-IT companies (Acuity, Copeland, Carrier,
+  ORS Nasco, Zinnia, Lloyd's) a title must show an IT signal to stay.
+  `is_salesforce` is true when the title names a Salesforce skill or the
+  job came back from the `keywords=Salesforce` search.
+- **Dates:** LinkedIn shows age ("3 days", "2 weeks"), not a date. Days are
+  exact; weeks and "1 month" are approximate and marked so in
+  `date_confidence`.
+- **Zero results on LinkedIn in the last 30 days:** Randstad (India), Merkle
+  (India), Liberty Personnel, Lloyd's List (IT roles), Ciklum India/UK.
+- **Not refreshed:** `STAFFING_LEADS` and `STAFFING_CONTACTS` — still the
+  2026-09-16 scan. `DATA.staffing_end_date` drives a banner saying so; update
+  it when those tabs are rescanned.
